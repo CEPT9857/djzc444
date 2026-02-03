@@ -1,0 +1,1 @@
+give @p crossbow[enchantments={infinity:1,quick_charge:3},unbreakable={},custom_name={text:"小手枪"}]

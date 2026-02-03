@@ -1,1 +1,0 @@
-give @p minecraft:netherite_chestplate{RepairCost:0, Trim: {material: "minecraft:redstone", pattern: "minecraft:wild"}, Enchantments: [{id: "minecraft:projectile_protection", lvl: 4s}, {id: "minecraft:protection", lvl: 4s}, {id: "minecraft:unbreaking", lvl: 3s}, {id: "minecraft:mending", lvl: 1s}],Unbreakable:1b, Damage: 0, display: {Name: '{"text":"防弹胸甲"}'}}

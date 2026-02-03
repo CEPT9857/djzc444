@@ -1,0 +1,1 @@
+give @p written_book[custom_name={text:"步话机"}]

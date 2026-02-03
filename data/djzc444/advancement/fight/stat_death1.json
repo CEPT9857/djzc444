@@ -1,0 +1,23 @@
+{
+    "parent": "djzc444:fight/stat",
+    "display": {
+        "icon": {
+            "id": "minecraft:zombie_head"
+        },
+        "title": {"text":"一命呜呼"},
+        "description": "阵亡1次",
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "basic": {
+            "trigger": "minecraft:impossible"
+
+        }
+    },
+    "requirements": [
+        ["basic"]
+    ]
+}

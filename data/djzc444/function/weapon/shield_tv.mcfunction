@@ -1,0 +1,1 @@
+give @p shield[enchantments={unbreaking:10,mending:1},banner_patterns=[{color:"light_blue",pattern:base},{color:white,pattern:stripe_bottom},{color:white,pattern:triangles_top},{color:white,pattern:border},{color:white,pattern:skull}],unbreakable={},custom_name={text:"小电视盾牌"}]

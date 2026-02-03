@@ -1,0 +1,22 @@
+{
+    "parent": "djzc444:intro/dx_xycz",
+    "display": {
+        "icon": {
+            "id": "minecraft:snowball"
+        },
+        "title": {"text":"地道"},
+        "description": "村庄的地下，四通八达的通道",
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "basic": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        ["basic"]
+    ]
+}

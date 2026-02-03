@@ -1,0 +1,2 @@
+effect give @p minecraft:speed infinite 3
+give @p tipped_arrow[custom_name={text:"帝弓司命之矢",italic:true},lore=[{text:"这一发，贯穿星辰！",color:yellow,italic:true}],enchantments={},potion_contents={custom_effects:[{id:"instant_damage",amplifier:5,duration:600,show_particles:false}],custom_color:16733695}]

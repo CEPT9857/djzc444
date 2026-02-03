@@ -1,0 +1,1 @@
+give @p trident[enchantments={riptide:8,sharpness:100,impaling:30,knockback:2,looting:255},unbreakable={},custom_name={text:"三叉戟·雨战先锋",color:dark_purple,italic:true},lore=[{text:"吾入雨中，来去无踪",color:aqua,italic:true}]]

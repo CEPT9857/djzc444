@@ -1,0 +1,163 @@
+{
+    "type": "multi_action",
+    "title":[
+        {
+        "text": "T步话机",
+        "color": "red",
+        "hover_event": {
+            "action": "show_text",
+            "value": "MK·IV型步话机，基于对话框系统打造"
+        }
+    }
+    ],
+    "columns": 4,
+    "actions": [
+        {
+            "label":{
+                "text": "赞成!",
+                "color":"green"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "trigger tmsg set 1"
+            }
+        },
+        {
+            "label":{
+                "text": "反对!",
+                "color":"red"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "trigger tmsg set 2"
+            }
+        },
+        {
+            "label": "和我一起冲上去！",
+            "action": {
+                "type": "run_command",
+                "command": "trigger tmsg set 3"
+            }
+        },
+        {
+            "label": "撤退！",
+            "action": {
+                "type": "run_command",
+                "command": "trigger tmsg set 4"
+            }
+        },
+        {
+            "label": "发现敌人！",
+            "action": {
+                "type": "run_command",
+                "command": "trigger tmsg set 5"
+            }
+        },
+        {
+            "label": "请求支援！",
+            "action": {
+                "type": "run_command",
+                "command": "trigger tmsg set 6"
+            }
+        },
+        {
+            "label": "我来掩护！",
+            "action": {
+                "type": "run_command",
+                "command": "trigger tmsg set 7"
+            }
+        },
+        {
+            "label":{
+                "text": "Ciallo～(∠・ω< )⌒★",
+                "color":"light_purple"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "trigger tmsg set 8"
+            }
+        },
+        {
+            "label":{
+                "text": "进攻A点",
+                "color":"dark_red"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "trigger tmsg set 9"
+            }
+        },
+        {
+            "label":{
+                "text": "进攻B点",
+                "color":"dark_red"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "trigger tmsg set 10"
+            }
+        },
+        {
+            "label":{
+                "text": "进攻C点",
+                "color":"dark_red"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "trigger tmsg set 11"
+            }
+        },
+        {
+            "label":{
+                "text": "进攻D点",
+                "color":"dark_red"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "trigger tmsg set 12"
+            }
+        },
+        {
+            "label":{
+                "text": "防守A点",
+                "color":"blue"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "trigger tmsg set 13"
+            }
+        },
+        {
+            "label":{
+                "text": "防守B点",
+                "color":"blue"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "trigger tmsg set 14"
+            }
+        },
+        {
+            "label":{
+                "text": "防守C点",
+                "color":"blue"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "trigger tmsg set 15"
+            }
+        },
+        {
+            "label":{
+                "text": "防守D点",
+                "color":"blue"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "trigger tmsg set 16"
+            }
+        }
+        
+
+    ]
+}

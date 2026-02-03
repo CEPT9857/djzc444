@@ -1,0 +1,23 @@
+{
+    "parent": "djzc444:fight/count_kill10",
+    "display": {
+        "icon": {
+            "id": "minecraft:diamond_axe"
+        },
+        "title": {"text":"白色死神"},
+        "description": "一局内取得20杀",
+        "frame": "challenge",
+        "show_toast": false,
+        "announce_to_chat":true,
+        "hidden": true
+    },
+    "criteria": {
+        "basic": {
+            "trigger": "minecraft:impossible"
+
+        }
+    },
+    "requirements": [
+        ["basic"]
+    ]
+}

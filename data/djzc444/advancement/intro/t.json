@@ -1,0 +1,22 @@
+{
+    "parent": "djzc444:intro/team",
+    "display": {
+        "icon": {
+            "id": "minecraft:snowball"
+        },
+        "title": {"text":"加入T方"},
+        "description": "我们已经无路可退——乌拉！",
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "basic": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        ["basic"]
+    ]
+}

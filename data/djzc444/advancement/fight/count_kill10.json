@@ -1,0 +1,23 @@
+{
+    "parent": "djzc444:fight/count_kill5",
+    "display": {
+        "icon": {
+            "id": "minecraft:iron_axe"
+        },
+        "title": {"text":"大杀特杀"},
+        "description": "一局内取得10杀",
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "basic": {
+            "trigger": "minecraft:impossible"
+
+        }
+    },
+    "requirements": [
+        ["basic"]
+    ]
+}

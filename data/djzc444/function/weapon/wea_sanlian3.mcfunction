@@ -1,0 +1,1 @@
+give @p crossbow[custom_name={text:"一键三连·MKIII",italic:false},lore=[{text:"更高 更快 更强",italic:false}],custom_data={Tags:[sanlian]},unbreakable={},enchantments={infinity:1,quick_charge:5,piercing:5,power:5}]

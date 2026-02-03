@@ -1,0 +1,23 @@
+{
+     "title":{
+        "text":"title",
+        "color":"green"
+     },
+     "type":"notice",
+     "body":[
+        {
+            "type":"item",
+            "item":{
+                "id":"diamond_sword"
+            },
+            "description":"description"
+        },
+        {
+            "type":"plain_message",
+            "contents":{
+                "text":"plain_message",
+                "color":"yellow"
+            }
+        }
+     ]
+}

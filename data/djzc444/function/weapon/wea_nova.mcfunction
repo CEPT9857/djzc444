@@ -1,0 +1,1 @@
+give @p crossbow[custom_name={text:"新星",italic:false},lore=[{text:"如果有什么东西是一喷解决不了的，那就再来一喷",italic:false}],unbreakable={},enchantments={multishot:1,quick_charge:3,piercing:7}]

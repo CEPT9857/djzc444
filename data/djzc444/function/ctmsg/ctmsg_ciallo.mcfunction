@@ -1,0 +1,3 @@
+scoreboard players reset @s ctmsg
+say Ciallo～(∠・ω< )⌒★！
+playsound minecraft:entity.cat.purreow player @a ~ ~ ~ 100

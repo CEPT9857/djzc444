@@ -1,0 +1,22 @@
+{
+    "parent": "djzc444:intro/type",
+    "display": {
+        "icon": {
+            "id": "minecraft:snowball"
+        },
+        "title": {"text":"立体机动装置"},
+        "description": "空军单位，多用途兵种，天空中的猎人，时刻准备为团队献出心脏",
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "basic": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        ["basic"]
+    ]
+}

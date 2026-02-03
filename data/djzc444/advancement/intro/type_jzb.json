@@ -1,0 +1,22 @@
+{
+    "parent": "djzc444:intro/type",
+    "display": {
+        "icon": {
+            "id": "minecraft:snowball"
+        },
+        "title": {"text":"近战兵"},
+        "description": "陆军单位，攻高防厚，是团队之盾，陆战之王",
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "basic": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        ["basic"]
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "parent": "djzc444:intro/buff",
+    "display": {
+        "icon": {
+            "id": "minecraft:snowball"
+        },
+        "title": {"text":"毁灭"},
+        "description": "进攻就是最好的防守！毁灭之弹助你横扫战场！",
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "basic": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        ["basic"]
+    ]
+}

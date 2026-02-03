@@ -1,0 +1,23 @@
+{
+    "parent": "djzc444:fight/stat_win10",
+    "display": {
+        "icon": {
+            "id": "minecraft:enchanted_golden_apple"
+        },
+        "title": {"text":"百战精英"},
+        "description": "胜利100场",
+        "frame": "challenge",
+        "show_toast": false,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "basic": {
+            "trigger": "minecraft:impossible"
+
+        }
+    },
+    "requirements": [
+        ["basic"]
+    ]
+}
