@@ -1,0 +1,1 @@
+give @p minecraft:splash_potion{RepairCost: 0, CustomPotionEffects: [{Id: 7, Amplifier: 4, Duration: 20},{Id:25,Amplifier:0,Duration:25}], display: {Name: '{"text":"漂浮手雷"}'},Potion:luck} 6

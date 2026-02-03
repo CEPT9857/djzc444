@@ -1,0 +1,1 @@
+give @p minecraft:crossbow{RepairCost: 0, Enchantments: [{id: "minecraft:infinity", lvl: 1s}, {id: "minecraft:quick_charge", lvl: 3s}], Unbreakable: 1b, Damage: 0, Charged: 0b,Unbrakeable:1b, display: {Name: '{"text":"小手枪"}'}, ChargedProjectiles: []}

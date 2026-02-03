@@ -1,0 +1,2 @@
+effect give @p minecraft:speed infinite 3
+give @p minecraft:tipped_arrow{display:{Name:"[{\"text\":\"帝弓司命之矢\",\"color\":\"gold\",\"bold\":false,\"italic\":true,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]",Lore:["{\"text\":\"这一发，贯穿星辰！\",\"color\":\"yellow\",\"bold\":false,\"italic\":true,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}"]},Enchantments:[{}],Potion:harming,CustomPotionEffects:[{Id:7,Amplifier:5,Duration:600,ShowParticles:0b}]} 1

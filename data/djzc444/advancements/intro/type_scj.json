@@ -1,0 +1,30 @@
+{
+    "parent": "djzc444:intro/type",
+    "display": {
+        "icon": {
+            "item": "minecraft:snowball"
+        },
+        "title": {"text":"三叉戟兵"},
+        "description": "陆军单位，来去无踪，迅影如剑",
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false,
+        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+    },
+    "criteria": {
+        "basic": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item":"minecraft:snowball"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        ["basic"]
+    ]
+}

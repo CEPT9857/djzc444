@@ -1,0 +1,24 @@
+{
+    "parent": "djzc444:fight/stat_kill1",
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_sword"
+        },
+        "title": {"text":"崭露头角"},
+        "description": "击杀10个敌方单位",
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": true,
+        "hidden": false,
+        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+    },
+    "criteria": {
+        "basic": {
+            "trigger": "minecraft:impossible"
+
+        }
+    },
+    "requirements": [
+        ["basic"]
+    ]
+}

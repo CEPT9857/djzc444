@@ -1,0 +1,30 @@
+{
+    "parent": "djzc444:intro/buff",
+    "display": {
+        "icon": {
+            "item": "minecraft:snowball"
+        },
+        "title": {"text":"存护"},
+        "description": "防守就是最好的进攻——固若金汤。",
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false,
+        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+    },
+    "criteria": {
+        "basic": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item":"minecraft:snowball"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        ["basic"]
+    ]
+}

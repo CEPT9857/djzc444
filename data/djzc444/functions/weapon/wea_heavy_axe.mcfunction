@@ -1,0 +1,1 @@
+give @p minecraft:netherite_axe{RepairCost:0, Enchantments: [{id: "minecraft:efficiency", lvl: 4s}, {id: "minecraft:unbreaking", lvl: 3s}, {id: "minecraft:silk_touch", lvl: 1s}, {id: "minecraft:sharpness", lvl: 100s}, {id: "minecraft:mending", lvl: 1s}],Unbreakable:1b, Damage: 0, display: {Name: '{"text":"普普通通的消防斧头"}'}}

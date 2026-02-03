@@ -1,0 +1,1 @@
+give @p minecraft:netherite_helmet{RepairCost:0, Trim: {material: "minecraft:lapis", pattern: "minecraft:wild"}, Enchantments: [{id: "minecraft:mending", lvl: 1s}, {id: "minecraft:unbreaking", lvl: 3s}, {id: "minecraft:protection", lvl: 3s}],Unbreakable:1b, Damage: 0}

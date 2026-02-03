@@ -1,0 +1,1 @@
+give @p minecraft:splash_potion{RepairCost: 0, CustomPotionEffects: [{Id: 7, Amplifier: 5, Duration: 20}], display: {Name: '{"text":"高爆手雷"}'}, Potion: "CBC"} 4

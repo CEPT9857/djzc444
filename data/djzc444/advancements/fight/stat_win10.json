@@ -1,0 +1,24 @@
+{
+    "parent": "djzc444:fight/stat_win1",
+    "display": {
+        "icon": {
+            "item": "minecraft:golden_apple"
+        },
+        "title": {"text":"千里之行，始于足下"},
+        "description": "胜利10场",
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": true,
+        "hidden": false,
+        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+    },
+    "criteria": {
+        "basic": {
+            "trigger": "minecraft:impossible"
+
+        }
+    },
+    "requirements": [
+        ["basic"]
+    ]
+}
