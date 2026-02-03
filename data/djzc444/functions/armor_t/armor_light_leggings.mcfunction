@@ -1,0 +1,1 @@
+give @p minecraft:iron_leggings{RepairCost: 0, Trim: {material: "minecraft:redstone", pattern: "minecraft:wild"}, Enchantments: [{id: "minecraft:protection", lvl: 5s}, {id: "minecraft:unbreaking", lvl: 4s},  {id: "minecraft:mending", lvl: 1s}], Damage: 0,Unbreakable:1b, display: {Name: '{"text":"铁护腿·典藏版"}'}}

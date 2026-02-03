@@ -1,0 +1,30 @@
+{
+    "parent": "djzc444:intro/rule_mode",
+    "display": {
+        "icon": {
+            "item": "minecraft:snowball"
+        },
+        "title": {"text":"攻防战"},
+        "description": "攻防战：15分钟内，T方占领所有点位即告胜利，反之CT胜利",
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false,
+        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+    },
+    "criteria": {
+        "basic": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item":"minecraft:snowball"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        ["basic"]
+    ]
+}

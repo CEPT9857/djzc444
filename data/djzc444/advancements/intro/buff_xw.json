@@ -1,0 +1,30 @@
+{
+    "parent": "djzc444:intro/buff",
+    "display": {
+        "icon": {
+            "item": "minecraft:snowball"
+        },
+        "title": {"text":"虚无"},
+        "description": "这是？伏特加！",
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false,
+        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+    },
+    "criteria": {
+        "basic": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item":"minecraft:snowball"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        ["basic"]
+    ]
+}

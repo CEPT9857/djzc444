@@ -1,0 +1,30 @@
+{
+    "parent": "djzc444:intro/rule_piont",
+    "display": {
+        "icon": {
+            "item": "minecraft:snowball"
+        },
+        "title": {"text":"启动器"},
+        "description": "C点和D点的前置设施，旋转物品展示框一圈以启动（盔甲架灭点表示启动成功）",
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false,
+        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+    },
+    "criteria": {
+        "basic": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item":"minecraft:snowball"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        ["basic"]
+    ]
+}

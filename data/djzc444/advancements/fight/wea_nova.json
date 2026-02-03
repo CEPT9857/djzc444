@@ -1,0 +1,24 @@
+{
+    "parent": "djzc444:fight/wea_sanlian",
+    "display": {
+        "icon": {
+            "item": "minecraft:crossbow"
+        },
+        "title": {"text":"新星"},
+        "description": "七步以内，枪又准又快",
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": true,
+        "hidden": false,
+        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+    },
+    "criteria": {
+        "basic": {
+            "trigger": "minecraft:impossible"
+
+        }
+    },
+    "requirements": [
+        ["basic"]
+    ]
+}

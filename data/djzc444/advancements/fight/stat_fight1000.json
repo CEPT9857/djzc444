@@ -1,0 +1,24 @@
+{
+    "parent": "djzc444:fight/stat_fight100",
+    "display": {
+        "icon": {
+            "item": "minecraft:netherite_shovel"
+        },
+        "title": {"text":"One Day"},
+        "description": "战斗1000场",
+        "frame": "challenge",
+        "show_toast": false,
+        "announce_to_chat": true,
+        "hidden": true,
+        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+    },
+    "criteria": {
+        "basic": {
+            "trigger": "minecraft:impossible"
+
+        }
+    },
+    "requirements": [
+        ["basic"]
+    ]
+}

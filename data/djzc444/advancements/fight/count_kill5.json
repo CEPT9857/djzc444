@@ -1,0 +1,24 @@
+{
+    "parent": "djzc444:fight/count",
+    "display": {
+        "icon": {
+            "item": "minecraft:stone_axe"
+        },
+        "title": {"text":"五杀！"},
+        "description": "起飞吧，特种兵",
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": true,
+        "hidden": false,
+        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+    },
+    "criteria": {
+        "basic": {
+            "trigger": "minecraft:impossible"
+
+        }
+    },
+    "requirements": [
+        ["basic"]
+    ]
+}

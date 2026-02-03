@@ -1,0 +1,20 @@
+{
+    "values": [
+        "#minecraft:air",
+        "#minecraft:replaceable",
+        "#minecraft:banners",
+        "#minecraft:buttons",
+        "#minecraft:campfires",
+        "#minecraft:candle_cakes",
+        "#minecraft:candles",
+        "#minecraft:cave_vines",
+        "#minecraft:climbable",
+        "#minecraft:fire",
+        "#minecraft:flowers",
+        "#minecraft:flower_pots",
+        "#minecraft:doors",
+        "#minecraft:rails",
+        "#minecraft:standing_signs",
+        "minecraft:torch"
+    ]
+}
