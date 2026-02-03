@@ -1,0 +1,1 @@
+give @p netherite_chestplate[trim={material:redstone,pattern:wild},enchantments={projectile_protection:4,protection:4,unbreaking:3,mending:1},unbreakable={},custom_name={text:"防弹胸甲"}]

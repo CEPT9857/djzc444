@@ -1,0 +1,1 @@
+give @p netherite_sword[enchantments={sharpness:80,unbreaking:3,knockback:1},unbreakable={},custom_name={text:"近战剑"}]

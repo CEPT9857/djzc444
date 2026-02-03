@@ -1,0 +1,1 @@
+give @p crossbow[custom_name={text:"一键三连·MKII",italic:false},custom_data={Tags:[sanlian]},unbreakable={},enchantments={infinity:1,quick_charge:5}]

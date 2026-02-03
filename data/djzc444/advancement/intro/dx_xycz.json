@@ -1,0 +1,22 @@
+{
+    "parent": "djzc444:intro/dx",
+    "display": {
+        "icon": {
+            "id": "minecraft:snowball"
+        },
+        "title": {"text":"雪原村庄"},
+        "description": "C点和D点所在，激烈的战斗是此地的标志",
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "basic": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        ["basic"]
+    ]
+}

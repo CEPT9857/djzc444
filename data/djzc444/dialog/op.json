@@ -1,0 +1,38 @@
+{
+    "type": "multi_action",
+    "title":[
+        {
+        "text": "设置面板",
+        "color": "blue",
+        "hover_event": {
+            "action": "show_text",
+            "value": "设置面板，供管理员使用，预计于1.0.6完成"
+        }
+    }
+    ],
+    "columns": 4,
+    "actions": [
+        {
+            "label":{
+                "text": "赞成!",
+                "color":"green"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "trigger ctmsg set 1"
+            }
+        },
+        {
+            "label":{
+                "text": "反对!",
+                "color":"red"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "trigger ctmsg set 2"
+            }
+        }
+        
+
+    ]
+}

@@ -1,0 +1,1 @@
+give @p shield[enchantments={unbreaking:10,mending:1},banner_patterns=[{color:blue,pattern:base},{color:white,pattern:flower}],unbreakable={},custom_name={text:"北极星盾牌"}]

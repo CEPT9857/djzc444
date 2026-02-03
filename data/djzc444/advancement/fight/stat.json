@@ -1,0 +1,23 @@
+{
+    "parent": "djzc444:fight/root",
+    "display": {
+        "icon": {
+            "id": "minecraft:clock"
+        },
+        "title": {"text":"累计数据"},
+        "description": "冰冻三尺非一日之寒",
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "basic": {
+            "trigger": "minecraft:impossible"
+
+        }
+    },
+    "requirements": [
+        ["basic"]
+    ]
+}

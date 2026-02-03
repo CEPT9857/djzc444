@@ -1,0 +1,1 @@
+give @p iron_leggings[trim={material:redstone,pattern:wild},enchantments={feather_falling:10,fire_protection:10,protection:10,unbreaking:10,mending:1},unbreakable={},custom_name={text:"铁护腿·雪地精英"}]

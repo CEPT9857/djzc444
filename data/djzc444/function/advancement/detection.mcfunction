@@ -1,0 +1,1 @@
+function djzc444:advancement/stat_fight

@@ -1,0 +1,1 @@
+give @p netherite_axe[enchantments={efficiency:4,unbreaking:3,silk_touch:1,sharpness:100,mending:1},unbreakable={},custom_name={text:"普普通通的消防斧头"}]

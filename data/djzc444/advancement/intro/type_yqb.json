@@ -1,0 +1,22 @@
+{
+    "parent": "djzc444:intro/type",
+    "display": {
+        "icon": {
+            "id": "minecraft:snowball"
+        },
+        "title": {"text":"游骑兵"},
+        "description": "陆军/空军单位，机动性强，树梢上的杀手",
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "basic": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        ["basic"]
+    ]
+}

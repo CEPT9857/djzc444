@@ -1,1 +1,0 @@
-give @p minecraft:iron_boots{RepairCost:0, Trim: {material: "minecraft:redstone", pattern: "minecraft:wild"}, Enchantments: [{id: "minecraft:depth_strider", lvl: 3s}, {id: "minecraft:unbreaking", lvl: 3s}, {id: "minecraft:feather_falling", lvl: 4s}], AttributeModifiers: [], Damage: 0,Unbreakable:1b, display: {Name: '{"text":"铁靴子·典藏版+"}'}}

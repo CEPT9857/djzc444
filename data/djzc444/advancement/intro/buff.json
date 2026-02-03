@@ -1,0 +1,22 @@
+{
+    "parent": "djzc444:intro/rule",
+    "display": {
+        "icon": {
+            "id": "minecraft:snowball"
+        },
+        "title": {"text":"赐福"},
+        "description": "诸天众神聆听我的祈祷——这个世界也会回应我吗？",
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "basic": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        ["basic"]
+    ]
+}

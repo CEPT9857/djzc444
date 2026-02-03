@@ -1,0 +1,1 @@
+give @p iron_helmet[trim={material:redstone,pattern:wild},enchantments={aqua_affinity:10,respiration:10,mending:1,blast_protection:10,feather_falling:10,projectile_protection:10,fire_protection:10,protection:10,unbreaking:10},unbreakable={},custom_name={text:"铁头盔·超级典藏版"}]

@@ -1,0 +1,1 @@
+give @p splash_potion[potion_contents={custom_effects:[{id:instant_damage,amplifier:5,duration:20}]},custom_name={text:"高爆手雷"}] 4

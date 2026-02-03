@@ -1,1 +1,0 @@
-give @p minecraft:crossbow{display:{Name:"[{\"text\":\"一键三连·MKII\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]"},Tags:["sanlian"],Unbreakable:1b,Enchantments:[{id:"minecraft:infinity",lvl:1s},{id:"minecraft:quick_charge",lvl:5s}]} 1

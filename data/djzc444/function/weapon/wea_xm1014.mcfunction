@@ -1,0 +1,1 @@
+give @p crossbow[enchantments={multishot:1,quick_charge:5,piercing:4,unbreaking:3},unbreakable={},custom_name={text:"XM1014"}]

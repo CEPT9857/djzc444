@@ -1,0 +1,1 @@
+give @p netherite_helmet[trim={material:lapis,pattern:wild},enchantments={mending:1,unbreaking:3,protection:3},unbreakable={}]

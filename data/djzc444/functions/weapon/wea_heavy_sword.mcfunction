@@ -1,1 +1,0 @@
-give @p minecraft:netherite_sword{Enchantments: [{id: "minecraft:sharpness", lvl: 80s}, {id: "minecraft:unbreaking", lvl: 3s}, {id: "minecraft:knockback", lvl: 1s}], Unbreakable: 1b, Damage: 0, HideFlags: 5,display: {Name: '{"text":"近战剑"}'}}

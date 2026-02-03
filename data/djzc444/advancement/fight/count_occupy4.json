@@ -1,0 +1,23 @@
+{
+    "parent": "djzc444:fight/count_occupy1",
+    "display": {
+        "icon": {
+            "id": "minecraft:diamond_horse_armor"
+        },
+        "title": {"text":"占点仙人"},
+        "description": "占领四个点",
+        "frame": "challenge",
+        "show_toast": false,
+        "announce_to_chat":true,
+        "hidden": false
+    },
+    "criteria": {
+        "basic": {
+            "trigger": "minecraft:impossible"
+
+        }
+    },
+    "requirements": [
+        ["basic"]
+    ]
+}

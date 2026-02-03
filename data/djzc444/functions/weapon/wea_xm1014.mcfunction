@@ -1,1 +1,0 @@
-give @p minecraft:crossbow{RepairCost: 0, Enchantments: [{id: "minecraft:multishot", lvl: 1s}, {id: "minecraft:quick_charge", lvl: 5s}, {id: "minecraft:piercing", lvl: 4s}, {id: "minecraft:unbreaking", lvl: 3s}], Charged: 0b, Damage: 0,Unbreakable:1b, display: {Name: '{"text":"XM1014"}'}, ChargedProjectiles: []}

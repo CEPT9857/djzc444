@@ -1,0 +1,1 @@
+give @p minecraft:iron_boots[trim={material:"minecraft:lapis",pattern:"minecraft:wild"},enchantments={blast_protection:2,depth_strider:3,feather_falling:10,fire_protection:2,mending:1,projectile_protection:2,protection:10,unbreaking:10},unbreakable={},custom_name= { text: "铁靴子·雪地精英"}]

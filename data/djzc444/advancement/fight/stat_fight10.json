@@ -1,0 +1,23 @@
+{
+    "parent": "djzc444:fight/stat_fight1",
+    "display": {
+        "icon": {
+            "id": "minecraft:iron_shovel"
+        },
+        "title": {"text":"小试牛刀"},
+        "description": "战斗10场",
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "basic": {
+            "trigger": "minecraft:impossible"
+
+        }
+    },
+    "requirements": [
+        ["basic"]
+    ]
+}
