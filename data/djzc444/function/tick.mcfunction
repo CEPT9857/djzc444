@@ -1,6 +1,8 @@
 scoreboard players enable @a ctmsg
 scoreboard players enable @a tmsg
-#开放通话计分板权限
+scoreboard players enable @a prepare
+#开放trigger类计分板权限
+
 execute as @a at @s if score @s ctmsg matches 1 run function djzc444:ctmsg/ctmsg_allow
 execute as @a at @s if score @s ctmsg matches 2 run function djzc444:ctmsg/ctmsg_oppose
 execute as @a at @s if score @s ctmsg matches 3 run function djzc444:ctmsg/ctmsg_rush
@@ -35,3 +37,17 @@ execute as @a at @s if score @s tmsg matches 14 run function djzc444:tmsg/tmsg_d
 execute as @a at @s if score @s tmsg matches 15 run function djzc444:tmsg/tmsg_defend_c
 execute as @a at @s if score @s tmsg matches 16 run function djzc444:tmsg/tmsg_defend_d
 #T消息
+
+execute as @a[scores={jump=1..,sneak=1..},nbt={SelectedItem:{components:{"minecraft:custom_data":{tags:[fly]}}}}] run function djzc444:game/lib_fly
+#一键三连航空版 垂直机动检测
+
+execute as @a[scores={r_click=1..}] run function djzc444:game/lib_missile_ga
+execute as @a[scores={r_click1=1..}] run function djzc444:game/lib_missile_aa
+execute as @a[scores={r_click2=1..}] run function djzc444:game/lib_missile_ag
+function djzc444:game/lib_missile_track
+#导弹系统
+function djzc444:points/a_point
+function djzc444:points/b_point
+function djzc444:points/c_point
+function djzc444:points/d_point
+#占点系统
