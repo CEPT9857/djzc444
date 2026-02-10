@@ -1,5 +1,6 @@
 gamerule command_block_output false
 gamerule mob_griefing false
+schedule clear djzc444:game/music_stop
 stopsound @a
 function djzc444:game/time_initialize
 function djzc444:game/flow_begin
@@ -9,20 +10,10 @@ bossbar set minecraft:time value 900
 
 function djzc444:ct_tp
 function djzc444:t_tp
-
-
-#熔断C点玩家识别器
+#重置传送点状态
 
 fill -467 62 -764 -469 62 -758 netherite_block
-fill -428 66 -658 -430 65 -658 glass
-fill -423 67 -658 -425 66 -658 air
-fill -425 67 -666 -423 66 -666 air
-fill -421 67 -666 -419 66 -666 air
-#关闭C点和D点
-fill -419 67 -658 -421 66 -658 minecraft:air
-fill -432 66 -658 -434 65 -658 minecraft:glass
-fill -430 66 -666 -428 65 -666 minecraft:glass
-fill -434 66 -666 -432 65 -666 minecraft:glass
+#填平D点大坑
 
 scoreboard players reset @a CT
 scoreboard players reset @a occupy
@@ -31,6 +22,7 @@ scoreboard players reset @a T
 scoreboard players reset @a dz_kill
 scoreboard players reset @a gameflow
 scoreboard players reset @a 5
+#重置必要的计分板
 
 gamemode adventure @a[team=T]
 gamemode adventure @a[team=CT]
@@ -55,7 +47,26 @@ scoreboard players set B+ gameflow 0
 scoreboard players set C gameflow 0
 scoreboard players set C+ gameflow 0
 scoreboard players set D gameflow 0
-#还原四个点在游戏流程计算器的状态
+#还原四个点及启动器在游戏流程计算器的状态
+scoreboard players set C1 gameflow 0
+scoreboard players set C2 gameflow 0
+scoreboard players set C3 gameflow 0
+scoreboard players set C123 gameflow 0
+scoreboard players set D1 gameflow 0
+scoreboard players set D2 gameflow 0
+scoreboard players set D3 gameflow 0
+scoreboard players set D123 gameflow 0
+#启动器在游戏流程计算器的状态
+data merge entity @e[x=-385,y=63,z=-690,limit=1,type=minecraft:glow_item_frame,distance=..1] {ItemRotation:0}
+data merge entity @e[x=-350,y=58,z=-767,limit=1,type=minecraft:glow_item_frame,distance=..1] {ItemRotation:0}
+data merge entity @e[x=-378,y=81,z=-873,limit=1,type=minecraft:glow_item_frame,distance=..1] {ItemRotation:0}
+
+data merge entity @e[x=-447,y=73,z=-728,limit=1,type=minecraft:glow_item_frame,distance=..1] {ItemRotation:0}
+data merge entity @e[x=-433,y=66,z=-760,limit=1,type=minecraft:glow_item_frame,distance=..1] {ItemRotation:0}
+data merge entity @e[x=-461,y=63,z=-813,limit=1,type=minecraft:glow_item_frame,distance=..1] {ItemRotation:0}
+#重置启动器展示框
+
+
 setblock -461 54 -758 air
 setblock -460 54 -761 air
 setblock -461 54 -764 air
@@ -64,8 +75,6 @@ setblock -372 57 -762 air
 setblock -373 57 -759 air
 setblock -372 57 -756 air
 
-setblock -388 20 -754 minecraft:air
-#重置T方战败识别器
 effect clear @e[type=minecraft:armor_stand]
 
 gamemode adventure @a[team=T]

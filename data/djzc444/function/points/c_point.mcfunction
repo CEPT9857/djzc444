@@ -11,12 +11,12 @@ execute if score T_SC time3 <= 15 time3 run bossbar set minecraft:c color red
 execute if score T_SC time3 > 15 time3 run bossbar set minecraft:c color blue
 #改bossbar颜色
 
-execute if score T_C time3 <= ti time3 run scoreboard players remove T_SC time3 1
-execute if score T_C time3 <= ti time3 run scoreboard players set T_C time3 1040
+execute if score T_C time3 <= 1000 time3 run scoreboard players remove T_SC time3 1
+execute if score T_C time3 <= 1000 time3 run scoreboard players set T_C time3 1040
 #小于1000时退位
 
-execute if score T_SC time3 <= ti1 time3 run function djzc444:points/c_occupy_by_t
-execute if score T_SC time3 <= ti1 time3 run scoreboard players set T_SC time3 30
+execute if score T_SC time3 <= 0 time3 run function djzc444:points/c_occupy_by_t
+execute if score T_SC time3 <= 0 time3 run scoreboard players set T_SC time3 30
 #引用占点函数
 
 execute if score T_C time3 > 1040 time3 run scoreboard players add T_SC time3 1

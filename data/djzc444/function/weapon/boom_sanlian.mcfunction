@@ -1,1 +1,0 @@
-execute as @a[scores={r_click6=1..}] at @s run summon minecraft:armor_stand ~ ~1 ~ {Tags:["mark11","mark12"],NoGravity:1b}
