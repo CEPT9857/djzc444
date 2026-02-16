@@ -8,10 +8,6 @@ function djzc444:game/flow_begin
 bossbar set minecraft:time visible true
 bossbar set minecraft:time value 900
 
-function djzc444:ct_tp
-function djzc444:t_tp
-#重置传送点状态
-
 fill -467 62 -764 -469 62 -758 netherite_block
 #填平D点大坑
 

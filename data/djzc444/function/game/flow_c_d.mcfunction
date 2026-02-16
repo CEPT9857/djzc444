@@ -1,5 +1,5 @@
 stopsound @a
-playsound minecraft:music_disc.strad music @a -386.00 70.39 -755.52 1000
+playsound minecraft:music_disc.blocks music @a -386.00 70.39 -755.52 1000
 
 title @a title [{"text":"C点已被T方占领","color":"red"}]
 title @a[team=T] subtitle [{"text":"进攻D点启动器","color":"dark_aqua"}]

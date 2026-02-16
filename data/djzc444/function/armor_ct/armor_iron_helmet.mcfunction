@@ -1,0 +1,1 @@
+give @p iron_helmet[trim={material:lapis,pattern:wild},unbreakable={}]

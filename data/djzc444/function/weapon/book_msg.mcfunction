@@ -1,0 +1,1 @@
+give @p written_book[custom_name={text:"步话机·MKIV",italic:false},lore=[{text:"冬战制作组 制作",color:"white",italic:false},{text:"自带加密，点击对话框即可发送消息",italic:false}],custom_data={tags:[msg]}]

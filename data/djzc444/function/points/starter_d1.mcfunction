@@ -1,5 +1,5 @@
 effect clear @e[tag=d1]
-#清除D2的高亮
+#清除D1的高亮
 playsound entity.ender_dragon.growl music @a[team=CT] -368.54 62.77 -760.00 100
 playsound entity.player.levelup music @a[team=T] -369.00 62.91 -758.53 1000
 #音效

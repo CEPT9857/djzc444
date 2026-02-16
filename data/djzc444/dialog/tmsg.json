@@ -1,5 +1,6 @@
 {
     "type": "multi_action",
+    "pause": false,
     "title":[
         {
         "text": "T步话机",
@@ -61,7 +62,7 @@
             }
         },
         {
-            "label": "我来掩护！",
+            "label": "我来助你！",
             "action": {
                 "type": "run_command",
                 "command": "trigger tmsg set 7"

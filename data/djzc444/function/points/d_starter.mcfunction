@@ -1,8 +1,5 @@
 fill -467 62 -764 -469 62 -758 air
 #打开D点盖子
-fill -388 23 -812 -388 24 -812 air
-fill -414 23 -812 -414 24 -812 minecraft:glass
-#修改传送点
 scoreboard players set C+ gameflow 2
 function djzc444:game/game_flow
 #修改并运行游戏流程计算器

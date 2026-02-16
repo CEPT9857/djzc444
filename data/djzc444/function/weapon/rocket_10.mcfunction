@@ -1,1 +1,1 @@
-give @p firework_rocket[fireworks={flight_duration:10}] 3
+give @p firework_rocket[fireworks={flight_duration:10}] 5

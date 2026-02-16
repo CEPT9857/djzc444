@@ -7,14 +7,25 @@ execute if score game gameflow matches 0 run function djzc444:game/game_prepare
 scoreboard players enable @a ctmsg
 scoreboard players enable @a tmsg
 scoreboard players enable @a prepare
+scoreboard players enable @a 3
+scoreboard players enable @a type
+scoreboard players enable @a tp
 #开放trigger类计分板权限
 
 function djzc444:game/game_teammsg
-function djzc444:game/lib_msgbook
+function djzc444:game/game_userbook
+function djzc444:game/lib_books
 #步话机
+#成员用书
+function djzc444:game/game_type_choose
+#兵种选择系统
+execute as @a[y=40,dy=-100] run function djzc444:game/game_tp_system
+#传送系统
+function djzc444:game/game_tp_system
+#如果需要debug,可以把这一行注释去掉
 
 execute as @a[scores={jump=1..,sneak=1..},nbt={SelectedItem:{components:{"minecraft:custom_data":{tags:[fly]}}}}] run function djzc444:game/lib_fly
-#一键三连航空版 垂直机动检测
+#一键三连航空版/骑兵枪 垂直机动检测
 
 function djzc444:game/lib_nova
 #新星
