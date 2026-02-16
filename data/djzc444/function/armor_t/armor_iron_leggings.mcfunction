@@ -1,0 +1,1 @@
+give @p iron_leggings[trim={material:redstone,pattern:wild},unbreakable={}]

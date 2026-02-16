@@ -1,0 +1,1 @@
+give @p iron_chestplate[trim={material:redstone,pattern:wild},unbreakable={}]

@@ -1,0 +1,1 @@
+give @p iron_boots[trim={material:lapis,pattern:wild},unbreakable={}]

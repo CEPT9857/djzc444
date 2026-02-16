@@ -1,0 +1,1 @@
+give @p netherite_spear[enchantments={sharpness:50,lunge:3},custom_data={tags:["fly"]},attribute_modifiers=[{type:"movement_speed",operation:"add_multiplied_base",amount:1.0d,id:"minecraft:00000717-0000-095b-0000-1ee900000c2e",slot:"hand"}],custom_name={text:"骑兵枪 MK.IV"},unbreakable={},lore=[{text:"手持骑兵枪，按潜行键开始垂直机动"}]]

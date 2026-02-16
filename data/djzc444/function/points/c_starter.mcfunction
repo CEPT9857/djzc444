@@ -1,6 +1,3 @@
-fill -416 23 -812 -416 24 -812 minecraft:glass
-fill -386 23 -812 -386 24 -812 air
-#修改传送点
 scoreboard players set B+ gameflow 2
 function djzc444:game/game_flow
 #修改并运行游戏流程计算器

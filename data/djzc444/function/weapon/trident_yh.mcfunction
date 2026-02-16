@@ -1,1 +1,1 @@
-give @p trident[custom_name={text:"渔获",color:dark_purple,italic:true},lore=[{text:"精炼5阶",color:aqua,italic:true}],unbreakable={},enchantments={channeling:1,sharpness:95,impaling:30,knockback:2,looting:255,loyalty:20}] 2
+give @p trident[custom_name={text:"渔获",color:dark_purple,italic:true},lore=[{text:"精炼5阶",color:aqua,italic:true}],unbreakable={},enchantments={channeling:1,sharpness:95,impaling:30,knockback:2,looting:255,loyalty:20},weapon={disable_blocking_for_seconds:3}] 2

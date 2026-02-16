@@ -1,7 +1,7 @@
 {
      "title":{
-        "text":"title",
-        "color":"green"
+        "text":"新手教程",
+        "color":"white"
      },
      "type":"notice",
      "body":[
@@ -15,7 +15,7 @@
         {
             "type":"plain_message",
             "contents":{
-                "text":"plain_message",
+                "text":"这里还只是一片潦草的工地……",
                 "color":"yellow"
             }
         }

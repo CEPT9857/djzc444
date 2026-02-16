@@ -1,5 +1,5 @@
 function djzc444:armor_t/armor_default_helmet
 function djzc444:armor_t/armor_heavy_chestplate
-function djzc444:armor_t/armor_default_leggings
+function djzc444:armor_ct/armor_heavy_leggings
 function djzc444:armor_t/armor_default_boots
 function djzc444:weapon/shield_t

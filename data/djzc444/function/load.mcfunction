@@ -38,6 +38,10 @@ scoreboard objectives add fight_win dummy "胜利场次"
 scoreboard objectives add fight_lost dummy "失败场次"
 scoreboard objectives add prepare trigger "准备"
 
+scoreboard objectives add tp trigger
+scoreboard objectives add type trigger
+#传送系统
+
 scoreboard objectives add ctmsg trigger
 scoreboard objectives add tmsg trigger
 #保证通讯畅通
@@ -50,13 +54,18 @@ scoreboard objectives add occupy dummy
 scoreboard objectives add jump minecraft.custom:minecraft.jump
 scoreboard objectives add sneak minecraft.custom:minecraft.sneak_time
 
-scoreboard objectives add r_click minecraft.used:minecraft.snowball "r_click"
+scoreboard objectives add r_click minecraft.used:minecraft.fishing_rod "r_click"
 scoreboard objectives add r_click1 minecraft.used:minecraft.snowball "r_click_snowball"
 scoreboard objectives add r_click2 minecraft.used:minecraft.egg "r_click_egg"
 scoreboard objectives add r_click5 minecraft.used:minecraft.carrot_on_a_stick "r_click_carrot_on_a_stick"
 scoreboard objectives add r_click7 minecraft.used:minecraft.written_book "r_click_written_book"
 #行为检测类计分板
 scoreboard players set 1 r_click7 1
+#常量设置
+
+scoreboard players set 神风特攻 5 1
+scoreboard players set 立体机动 5 5
+scoreboard players set 1 gameflow 1
 #常量设置
 
 team add T

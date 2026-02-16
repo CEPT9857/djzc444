@@ -1,9 +1,9 @@
-scoreboard players set 分 time 3015
-scoreboard players set 秒 time 2000
+scoreboard players set 分 time 15
+scoreboard players set 秒 time 0
 scoreboard players set 红石刻 time 1000
 
-scoreboard players set 分 time2 3000
-scoreboard players set 秒 time2 2000
+scoreboard players set 分 time2 0
+scoreboard players set 秒 time2 0
 scoreboard players set 秒1 time2 600
 scoreboard players set 红石刻 time2 1000
 scoreboard players set 红石刻1 time2 1001

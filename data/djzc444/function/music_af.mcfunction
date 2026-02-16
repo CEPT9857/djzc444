@@ -1,2 +1,2 @@
-stopsound @p
-playsound minecraft:music.dragon music @p ~ ~ ~ 100
+stopsound @a
+playsound minecraft:music.dragon music @a ~ ~ ~ 100

@@ -1,6 +1,3 @@
-fill -414 23 -807 -414 24 -807 air
-fill -388 23 -807 -388 24 -807 glass
-#开关传送点
 setblock -304 68 -855 minecraft:blue_stained_glass
 #更改点位颜色
 setblock -395 27 -768 air
