@@ -1,1 +1,1 @@
-give @p iron_chestplate[trim={material:lapis,pattern:wild},enchantments={blast_protection:10,feather_falling:10,fire_protection:10,projectile_protection:10,protection:10,unbreaking:10,mending:1},unbreakable={},custom_name={text:"铁胸甲·超级典藏版"}]
+give @p iron_chestplate[trim={material:lapis,pattern:wild},enchantments={blast_protection:10,feather_falling:10,fire_protection:10,projectile_protection:10,protection:10,unbreaking:10,mending:1},unbreakable={},custom_name={translate:"djzc.armor_default_chedtplate",fallback:"铁胸甲·超级典藏版"}]

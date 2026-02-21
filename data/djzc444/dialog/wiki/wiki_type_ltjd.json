@@ -1,0 +1,133 @@
+{
+     "title":{
+        "text":"航空兵",
+        "color":"aqua",
+        "hover_event": {
+            "action": "show_text",
+            "value": "冬季战场制作组 编写"
+        }
+     },
+     "pause": false,
+     "type":"dialog_list",
+     "body":[
+        {
+            "type":"plain_message",
+            "contents":{
+                "text": "立体机动装置：BUG堆里飞起来的天空",
+                "color": "yellow"
+            },
+            "width": 500
+        },
+        {
+        "type": "plain_message",
+        "width": 300,
+        "contents":[
+            {
+                "text": "栋设计的。他是冬战第四个兵种，唯一需要“杀五个人”才能解锁的单位。——这不是门槛，这是敬意。"
+            }
+        ]
+        },
+        {
+        "type": "plain_message",
+        "width": 300,
+        "contents":[
+            {
+                "text": "最早的立体机动，只有弩箭和雷枪。后来有了导弹，也有了冬战史上最多的BUG。导弹追着自己人炸过，近炸引信该响不响过，发射器切模式切到死循环过。但他撑起了冬战的CAS。"
+            }
+        ]
+        },
+        {
+        "type": "plain_message",
+        "width": 300,
+        "contents":[
+            {
+                "text": "CE说，未来要给他找个机场，要给航空版一键三连加加油。因为他值得。在那个命令方块铺满地图的年代，是他第一次让冬战的玩家抬起头，看见天空也是战场。"
+            }
+        ]
+        },
+        {
+            "type": "item",
+            "width": 100,
+            "item": {
+                "id": "elytra",
+                "components": {
+                    "enchantments": {
+                        "mending": 1,
+                        "unbreaking": 3
+                    },
+                    "unbreakable": {},
+                    "custom_name": {
+                        "translate":"djzc.elytra_ltjd",
+                        "fallback":"立体机动装置（伪）",
+                        "italic": true
+                    },
+                    "lore":[
+                        {
+                            "translate": "djzc.elytra_ltjd.desc",
+                            "fallback": ""
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "type": "item",
+            "width": 100,
+            "item": {
+                "id": "snowball",
+                "components": {
+                    "custom_name": {
+                        "translate":"djzc.missile_aa",
+                        "fallback":"空空导弹",
+                        "color": "dark_aqua",
+                        "italic": true
+                    },
+                    "lore": [
+                        {
+                            "text": "右键以发射，但要当心敌方的干扰措施……"
+                        },
+                        {
+                            "text": "温馨提示：Q键投掷任意物品即可干扰"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "type": "item",
+            "width": 100,
+            "item": {
+                "id": "egg",
+                "components": {
+                    "custom_name": {
+                        "translate":"djzc.missile_ag",
+                        "fallback":"空地导弹",
+                        "color": "dark_aqua",
+                        "italic": true
+                    },
+                    "lore": [
+                        {
+                            "text": "右键以发射，但要当心敌方的干扰措施……"
+                        },
+                        {
+                            "text": "温馨提示：Q键投掷任意物品即可干扰"
+                        }
+                    ]
+                }
+            }
+        }
+     ],
+     "columns": 4,
+     "dialogs": [
+        "djzc444:wiki/wiki_type_intro"
+     ],
+     "exit_action": {
+        "label": {
+            "text": "返回百科全书主页"
+        },
+        "action": {
+            "type": "show_dialog",
+            "dialog": "djzc444:wiki/wiki_notice"
+        }
+     }
+}

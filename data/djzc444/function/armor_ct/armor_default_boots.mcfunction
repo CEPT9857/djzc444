@@ -1,1 +1,1 @@
-give @p iron_boots[trim={material:lapis,pattern:wild},enchantments={blast_protection:2,feather_falling:10,fire_protection:2,projectile_protection:2,protection:10,unbreaking:10,"minecraft:depth_strider":3,mending:1},unbreakable={},custom_name={text:"铁靴子·超级典藏版"}]
+give @p iron_boots[trim={material:lapis,pattern:wild},enchantments={blast_protection:2,feather_falling:10,fire_protection:2,projectile_protection:2,protection:10,unbreaking:10,"minecraft:depth_strider":3,mending:1},unbreakable={},custom_name={translate:"djzc.armor_default_boots",fallback:"铁靴子·超级典藏版"}]

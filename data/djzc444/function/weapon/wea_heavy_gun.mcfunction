@@ -1,1 +1,1 @@
-give @p bow[custom_name={text:"狙击枪——改良版",color:aqua,italic:true},lore=[{text:"大狙就该有大狙的样！",color:yellow}],unbreakable={},enchantments={power:50,infinity:1,flame:5,punch:5}]
+give @p bow[custom_name={translate:"djzc.heavy_gun",fallback:"狙击枪——改良版",color:aqua,italic:true},lore=[{translate:"djzc.heavy_gun.desc",fallback:"大狙就该有大狙的样！",color:yellow}],unbreakable={},enchantments={power:50,infinity:1,flame:5,punch:5}]

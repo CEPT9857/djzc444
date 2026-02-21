@@ -1,1 +1,1 @@
-give @p iron_leggings[trim={material:lapis,pattern:wild},enchantments={protection:5,unbreaking:4,mending:1},unbreakable={},custom_name={text:"铁护腿·典藏版"}]
+give @p iron_leggings[trim={material:lapis,pattern:wild},enchantments={protection:5,unbreaking:4,mending:1},unbreakable={},custom_name={translate:"djzc.armor_light_leggings",fallback:"铁护腿·典藏版"}]

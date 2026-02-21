@@ -1,0 +1,1 @@
+give @s crossbow[custom_name={translate:"djzc.sanlian_fly",fallback:"一键三连·航空版",italic:true},custom_data={tags:["fly"]},unbreakable={},enchantments={infinity:1,quick_charge:4}]

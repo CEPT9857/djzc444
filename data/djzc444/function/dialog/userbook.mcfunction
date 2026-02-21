@@ -114,6 +114,9 @@
                 "color":"blue",\
                 "underlined": true\
             },\
+            "tooltip": {\
+                "text": "冬季战场的防守方，阻止T方占领全部战区，坚持到时间结束即获胜。"\
+            },\
             "action": {\
                 "type": "run_command",\
                 "command": "trigger 3 set 9"\
@@ -124,6 +127,9 @@
                 "text": "加入T",\
                 "color":"red",\
                 "underlined": true\
+            },\
+            "tooltip": {\
+                "text": "冬季战场的进攻方，占领全部四个战区（A、B、C、D）即可获胜。"\
             },\
             "action": {\
                 "type": "run_command",\

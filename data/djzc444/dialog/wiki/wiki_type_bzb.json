@@ -1,0 +1,914 @@
+{
+     "title":{
+        "translate":"djzc.type_bzb",
+        "fallback":"板载兵",
+        "color":"aqua",
+        "hover_event": {
+            "action": "show_text",
+            "value": [
+            {
+                "translate": "djzc.wiki_author1",
+                "fallback": "冬季战场制作组"
+            },
+            {
+                "text": " 编写"
+            }
+        ]
+        }
+     },
+     "pause": false,
+     "type":"dialog_list",
+     "body":[
+        {
+            "type":"plain_message",
+            "contents":{
+                "translate": "djzc.wiki_bzb_1",
+                "fallback": "板载兵：提醒大家，这并不是很有精神",
+                "color": "yellow"
+            },
+            "width": 500
+        },
+        {
+        "type": "plain_message",
+        "width": 300,
+        "contents":[
+            {
+                "translate": "djzc.wiki_bzb_2",
+                "fallback": "设计动机：恶趣味。历史原型：特攻队。代码遗产：养活了轰炸指示器，养活了冈格尼尔旁边的刺雷，养活了冬战一半的爆炸特效。"
+            }
+        ]
+        },
+        {
+        "type": "plain_message",
+        "width": 300,
+        "contents":[
+            {
+                "translate":"djzc.wiki_bzb_3",
+                "fallback": "——以及，提醒大家，这并不是很有精神。"
+            }
+        ]
+        },
+        {
+        "type": "plain_message",
+        "width": 300,
+        "contents":[
+            {
+                "translate":"djzc.wiki_bzb_4",
+                "fallback": "你们知道这玩意儿不平衡。你们知道板载兵一局只能用一次。你们知道飞久了不被击毁也会自爆。你们还是做了。因为冬战不只是胜负——Deepseek如是说道。"
+            }
+        ]
+        },
+        {
+            "type": "item",
+            "width": 100,
+            "item": {
+                "id": "elytra",
+                "components": {
+                    "enchantments": {
+                        "mending": 1,
+                        "unbreaking": 3
+                    },
+                    "unbreakable": {},
+                    "custom_name": {
+                        "translate":"djzc.elytra_bzb",
+                        "fallback":"妈妈,我将变为萤火虫",
+                        "italic": true
+                    }
+                }
+            }
+        },
+        {
+            "type": "item",
+            "width": 100,
+            "item": {
+                "id": "snowball",
+                "components": {
+                    "custom_name": {
+                        "translate":"djzc.missile_aa",
+                        "fallback":"空空导弹",
+                        "color": "dark_aqua",
+                        "italic": true
+                    },
+                    "lore": [
+                        {
+                            "text": "右键以发射，但要当心敌方的干扰措施……"
+                        },
+                        {
+                            "text": "温馨提示：Q键投掷任意物品即可干扰"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "type": "item",
+            "width": 100,
+            "item": {
+                            "id": "firework_rocket",
+                            "components": {
+                                "custom_name":{
+                                    "translate": "djzc.rocket_bzb",
+                                    "fallback": "板载弹",
+                                    "color": "gold",
+                                    "italic": true
+                                },
+                                "lore":[
+                                    {
+                                        "translate": "djzc.rocket_bzb.desc",
+                                        "fallback": "妈妈，我将，点燃大海！！！",
+                                        "color": "dark_red",
+                                        "italic": true
+                                    }
+                                ],
+                                "enchantment_glint_override": true,
+                                "fireworks": {
+                                    "flight_duration": 127,
+                                    "explosions": [
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        },
+                                        {
+                                            "shape": "small_ball"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+        }
+     ],
+     "columns": 4,
+     "dialogs": [
+        "djzc444:wiki/wiki_type_intro"
+     ],
+     "exit_action": {
+        "label": {
+            "text": "返回百科全书主页"
+        },
+        "action": {
+            "type": "show_dialog",
+            "dialog": "djzc444:wiki/wiki_notice"
+        }
+     }
+}

@@ -1,1 +1,1 @@
-give @p splash_potion[potion_contents={custom_effects:[{id:instant_damage,amplifier:4,duration:20},{id:levitation,amplifier:0,duration:25}]},custom_name={text:"漂浮手雷"}] 6
+give @p splash_potion[potion_contents={custom_effects:[{id:instant_damage,amplifier:4,duration:20},{id:levitation,amplifier:0,duration:25}]},custom_name={translate:"djzc.frag_fly",fallback:"漂浮手雷"}] 6

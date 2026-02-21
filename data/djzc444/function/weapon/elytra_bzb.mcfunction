@@ -1,1 +1,1 @@
-give @p minecraft:elytra[enchantments={mending:1,unbreaking:3},unbreakable={},custom_name={text:"妈妈,我将变为萤火虫"}]
+give @p minecraft:elytra[enchantments={mending:1,unbreaking:3},unbreakable={},custom_name={translate:"djzc.elytra_bzb",fallback:"妈妈,我将变为萤火虫"}]

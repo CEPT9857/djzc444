@@ -3,7 +3,7 @@ scoreboard players reset @s type
 execute if score @s 5 < 神风特攻 5 run clear @s
 #清理物品，防止出错
 scoreboard players add @s 5 1
-execute if score @s 5 > 神风特攻 5 run title @s title [{"text":" 你已玉碎，无法购买","color":"aqua"}]
+execute if score @s 5 > 神风特攻 5 run title @s title [{translate:"djzc.choose_bzb.title",fallback:" 你已玉碎，无法购买","color":"aqua"}]
 #判断本局有没有使用过板载兵,如果用过，拒绝请求
 
 execute if score @s 5 <= 神风特攻 5 run function djzc444:type/type_bzb

@@ -163,10 +163,14 @@
         },
         {
             "label":{
-                "text": "板载兵",
+                "translate": "djzc.type_bzb",
+                "fallback": "板载兵",
                 "color":"aqua"
             },
-            "tooltip": "他的历史原型不太光彩，你会变成一只萤火虫。",
+            "tooltip":{
+                "translate": "djzc.type_bzb.desc",
+                "fallback": "他的历史原型不太光彩，你会变成一只萤火虫。"
+            },
             "action": {
                 "type": "run_command",
                 "command": "trigger type set 8"

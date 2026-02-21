@@ -1,5 +1,5 @@
 {
-    "parent": "djzc444:intro/rule",
+    "parent": "djzc444:intro/root",
     "display": {
         "icon": {
             "id": "minecraft:snowball"

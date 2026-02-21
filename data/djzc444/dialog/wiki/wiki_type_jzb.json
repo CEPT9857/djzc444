@@ -1,0 +1,120 @@
+{
+     "title":{
+        "text":"近战兵",
+        "color":"gold",
+        "hover_event": {
+            "action": "show_text",
+            "value": "冬季战场制作组 编写"
+        }
+     },
+     "pause": false,
+     "type":"dialog_list",
+     "body":[
+        {
+            "type":"plain_message",
+            "contents":{
+                "text": "近战兵：所有人都想干掉他，他从没倒下过",
+                "color": "yellow"
+            },
+            "width": 500
+        },
+        {
+        "type": "plain_message",
+        "width": 300,
+        "contents":[
+            {
+                "text": "盾。斧。剑。下界合金甲,最传统，也最稳。"
+            }
+        ]
+        },
+        {
+        "type": "plain_message",
+        "width": 300,
+        "contents":[
+            {
+                "text": "我们们削过他多少次了？防护削过，伤害削过，地图为了针对他甚至减少室内场景——他还是能举着盾，一步一步往点里走。"
+            }
+        ]
+        },
+        {
+        "type": "plain_message",
+        "width": 300,
+        "contents":[
+            {
+                "text": "他像冬战的地基,我们可以在上面盖狙击手的高塔，搭航空兵的跑道，挖雪原村庄的地下隧道——但地基就是地基。他不动，整个游戏就不散。他不是最强的。他只是从来没认输过。"
+            }
+        ]
+        },
+        {
+            "type": "item",
+            "width": 100,
+            "item": {
+                "id": "netherite_axe",
+                "components": {
+                    "enchantments": {
+                        "efficiency":4,
+                        "unbreaking":3,
+                        "silk_touch":1,
+                        "sharpness":100,
+                        "mending":1
+                    },
+                    "unbreakable": {},
+                    "custom_name": {
+                        "translate":"djzc.heavy_axe",
+                        "fallback":"普普通通的消防斧头"
+                    }
+                }
+            }
+        },
+        {
+            "type": "item",
+            "width": 100,
+            "item": {
+                "id": "netherite_sword",
+                "components": {
+                    "enchantments": {
+                        "sharpness":80,
+                        "unbreaking":3,
+                        "knockback":1
+                    },
+                    "unbreakable": {},
+                    "custom_name": {
+                        "translate":"djzc.heavy_sword",
+                        "fallback":"近战剑"
+                    }
+                }
+            }
+        },
+        {
+            "type": "item",
+            "width": 100,
+            "item": {
+                "id": "crossbow",
+                "components": {
+                    "enchantments": {
+                        "infinity": 1,
+                        "quick_charge": 5
+                    },
+                    "unbreakable": {},
+                    "custom_name": {
+                        "translate":"djzc.heavy_pistol",
+                        "fallback":"近战手枪"
+                    }
+                }
+            }
+        }
+     ],
+     "columns": 4,
+     "dialogs": [
+        "djzc444:wiki/wiki_type_intro"
+     ],
+     "exit_action": {
+        "label": {
+            "text": "返回百科全书主页"
+        },
+        "action": {
+            "type": "show_dialog",
+            "dialog": "djzc444:wiki/wiki_notice"
+        }
+     }
+}

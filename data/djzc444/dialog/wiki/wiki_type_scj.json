@@ -1,0 +1,148 @@
+{
+     "title":{
+        "text":"三叉戟兵",
+        "color":"gold",
+        "hover_event": {
+            "action": "show_text",
+            "value": "冬季战场制作组 编写"
+        }
+     },
+     "pause": false,
+     "type":"dialog_list",
+     "body":[
+        {
+            "type":"plain_message",
+            "contents":{
+                "text": "三叉戟兵：从未打败过近战兵，从未放弃过尝试",
+                "color": "yellow"
+            },
+            "width": 500
+        },
+        {
+        "type": "plain_message",
+        "width": 300,
+        "contents":[
+            {
+                "text": "钓鱼佬设计的。他也有下界合金套。他也有盾牌。他还有近战兵没有的末影珍珠。"
+            }
+        ]
+        },
+        {
+        "type": "plain_message",
+        "width": 300,
+        "contents":[
+            {
+                "text": "他就是打不过近战兵——这不是BUG，这是宿命。"
+            }
+        ]
+        },
+        {
+        "type": "plain_message",
+        "width": 300,
+        "contents":[
+            {
+                "text": "冬战里有很多这样的兵种：游骑兵追不上狙击手，干员摸不到"
+            },
+            {
+                "translate": "djzc.type_bzb",
+                "fallback": "板载兵"
+            },
+            {
+                "text": "，魔法兵至今没能实装……不是每个兵种都能赢，但每个兵种都该有上场的机会。"
+            }
+        ]
+        },
+        {
+            "type": "item",
+            "width": 30,
+            "description": {
+                "text": "温馨提示：它可以破盾"
+            },
+            "item": {
+                "id": "trident",
+                "components": {
+                    "enchantments": {
+                        "channeling": 1,
+                        "sharpness": 95,
+                        "impaling": 30,
+                        "knockback": 2,
+                        "looting": 255,
+                        "loyalty": 20
+                    },
+                    "unbreakable": {},
+                    "custom_name": {
+                        "translate":"djzc.trident_yh",
+                        "fallback":"渔获",
+                        "color": "dark_purple",
+                        "italic": true
+                    },
+                    "lore": [
+                        {
+                        "translate":"djzc.trident_yh.desc",
+                        "fallback":"精炼5阶",
+                        "color":"aqua",
+                        "italic":true
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "type": "item",
+            "width": 100,
+            "item": {
+                "id": "trident",
+                "components": {
+                    "enchantments": {
+                        "riptide": 8,
+                        "sharpness": 100,
+                        "impaling": 30,
+                        "knockback": 2,
+                        "looting": 255
+                    },
+                    "unbreakable": {},
+                    "custom_name": {
+                        "translate":"djzc.trident_yzxf",
+                        "fallback":"三叉戟·雨战先锋",
+                        "color": "dark_purple",
+                        "italic": true
+                    },
+                    "lore": [
+                        {
+                        "translate":"djzc.trident_yzxf.desc",
+                        "fallback":"吾入雨中，来去无踪",
+                        "color":"aqua",
+                        "italic":true
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "type": "item",
+            "width": 100,
+            "item": {
+                "id": "ender_pearl",
+                "components": {
+                    "custom_name":{
+                    "translate": "djzc.type_ltjd.ender_pearl",
+                    "fallback": "末影珍珠"
+                    }
+                }
+            }
+        }
+     ],
+     "columns": 4,
+     "dialogs": [
+        "djzc444:wiki/wiki_type_intro"
+     ],
+     "exit_action": {
+        "label": {
+            "text": "返回百科全书主页"
+        },
+        "action": {
+            "type": "show_dialog",
+            "dialog": "djzc444:wiki/wiki_notice"
+        }
+     }
+}
