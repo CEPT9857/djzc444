@@ -1,0 +1,142 @@
+{
+     "title":{
+        "text":"玩前必看",
+        "color":"white",
+        "hover_event": {
+            "action": "show_text",
+            "value": "冬季战场制作组 编写"
+        }
+     },
+     "pause": false,
+     "type":"dialog_list",
+     "body":[
+        {
+            "type":"plain_message",
+            "contents":{
+                "text":"温馨提示：冬季战场的大多数用户操作基于对话框系统，如果出现了对话框被截断等问题，请调整游戏视频设置，将界面大小控制在您的屏幕以内",
+                "color":"yellow"
+            },
+            "width": 300
+        },
+        {
+            "type":"plain_message",
+            "contents":{
+                "text":"1.游戏目标：",
+                "color":"yellow"
+            },
+            "width": 300
+        },
+        {
+            "type":"plain_message",
+            "contents":{
+                "text": "· 每局时长15分钟。"
+            }
+        },
+        {
+            "type":"plain_message",
+            "contents":{
+                "text": "· 如果你是进攻方（T阵营），占领全部四个战区（A、B、C、D）即可获胜。"
+            },
+            "width": 500
+        },
+        {
+            "type":"plain_message",
+            "contents":{
+                "text": "· 如果你是防守方（CT阵营），阻止T方占领全部战区，坚持到时间结束即获胜。"
+            },
+            "width": 500
+        },
+        {
+            "type":"plain_message",
+            "contents":{
+                "text": "· 战区 A、B 开局即可争夺；C、D 需要先激活对应的启动器才能占领。"
+            },
+            "width": 500
+        },
+        {
+            "type":"plain_message",
+            "contents":{
+                "text": "2.特殊战斗规则：",
+                "color":"yellow"
+            },
+            "width": 500
+        },
+        {
+            "type":"plain_message",
+            "contents":{
+                "text": "· 冬季战场关闭了友军伤害。"
+            },
+            "width": 500
+        },
+        {
+            "type":"plain_message",
+            "contents":{
+                "text": "· 敌方玩家头顶不显示名字，只能通过外观识别（注意观察盔甲纹饰的颜色）"
+            },
+            "width": 500
+        },
+        {
+            "type":"plain_message",
+            "contents":{
+                "text": "3.特殊游戏机制：",
+                "color":"yellow"
+            },
+            "width": 500
+        },
+        {
+            "type":"plain_message",
+            "contents":{
+                "text": "· 步话机：右键或G键打开冬战成员用书发送无线电指令（如“进攻A点！”“发现敌人！”），如果没有语音交流的条件，那么它就是最好的备用方案。"
+            },
+            "width": 500
+        },
+        {
+            "type":"plain_message",
+            "contents":{
+                "text": "· 轰炸：在地图的某些敌方隐藏着“轰炸观测塔，右键“轰炸指示器”可以轰炸指定区域，可能炸到自己，请谨慎。"
+            },
+            "width": 500
+        },
+        {
+            "type":"plain_message",
+            "contents":{
+                "text": "· C点启动器：同时占领A点和B点后，C点启动器高亮，必须全部激活才能开放C点。"
+            },
+            "width": 500
+        },
+        {
+            "type":"plain_message",
+            "contents":{
+                "text": "· D点启动器：占领C点后，D点启动器高亮，必须全部激活才能开放D点。"
+            },
+            "width": 500
+        },
+        {
+            "type":"plain_message",
+            "contents":{
+                "text": "· 导弹系统：导弹可被掉落物干扰，且拥有近炸引信（接近敌方3米内爆炸）。"
+            },
+            "width": 500
+        },
+        {
+            "type":"plain_message",
+            "contents":{
+                "text": "· 兵种选择限制：目前游戏已有的两个航空兵种都有一定的限制，详情参见参见“兵种介绍”章节"
+            },
+            "width": 500
+        }
+     ],
+     "columns": 4,
+     "dialogs": [
+        "djzc444:wiki/wiki_map"
+     ],
+     "exit_action": {
+        "label": {
+            "text": "返回百科全书主页"
+        },
+        "action": {
+            "type": "show_dialog",
+            "dialog": "djzc444:wiki/wiki_notice"
+        }
+     }
+}

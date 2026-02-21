@@ -1,4 +1,5 @@
 tellraw @a {text:"冬季战场v1.0.6加载成功！",color:green}
+tellraw @a {translate:resourcepack.loaded.detect,fallback:"您目前未安装冬季战场相关资源包，可能会缺失部分游戏体验",color:"blue"}
 execute if score boost 3 matches 0 run tellraw @a [{text:"检测到您未处于boost模式，点击可启用boost",color:"red",hover_event:{action:"show_text",value:{text:"启用后，将关闭怪物生成等游戏规则，这是我们推荐的游戏模式"}},click_event:{action:"run_command",command:"function djzc444:option/boost"}}]
 execute if score boost 3 matches 1 run tellraw @a [{text:"检测到您已处于boost模式，点击可禁用boost",color:"red",hover_event:{action:"show_text",value:{text:"禁用后，游戏将启用怪物破坏地形等规则，建议您在此之前备份存档"}},click_event:{action:"run_command",command:"function djzc444:option/unboost"}}]
 #加载信息

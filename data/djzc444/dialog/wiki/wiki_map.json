@@ -1,0 +1,285 @@
+{
+     "title":{
+        "text":"地图速览",
+        "color":"white",
+        "hover_event": {
+            "action": "show_text",
+            "value": "冬季战场制作组 编写"
+        }
+     },
+     "pause": false,
+     "type":"dialog_list",
+     "body":[
+    {
+        "type": "plain_message",
+        "contents":{
+        "text": "· 温馨提示：战区和启动器的位置已被信标和悬浮文字标识在在地图上",
+        "color": "yellow"
+    },
+        "width": 500
+    },
+    {
+        "type": "plain_message",
+        "width": 500,
+        "contents":[
+            {
+                "text": "· 如果你是陆军单位，可以选择从这里出发:",
+                "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                        "text":"其实空军单位也可以",
+                        "color": "gray",
+                        "strikethrough": true
+                    }
+                }
+            },
+            {
+                "text": "   "
+            },
+            {
+                "text": "CT出生点1",
+                "color": "blue",
+                "hover_event": {
+                    "action": "show_text",
+                    "value": "D3旁边"
+                }
+            },
+            {
+                "text": "   "
+            },
+            {
+                "text": "CT出生点2",
+                "color": "blue",
+                "hover_event": {
+                    "action": "show_text",
+                    "value": "一个碉堡。"
+                }
+            },
+            {
+                "text": "   "
+            },
+            {
+                "text": "T出生点1",
+                "color": "red",
+                "hover_event": {
+                    "action": "show_text",
+                    "value": "在A点附近"
+                }
+            },
+            {
+                "text": "   "
+            },
+            {
+                "text": "T出生点2",
+                "color": "red",
+                "hover_event": {
+                    "action": "show_text",
+                    "value": "在B点附近"
+                }
+            }
+        ]
+    },
+    {
+        "type": "plain_message",
+        "width": 500,
+        "contents":[
+            {
+                "text": "· 如果你是空军单位，可以选择从这里出发:",
+                "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                        "text":"其实陆军单位也可以",
+                        "color": "gray",
+                        "strikethrough": true
+                    }
+                }
+            },
+            {
+                "text": "   "
+            },
+            {
+                "text": "CT空中出生点",
+                "color": "blue",
+                "hover_event": {
+                    "action": "show_text",
+                    "value": "这里有点高"
+                }
+            },
+            {
+                "text": "   "
+            },
+            {
+                "text": "CT机场",
+                "color": "blue",
+                "hover_event": {
+                    "action": "show_text",
+                    "value": "你可以在里面休息一下"
+                }
+            },
+            {
+                "text": "   "
+            },
+            {
+                "text": "T空中出生点",
+                "color": "red",
+                "hover_event": {
+                    "action": "show_text",
+                    "value": "这里也有点高"
+                }
+            },
+            {
+                "text": "   "
+            },
+            {
+                "text": "T机场",
+                "color": "red",
+                "hover_event": {
+                    "action": "show_text",
+                    "value": "你可以在里面休息一下"
+                }
+            }
+        ]
+    },
+    {
+        "type": "plain_message",
+        "width": 500,
+        "contents":[
+            {
+                "text": "· 这是你需要关注的战区"
+            },
+            {
+                "text": "   "
+            },
+            {
+                "text": "A点",
+                "color": "light_purple",
+                "hover_event": {
+                    "action": "show_text",
+                    "value": "T家附近冰刺之地北侧，冰湖中的小船，易攻难守"
+                }
+            },
+            {
+                "text": "   "
+            },
+            {
+                "text": "B点",
+                "color": "light_purple",
+                "hover_event": {
+                    "action": "show_text",
+                    "value": "A点南侧冰刺之地，冰刺之地中的地堡，易守难攻"
+                }
+            },
+            {
+                "text": "   "
+            },
+            {
+                "text": "C点",
+                "color": "light_purple",
+                "hover_event": {
+                    "action": "show_text",
+                    "value": "雪原村庄（有地道）的中心，常常引发激烈的战斗"
+                }
+            },
+            {
+                "text": "   "
+            },
+            {
+                "text": "D点",
+                "color": "light_purple",
+                "hover_event": {
+                    "action": "show_text",
+                    "value": "灯塔之下，CT最后的堡垒，决定成败之地"
+                }
+            }
+        ]
+    },
+    {
+        "type": "plain_message",
+        "width": 500,
+        "contents":[
+            {
+                "text": "· 这是你需要关注的战区启动器"
+            },
+            {
+                "text": "   "
+            },
+            {
+                "text": "C1",
+                "color": "white",
+                "hover_event": {
+                    "action": "show_text",
+                    "value": "C点南侧战壕旁的地洞"
+                }
+            },
+            {
+                "text": "   "
+            },
+            {
+                "text": "C2",
+                "hover_event": {
+                    "action": "show_text",
+                    "value": "位于村庄地道系统，需要在房子中寻找入口钻下去"
+                }
+            },
+            {
+                "text": "   "
+            },
+            {
+                "text": "C3",
+                "hover_event": {
+                    "action": "show_text",
+                    "value": "位于地图北部山地的山腰处"
+                }
+            },
+            {
+                "text": "   "
+            },
+            {
+                "text": "D1",
+                "hover_event": {
+                    "action": "show_text",
+                    "value": "D点附近的一个碉堡"
+                }
+            },
+            {
+                "text": "   "
+            },
+            {
+                "text": "D2",
+                "hover_event": {
+                    "action": "show_text",
+                    "value": "在D点附近的灯塔下方"
+                }
+            },
+            {
+                "text": "   "
+            },
+            {
+                "text": "D3",
+                "hover_event": {
+                    "action": "show_text",
+                    "value": "在CT家里"
+                }
+            }
+        ]
+    },
+    {
+        "type": "plain_message",
+        "contents": "· 如果需要详细的地图信息，可以关注起始大厅展示的地图，以及我们提供的地图解析文档",
+        "width": 500
+    }
+    ],
+     "columns": 4,
+     "dialogs": [
+        "djzc444:wiki/wiki_type_intro"
+     ],
+     "exit_action": {
+        "label": {
+            "text": "返回百科全书主页"
+        },
+        "action": {
+            "type": "show_dialog",
+            "dialog": "djzc444:wiki/wiki_notice"
+        }
+     }
+}

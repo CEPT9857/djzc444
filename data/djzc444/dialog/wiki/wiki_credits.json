@@ -1,0 +1,274 @@
+{
+     "title":{
+        "text":"制作人名单",
+        "color":"white",
+        "hover_event": {
+            "action": "show_text",
+            "value": "冬季战场制作组 编写"
+        }
+     },
+     "pause": false,
+     "type":"dialog_list",
+     "body":[
+        {
+            "type":"plain_message",
+            "contents":{
+                "text":"-冬季战场制作组-",
+                "color":"yellow"
+            },
+            "width": 300
+        },
+        {
+            "type": "item",
+            "description": "开发组长：CE_PT",
+            "item": {
+                "id": "player_head",
+                "components": {
+                    "profile": "CE_PT",
+                    "custom_name": {
+                        "text": "CE_PT的手办"
+                    }
+                }
+            }
+        },
+        {
+            "type": "item",
+            "description": "数值策划：GNOD728",
+            "item": {
+                "id": "player_head",
+                "components": {
+                    "profile": "GNOD728",
+                    "custom_name": {
+                        "text": "GNOD728的手办"
+                    }
+                }
+            }
+        },
+        {
+            "type": "item",
+            "description": "兵种测试：yijiansanlian",
+            "item": {
+                "id": "player_head",
+                "components": {
+                    "profile": "yijiansanlian",
+                    "custom_name": {
+                        "text": "yijiansanlian的手办"
+                    }
+                }
+            }
+        },
+        {
+            "type": "item",
+            "description": "兵种设计（三叉戟兵）：diaoyulao",
+            "item": {
+                "id": "player_head",
+                "components": {
+                    "profile": "diaoyulao",
+                    "custom_name": {
+                        "text": "diaoyulao的手办"
+                    }
+                }
+            }
+        },
+        {
+            "type": "item",
+            "description": "兵种设计（冈格尼尔）：lemilia",
+            "item": {
+                "id": "player_head",
+                "components": {
+                    "profile": "lemilia",
+                    "custom_name": {
+                        "text": "lemilia的手办"
+                    }
+                }
+            }
+        },
+        {
+            "type":"plain_message",
+            "contents":{
+                "text":"-赛扬的冬季战场 制作组-",
+                "color":"blue"
+            },
+            "width": 300
+        },
+        {
+            "type": "item",
+            "description": "开发组长：CE_PT",
+            "item": {
+                "id": "player_head",
+                "components": {
+                    "profile": "CE_PT",
+                    "custom_name": {
+                        "text": "CE_PT的手办"
+                    }
+                }
+            }
+        },
+        {
+            "type": "item",
+            "description": "音效配音：团结起来到明天",
+            "item": {
+                "id": "player_head",
+                "components": {
+                    "custom_name": {
+                        "text": "团结起来到明天的手办"
+                    }
+                }
+            }
+        },
+        {
+            "type":"plain_message",
+            "contents":{
+                "text": "-冬季战场-雪域龙腾 制作组-",
+                "color":"red"
+            },
+            "width": 500
+        },
+        {
+            "type": "item",
+            "description": "开发组长：CE_PT",
+            "item": {
+                "id": "player_head",
+                "components": {
+                    "profile": "CE_PT",
+                    "custom_name": {
+                        "text": "CE_PT的手办"
+                    }
+                }
+            }
+        },
+        {
+            "type":"plain_message",
+            "contents":{
+                "text":"-v1.0.6 第一次测试光荣榜-",
+                "color":"yellow"
+            },
+            "width": 300
+        },
+        {
+            "type":"plain_message",
+            "contents":{
+                "text":"(按账号首字母顺序排列)",
+                "color": "gray"
+            },
+            "width": 300
+        },
+        {
+            "type": "item",
+            "description": "CE_PT",
+            "item": {
+                "id": "player_head",
+                "components": {
+                    "profile": "CE_PT",
+                    "custom_name": {
+                        "text": "CE_PT的手办"
+                    }
+                }
+            }
+        },
+        {
+            "type": "item",
+            "description": "GNOD728",
+            "item": {
+                "id": "player_head",
+                "components": {
+                    "profile": "GNOD728",
+                    "custom_name": {
+                        "text": "GNOD728的手办"
+                    }
+                }
+            }
+        },
+        {
+            "type": "item",
+            "description": "hgjwd",
+            "item": {
+                "id": "player_head",
+                "components": {
+                    "profile": "hgjwd",
+                    "custom_name": {
+                        "text": "hgjwd的手办"
+                    }
+                }
+            }
+        },
+        {
+            "type": "item",
+            "description": "Joyawn",
+            "item": {
+                "id": "player_head",
+                "components": {
+                    "profile": "Joyawn",
+                    "custom_name": {
+                        "text": "Joyawn的手办"
+                    }
+                }
+            }
+        },
+        {
+            "type": "item",
+            "description": "OndesIntactes",
+            "item": {
+                "id": "player_head",
+                "components": {
+                    "profile": "OndesIntactes",
+                    "custom_name": {
+                        "text": "OndesIntactes的手办"
+                    }
+                }
+            }
+        },
+        {
+            "type": "item",
+            "description": "sleep",
+            "item": {
+                "id": "player_head",
+                "components": {
+                    "profile": "sleep",
+                    "custom_name": {
+                        "text": "sleep的手办"
+                    }
+                }
+            }
+        },
+        {
+            "type": "item",
+            "description": "wwwAndywww",
+            "item": {
+                "id": "player_head",
+                "components": {
+                    "profile": "wwwAndywww",
+                    "custom_name": {
+                        "text": "wwwAndywww的手办"
+                    }
+                }
+            }
+        },
+        {
+            "type": "item",
+            "description": "yijiansanlian",
+            "item": {
+                "id": "player_head",
+                "components": {
+                    "profile": "yijiansanlian",
+                    "custom_name": {
+                        "text": "yijiansanlian的手办"
+                    }
+                }
+            }
+        }
+     ],
+     "columns": 4,
+     "dialogs": [
+        "djzc444:wiki/wiki_notice"
+     ],
+     "exit_action": {
+        "label": {
+            "text": "返回百科全书主页"
+        },
+        "action": {
+            "type": "show_dialog",
+            "dialog": "djzc444:wiki/wiki_notice"
+        }
+     }
+}

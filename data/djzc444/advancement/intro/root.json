@@ -4,7 +4,7 @@
             "id": "minecraft:snowball"
         },
         "title": {"text":"冬季战场百科全书"},
-        "description": "加油！特种兵",
+        "description": "加油！特种兵（本系统正在逐渐迁移到对话框系统，目前向您展示的是旧版文本）",
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": false,

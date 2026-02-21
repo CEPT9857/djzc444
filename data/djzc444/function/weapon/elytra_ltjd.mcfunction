@@ -1,0 +1,1 @@
+give @p elytra[enchantments={mending:1,unbreaking:3},custom_name={translate:"djzc.elytra_ltjd",fallback:"立体机动装置（伪）"},lore=[{translate:"djzc.elytra_ltjd.desc",fallback:""}]]

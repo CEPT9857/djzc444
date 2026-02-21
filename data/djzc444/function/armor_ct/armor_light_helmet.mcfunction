@@ -1,1 +1,1 @@
-give @p minecraft:iron_helmet[trim={material:"minecraft:lapis",pattern:"minecraft:wild"},enchantments={aqua_affinity:10,respiration:10s,mending:1,blast_protection:4,feather_falling: 5,protection:5,unbreaking: 10},unbreakable={},custom_name= {text:"铁头盔·雪地精英"}]
+give @p minecraft:iron_helmet[trim={material:"minecraft:lapis",pattern:"minecraft:wild"},enchantments={aqua_affinity:10,respiration:10s,mending:1,blast_protection:4,feather_falling: 5,protection:5,unbreaking: 10},unbreakable={},custom_name= {translate:"djzc.armor_light_helmet",fallback:"铁头盔·雪地精英"}]

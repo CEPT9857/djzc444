@@ -1,1 +1,1 @@
-give @p shield[enchantments={unbreaking:10,mending:1},banner_patterns=[{color:red,pattern:base},{color:yellow,pattern:globe}],unbreakable={},custom_name={text:"普通的盾牌"}]
+give @p shield[enchantments={unbreaking:10,mending:1},banner_patterns=[{color:red,pattern:base},{color:yellow,pattern:globe}],unbreakable={},custom_name={translate:"djzc.shield_t",fallback:"普通的盾牌"}]
