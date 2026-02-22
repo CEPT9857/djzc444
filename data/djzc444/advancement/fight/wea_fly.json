@@ -4,8 +4,14 @@
         "icon": {
             "id": "minecraft:feather"
         },
-        "title": {"text":"海利考普特"},
-        "description": "使用骑兵枪·MKIII或者一键三连·航空版进行垂直机动",
+        "title": {
+            "translate": "djzc.advancement.wea_fly",
+            "fallback":"海利考普特"
+        },
+        "description": {
+            "translate": "djzc.advancement.wea_fly.desc",
+            "fallback": "使用骑兵枪·MKIV或者一键三连·航空版进行垂直机动"
+        },
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": true,

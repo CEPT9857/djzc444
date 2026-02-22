@@ -4,8 +4,14 @@
         "icon": {
             "id": "minecraft:crossbow"
         },
-        "title": {"text":"新星"},
-        "description": "七步以内，枪又准又快",
+        "title": {
+            "translate": "djzc.advancement.wea_nova",
+            "fallback":"新星"
+        },
+        "description": {
+            "translate": "djzc.advancement.wea_nova.desc",
+            "fallback": "七步以内，枪又准又快"
+        },
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": true,

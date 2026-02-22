@@ -4,8 +4,14 @@
         "icon": {
             "id": "minecraft:apple"
         },
-        "title": {"text":"一鸣惊人"},
-        "description": "胜利1场",
+        "title": {
+            "translate": "djzc.advancement.stat_win1",
+            "fallback":"一鸣惊人"
+        },
+        "description": {
+            "translate": "djzc.advancement.stat_win1.desc",
+            "fallback": "胜利1场"
+        },
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": true,

@@ -4,8 +4,14 @@
         "icon": {
             "id": "minecraft:netherite_shovel"
         },
-        "title": {"text":"One Day"},
-        "description": "战斗1000场",
+        "title": {
+            "translate": "djzc.advancement.stat_fight1000",
+            "fallback":"One Day"
+        },
+        "description": {
+            "translate": "djzc.advancement.stat_fight1000.desc",
+            "fallback": "战斗1000场"
+        },
         "frame": "challenge",
         "show_toast": false,
         "announce_to_chat": true,

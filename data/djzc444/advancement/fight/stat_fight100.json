@@ -4,8 +4,14 @@
         "icon": {
             "id": "minecraft:diamond_shovel"
         },
-        "title": {"text":"百炼成钢"},
-        "description": "战斗100场",
+        "title": {
+            "translate": "djzc.advancement.stat_fight100",
+            "fallback":"百炼成钢"
+        },
+        "description": {
+            "translate": "djzc.advancement.stat_fight100.desc",
+            "fallback": "战斗100场"
+        },
         "frame": "goal",
         "show_toast": false,
         "announce_to_chat": true,

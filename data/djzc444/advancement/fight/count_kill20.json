@@ -4,8 +4,14 @@
         "icon": {
             "id": "minecraft:diamond_axe"
         },
-        "title": {"text":"白色死神"},
-        "description": "一局内取得20杀",
+        "title": {
+            "translate": "djzc.advancement.count_kill20",
+            "fallback":"白色死神"
+        },
+        "description": {
+            "translate": "djzc.advancement.count_kill20.desc",
+            "fallback": "一局内取得20杀"
+        },
         "frame": "challenge",
         "show_toast": false,
         "announce_to_chat":true,
