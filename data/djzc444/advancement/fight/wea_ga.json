@@ -4,8 +4,14 @@
         "icon": {
             "id": "minecraft:fishing_rod"
         },
-        "title": {"text":"来自地面的怒火"},
-        "description": "投射一枚地空导弹",
+        "title": {
+            "translate": "djzc.advancement.wea_ga",
+            "fallback":"来自地面的怒火"
+        },
+        "description": {
+            "translate": "djzc.advancement.wea_ga.desc",
+            "fallback": "发射一枚地空导弹"
+        },
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": true,

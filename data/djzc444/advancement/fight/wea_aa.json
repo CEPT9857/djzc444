@@ -4,8 +4,14 @@
         "icon": {
             "id": "minecraft:snowball"
         },
-        "title": {"text":"导弹空战"},
-        "description": "在空中投射一枚导弹",
+        "title": {
+            "translate": "djzc.advancement.wea_aa",
+            "fallback":"导弹空战"
+        },
+        "description": {
+            "translate": "djzc.advancement.wea_aa.desc",
+            "fallback": "发射一枚空空导弹"
+        },
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": true,

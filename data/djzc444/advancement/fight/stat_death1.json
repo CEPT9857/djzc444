@@ -4,8 +4,14 @@
         "icon": {
             "id": "minecraft:zombie_head"
         },
-        "title": {"text":"一命呜呼"},
-        "description": "阵亡1次",
+        "title": {
+            "translate": "djzc.advancement.stat_death1",
+            "fallback":"一命呜呼"
+        },
+        "description": {
+            "translate": "djzc.advancement.stat_death1.desc",
+            "fallback": "阵亡1次"
+        },
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": true,

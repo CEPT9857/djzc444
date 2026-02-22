@@ -4,8 +4,14 @@
         "icon": {
             "id": "minecraft:skeleton_skull"
         },
-        "title": {"text":"骨灰级玩家"},
-        "description": "阵亡1000次",
+        "title": {
+            "translate": "djzc.advancement.stat_death1000",
+            "fallback":"骨灰级玩家"
+        },
+        "description": {
+            "translate": "djzc.advancement.stat_death1000.desc",
+            "fallback": "阵亡1000次"
+        },
         "frame": "challenge",
         "show_toast": false,
         "announce_to_chat": true,

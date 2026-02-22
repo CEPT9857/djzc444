@@ -4,8 +4,14 @@
         "icon": {
             "id": "minecraft:iron_sword"
         },
-        "title": {"text":"崭露头角"},
-        "description": "击杀10个敌方单位",
+        "title": {
+            "translate": "djzc.advancement.stat_kill10",
+            "fallback":"崭露头角"
+        },
+        "description": {
+            "translate": "djzc.advancement.stat_kill10.desc",
+            "fallback": "击杀10个敌方单位"
+        },
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": true,

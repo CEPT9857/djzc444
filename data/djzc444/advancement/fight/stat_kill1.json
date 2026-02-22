@@ -4,8 +4,14 @@
         "icon": {
             "id": "minecraft:stone_sword"
         },
-        "title": {"text":"第一滴血"},
-        "description": "击杀1个敌方单位",
+        "title": {
+            "translate": "djzc.advancement.stat_kill1",
+            "fallback":"第一滴血"
+        },
+        "description": {
+            "translate": "djzc.advancement.stat_kill1.desc",
+            "fallback": "击杀1个敌方单位"
+        },
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": true,

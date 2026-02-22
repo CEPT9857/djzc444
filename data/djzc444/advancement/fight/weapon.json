@@ -4,8 +4,14 @@
         "icon": {
             "id": "minecraft:snowball"
         },
-        "title": {"text":"武器系统"},
-        "description": "活用武器",
+        "title": {
+            "translate": "djzc.advancement.weapon",
+            "fallback":"武器系统"
+        },
+        "description": {
+            "translate": "djzc.advancement.weapon.desc",
+            "fallback": "活用武器"
+        },
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": false,

@@ -4,8 +4,14 @@
         "icon": {
             "id": "minecraft:enchanted_golden_apple"
         },
-        "title": {"text":"百战精英"},
-        "description": "胜利100场",
+        "title": {
+            "translate": "djzc.advancement.stat_win100",
+            "fallback":"百战精英"
+        },
+        "description": {
+            "translate": "djzc.advancement.stat_win100.desc",
+            "fallback": "胜利100场"
+        },
         "frame": "challenge",
         "show_toast": false,
         "announce_to_chat": true,

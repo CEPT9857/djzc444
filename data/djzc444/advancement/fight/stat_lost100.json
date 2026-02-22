@@ -4,8 +4,14 @@
         "icon": {
             "id": "minecraft:white_banner"
         },
-        "title": {"text":"世界拒绝了我"},
-        "description": "失败100场",
+        "title": {
+            "translate": "djzc.advancement.stat_lost100",
+            "fallback":"世界拒绝了我"
+        },
+        "description": {
+            "translate": "djzc.advancement.stat_lost100.desc",
+            "fallback": "失败100场"
+        },
         "frame": "goal",
         "show_toast": false,
         "announce_to_chat": true,

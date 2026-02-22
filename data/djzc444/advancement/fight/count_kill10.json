@@ -4,8 +4,14 @@
         "icon": {
             "id": "minecraft:iron_axe"
         },
-        "title": {"text":"大杀特杀"},
-        "description": "一局内取得10杀",
+        "title": {
+            "translate": "djzc.advancement.count_kill10",
+            "fallback":"大杀特杀"
+        },
+        "description": {
+            "translate": "djzc.advancement.count_kill10.desc",
+            "fallback":"一局内取得10杀"
+        },
         "frame": "goal",
         "show_toast": false,
         "announce_to_chat": true,

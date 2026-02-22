@@ -4,8 +4,14 @@
         "icon": {
             "id": "minecraft:firework_rocket"
         },
-        "title": {"text":"这并不是很有精神"},
-        "description": "使用板载兵",
+        "title": {
+            "translate": "djzc.advancement.wea_bzb",
+            "fallback":"这并不是很有精神"
+        },
+        "description": {
+            "translate": "djzc.advancement.wea_bzb.desc",
+            "fallback": "使用板载弹"
+        },
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": true,

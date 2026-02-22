@@ -4,8 +4,14 @@
         "icon": {
             "id": "minecraft:stone_axe"
         },
-        "title": {"text":"五杀！"},
-        "description": "起飞吧，特种兵",
+        "title": {
+            "translate":"djzc.advancement.count_kill5",
+            "fallback":"五杀！"
+        },
+        "description": {
+            "translate": "djzc.advancement.count_kill5.desc",
+            "fallback": "起飞吧，特种兵"
+        },
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": true,

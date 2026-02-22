@@ -4,8 +4,14 @@
         "icon": {
             "id": "minecraft:iron_shovel"
         },
-        "title": {"text":"小试牛刀"},
-        "description": "战斗10场",
+        "title": {
+            "translate": "djzc.advancement.stat_fight10",
+            "fallback":"小试牛刀"
+        },
+        "description": {
+            "translate": "djzc.advancement.stat_fight10.desc",
+            "fallback": "战斗10场"
+        },
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": true,

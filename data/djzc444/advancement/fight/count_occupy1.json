@@ -4,8 +4,14 @@
         "icon": {
             "id": "minecraft:golden_horse_armor"
         },
-        "title": {"text":"先声夺人"},
-        "description": "占领一个点",
+        "title": {
+            "translate":"djzc.advancement.count_occupy1",
+            "fallback":"先声夺人"
+        },
+        "description": {
+            "translate": "djzc.advancement.count_occupy1.desc",
+            "fallback": "占领一个点"
+        },
         "frame": "goal",
         "show_toast": false,
         "announce_to_chat": true,

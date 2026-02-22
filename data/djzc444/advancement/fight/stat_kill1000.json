@@ -4,8 +4,14 @@
         "icon": {
             "id": "minecraft:netherite_sword"
         },
-        "title": {"text":"Fortunate Son"},
-        "description": "击杀1000个敌方单位",
+        "title": {
+            "translate": "djzc.advancement.stat_kill1000",
+            "fallback":"Fortunate Son"
+        },
+        "description": {
+            "translate": "djzc.advancement.stat_kill1000.desc",
+            "fallback": "击杀1000个敌方单位"
+        },
         "frame": "challenge",
         "show_toast": false,
         "announce_to_chat": true,

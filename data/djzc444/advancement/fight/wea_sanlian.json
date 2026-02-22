@@ -4,8 +4,14 @@
         "icon": {
             "id": "minecraft:crossbow"
         },
-        "title": {"text":"真的可以三连！"},
-        "description": "使用一键三连·MKIII",
+        "title": {
+            "translate": "djzc.advancement.wea_sanlian",
+            "fallback":"真的可以三连！（已绝版）"
+        },
+        "description": {
+            "translate": "djzc.advancement.wea_sanlian.desc",
+            "fallback": "使用一键三连·MKIII"
+        },
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": true,

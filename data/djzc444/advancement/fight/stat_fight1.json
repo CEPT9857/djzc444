@@ -4,8 +4,14 @@
         "icon": {
             "id": "minecraft:stone_shovel"
         },
-        "title": {"text":"初出茅庐"},
-        "description": "战斗1场",
+        "title": {
+            "translate": "djzc.advancement.stat_fight1",
+            "fallback":"初出茅庐"
+        },
+        "description": {
+            "translate": "djzc.advancement.stat_fight1.desc",
+            "fallback": "战斗1场"
+        },
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": true,

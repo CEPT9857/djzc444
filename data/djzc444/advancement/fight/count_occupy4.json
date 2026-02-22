@@ -4,8 +4,14 @@
         "icon": {
             "id": "minecraft:diamond_horse_armor"
         },
-        "title": {"text":"占点仙人"},
-        "description": "占领四个点",
+        "title": {
+            "translate": "djzc.advancement.count_occupy4",
+            "fallback":"占点仙人"
+        },
+        "description": {
+            "translate": "djzc.advancement.count_occupy4.desc",
+            "fallback": "占领四个点"
+        },
         "frame": "challenge",
         "show_toast": false,
         "announce_to_chat":true,

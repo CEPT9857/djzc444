@@ -4,8 +4,14 @@
         "icon": {
             "id": "minecraft:creeper_head"
         },
-        "title": {"text":"我也曾想一了百了"},
-        "description": "阵亡100次",
+        "title": {
+            "translate": "djzc.advancement.stat_death100",
+            "fallback":"我也曾想一了百了"
+        },
+        "description": {
+            "translate": "djzc.advancement.stat_death100.desc",
+            "fallback": "阵亡100次"
+        },
         "frame": "challenge",
         "show_toast": false,
         "announce_to_chat": true,
