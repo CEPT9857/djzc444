@@ -1,3 +1,3 @@
 scoreboard players reset @s tmsg
-teammsg 发现敌人！
+execute as @s run tellraw @a[team=T] {"selector":"@s","extra":[{"text":":"},{"translate":"djzc.msg.enemy",fallback:"发现敌人！"}]}
 playsound entity.piglin.celebrate player @a[team=T] ~ ~ ~ 100

@@ -1,10 +1,14 @@
 {
      "title":{
-        "text":"狙击手",
+        "translate": "djzc.type_jjs",
+        "fallback":"狙击手",
         "color":"light_purple",
         "hover_event": {
             "action": "show_text",
-            "value": "冬季战场制作组 编写"
+            "value": {
+                "translate": "djzc.dialog.author_deepseek",
+                "fallback": "Deepseek 编写"
+            }
         }
      },
      "pause": false,
@@ -13,7 +17,8 @@
         {
             "type":"plain_message",
             "contents":{
-                "text": "狙击手：从被一脚踢死，到横扫千军，再到紧急削弱",
+                "translate": "djzc.wiki_jjs_1",
+                "fallback": "狙击手：从被一脚踢死，到横扫千军，再到紧急削弱",
                 "color": "yellow"
             },
             "width": 500
@@ -23,7 +28,8 @@
         "width": 300,
         "contents":[
             {
-                "text": "这也是冬战自己的故事。最初，被近战兵一脚踢死——后来，拿上大狙，拿上专用弹，横扫千军——再后来，紧急削弱。"
+                "translate": "djzc.wiki_jjs_2",
+                "fallback": "这也是冬战自己的故事。最初，被近战兵一脚踢死——后来，拿上大狙，拿上专用弹，横扫千军——再后来，紧急削弱。"
             }
         ]
         },
@@ -32,7 +38,8 @@
         "width": 300,
         "contents":[
             {
-                "text": "像不像冬战的命运？1.0的时候，谁能想到这游戏能活到1.0.6？1.0.1的时候，谁能想到“要不我们改进一下冬战”的想法发展到现在的程度？1.0.5的时候，谁能想到我们会亲手拆掉几乎所有命令方块，把存档从3.89GB瘦到60MB？"
+                "translate": "djzc.wiki_jjs_3",
+                "fallback": "像不像冬战的命运？1.0的时候，谁能想到这游戏能活到1.0.6？1.0.1的时候，谁能想到“要不我们改进一下冬战”的想法发展到现在的程度？1.0.5的时候，谁能想到我们会亲手拆掉几乎所有命令方块，把存档从3.89GB瘦到60MB？"
             }
         ]
         },
@@ -41,7 +48,8 @@
         "width": 300,
         "contents":[
             {
-                "text": "狙击手强过，被砍了。冬战卡过，被修了。冷暖交织，才是活着。"
+                "translate": "djzc.wiki_jjs_4",
+                "fallback": "狙击手强过，被砍了。冬战卡过，被修了。冷暖交织，才是活着。"
             }
         ]
         },
@@ -226,7 +234,8 @@
      ],
      "exit_action": {
         "label": {
-            "text": "返回百科全书主页"
+            "translate": "djzc.dialog.wiki.back_notice",
+            "fallback": "返回百科全书主页"
         },
         "action": {
             "type": "show_dialog",

@@ -1,10 +1,14 @@
 {
      "title":{
-        "text":"干员·冈格尼尔",
+        "translate": "djzc.type_ggne",
+        "fallback":"干员·冈格尼尔",
         "color":"green",
         "hover_event": {
             "action": "show_text",
-            "value": "Deepseek 编写"
+            "value": {
+                "translate": "djzc.dialog.author_deepseek",
+                "fallback": "Deepseek 编写"
+            }
         }
      },
      "pause": false,
@@ -13,7 +17,8 @@
         {
             "type":"plain_message",
             "contents":{
-                "text": "干员·冈格尼尔：玻璃大炮，和用它惩罚静态视力不好的人",
+                "translate": "djzc.wiki_ggne_1",
+                "fallback": "干员·冈格尼尔：玻璃大炮，和用它惩罚静态视力不好的人",
                 "color": "yellow"
             },
             "width": 500
@@ -23,7 +28,8 @@
         "width": 300,
         "contents":[
             {
-                "text": "蕾米莉亚设计的原型。CE拼出来的成品。"
+                "translate": "djzc.wiki_ggne_2",
+                "fallback": "蕾米莉亚设计的原型。CE拼出来的成品。"
             }
         ]
         },
@@ -32,7 +38,8 @@
         "width": 300,
         "contents":[
             {
-                "text": "零甲。秒杀。突进。玻璃大炮——以及，惩罚每一个静态视力不好的人。这句话我看了三遍，你们不是在写兵种介绍。你们在写你们自己。"
+                "translate": "djzc.wiki_ggne_3",
+                "fallback": "零甲。秒杀。突进。玻璃大炮——以及，惩罚每一个静态视力不好的人。这句话我看了三遍，你们不是在写兵种介绍。你们在写你们自己。"
             }
         ]
         },
@@ -41,7 +48,8 @@
         "width": 300,
         "contents":[
             {
-                "text": "那个静态视力不好的人是谁？是站在狙击位上以为自己安全的敌人？还是某个熬夜debug、死活找不到那个少写的斜杠的自己？冈格尼尔不是武器。冈格尼尔是“我还能再战一局”的倔强。"
+                "translate": "djzc.wiki_ggne_4",
+                "fallback": "那个静态视力不好的人是谁？是站在狙击位上以为自己安全的敌人？还是某个熬夜debug、死活找不到那个少写的斜杠的自己？冈格尼尔不是武器。冈格尼尔是“我还能再战一局”的倔强。"
             }
         ]
         },
@@ -916,7 +924,8 @@
      ],
      "exit_action": {
         "label": {
-            "text": "返回百科全书主页"
+            "translate": "djzc.dialog.wiki.back_notice",
+            "fallback": "返回百科全书主页"
         },
         "action": {
             "type": "show_dialog",

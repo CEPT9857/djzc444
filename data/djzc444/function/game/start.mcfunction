@@ -62,15 +62,6 @@ data merge entity @e[x=-433,y=66,z=-760,limit=1,type=minecraft:glow_item_frame,d
 data merge entity @e[x=-461,y=63,z=-813,limit=1,type=minecraft:glow_item_frame,distance=..1] {ItemRotation:0}
 #重置启动器展示框
 
-
-setblock -461 54 -758 air
-setblock -460 54 -761 air
-setblock -461 54 -764 air
-
-setblock -372 57 -762 air
-setblock -373 57 -759 air
-setblock -372 57 -756 air
-
 effect clear @e[type=minecraft:armor_stand]
 
 gamemode adventure @a[team=T]

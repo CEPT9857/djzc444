@@ -1,10 +1,14 @@
 {
      "title":{
-        "text":"游戏流程",
+        "translate": "djzc.dialog.wiki.how_to_play.title",
+        "fallback":"游戏流程",
         "color":"white",
         "hover_event": {
             "action": "show_text",
-            "value": "冬季战场制作组 编写"
+            "value": {
+                "translate": "djzc.dialog.author_deepseek",
+                "fallback": "Deepseek 编写"
+            }
         }
      },
      "pause": false,
@@ -13,7 +17,8 @@
         {
             "type":"plain_message",
             "contents":{
-                "text":"1.开局准备：",
+                "translate": "djzc.dialog.wiki.how_to_play.body1",
+                "fallback":"1.开局准备：",
                 "color":"yellow"
             },
             "width": 300
@@ -21,21 +26,24 @@
         {
             "type":"plain_message",
             "contents":{
-                "text": "· 右键冬战成员用书（或按G键打开GUI）选择阵营和兵种"
+                "translate": "djzc.dialog.wiki.how_to_play.body2",
+                "fallback": "· 右键冬战成员用书（或按G键打开GUI）选择阵营和兵种"
             },
             "width": 500
         },
         {
             "type":"plain_message",
             "contents":{
-                "text": "· 点击“准备”进入准备状态，当所有玩家进入准备状态后，游戏就会开始"
+                "translate": "djzc.dialog.wiki.how_to_play.body3",
+                "fallback": "· 点击“准备”进入准备状态，当所有玩家进入准备状态后，游戏就会开始"
             },
             "width": 500
         },
         {
             "type":"plain_message",
             "contents":{
-                "text": "2.兵种选择：",
+                "translate": "djzc.dialog.wiki.how_to_play.body4",
+                "fallback": "2.兵种选择：",
                 "color":"yellow"
             },
             "width": 500
@@ -43,14 +51,16 @@
         {
             "type":"plain_message",
             "contents":{
-                "text": "· 目前有四大类（突击、侦察、支援、航空），每个大类下有两个亚种（共8个可选兵种），详细信息参见“兵种介绍”章节"
+                "translate": "djzc.dialog.wiki.how_to_play.body5",
+                "fallback": "· 目前有四大类（突击、侦察、支援、航空），每个大类下有两个亚种（共8个可选兵种），详细信息参见“兵种介绍”章节"
             },
             "width": 500
         },
         {
             "type":"plain_message",
             "contents":{
-                "text": "3.加入战斗：",
+                "translate": "djzc.dialog.wiki.how_to_play.body6",
+                "fallback": "3.加入战斗：",
                 "color":"yellow"
             },
             "width": 500
@@ -58,7 +68,8 @@
         {
             "type":"plain_message",
             "contents":{
-                "text": "· 选好兵种后，通过传送系统（同样在成员用书中）前往前线。传送点包括战区、启动器、出生点、队友身边等。"
+                "translate": "djzc.dialog.wiki.how_to_play.body7",
+                "fallback": "· 选好兵种后，通过传送系统（同样在成员用书中）前往前线。传送点包括战区、启动器、出生点、队友身边等。"
             },
             "width": 500
         }
@@ -69,7 +80,8 @@
      ],
      "exit_action": {
         "label": {
-            "text": "返回百科全书主页"
+            "translate": "djzc.dialog.wiki.back_notice",
+            "fallback": "返回百科全书主页"
         },
         "action": {
             "type": "show_dialog",

@@ -4,71 +4,127 @@
     "pause": false,\
     title:[\
     {\
-    "text":"兵种选择系统",\
+    "translate":"djzc.dialog.type_choose.title",\
+    "fallback":"兵种选择系统",\
     "hover_event": {\
     "action": "show_text",\
-    "value": "冬战制作组 制作"\
+    "value": {\
+        "translate": "djzc.dialog.author1",\
+        "fallback": "冬战制作组 制作"\
+    }\
     }\
     }\
     ],\
     body:[\
     {\
-    "type": "plain_message",\
-    "width": 300,\
-    "contents":[\
-    {\
-    "text": "兵种定位：     ",\
-    "hover_event": {\
-    "action": "show_text",\
-    "value": {\
-    "text":"仅供参考喵～(∠・ω< )⌒★",\
-    "color": "light_purple"\
-    }\
-    }\
-    },\
-    {\
-    "text": "突击兵     ",\
-    "color": "gold",\
-    "hover_event": {\
-    "action": "show_text",\
-    "value": "突击兵有厚重的装甲和强大的近战能力"\
-    }\
-    },\
-    {\
-    "text": "侦察兵     ",\
-    "color": "light_purple",\
-    "hover_event": {\
-    "action": "show_text",\
-    "value": "侦察兵可以对敌人进行强有力的远程火力打击"\
-    }\
-    },\
-    {\
-    "text": "支援兵     ",\
-    "color": "green",\
-    "hover_event": {\
-    "action": "show_text",\
-    "value": "适合新手：给队友回血，给敌人扣血，就这么简单。"\
-    }\
-    },\
-    {\
-    "text": "航空兵     ",\
-    "color": "aqua",\
-    "hover_event": {\
-    "action": "show_text",\
-    "value": "航空兵可以飞，也可以被防空兵打下来"\
-    }\
-    }\
-    ]\
+        "type": "plain_message",\
+        "width": 300,\
+        "contents":[\
+            {\
+                "translate": "djzc.dialog.type_choose.body1",\
+                "fallback": "兵种定位：",\
+                "hover_event": {\
+                    "action": "show_text",\
+                    "value": {\
+                        "translate": "djzc.dialog.type_choose.body1.desc",\
+                        "fallback":"仅供参考喵～(∠・ω< )⌒★",\
+                        "color": "light_purple"\
+                    }\
+                }\
+            },\
+            {\
+                "text": "     "\
+            },\
+            {\
+                "translate": "djzc.type_tjb",\
+                "fallback": "突击兵",\
+                "color": "gold",\
+                "hover_event": {\
+                    "action": "show_text",\
+                    "value": {\
+                        "translate": "djzc.type_tjb.desc",\
+                        "fallback": "突击兵有厚重的装甲和强大的近战能力"\
+                    }\
+                }\
+            },\
+            {\
+                "text": "     "\
+            },\
+            {\
+                "translate": "djzc.type_zcb",\
+                "fallback": "侦察兵",\
+                "color": "light_purple",\
+                "hover_event": {\
+                    "action": "show_text",\
+                    "value": {\
+                        "translate": "djzc.type_zcb.desc",\
+                        "fallback": "侦察兵可以对敌人进行强有力的远程火力打击"\
+                    }\
+                }\
+            },\
+            {\
+                "text": "     "\
+            },\
+            {\
+                "translate": "djzc.type_zyb",\
+                "fallback": "支援兵",\
+                "color": "green",\
+                "hover_event": {\
+                    "action": "show_text",\
+                    "value": {\
+                        "translate": "djzc.type_zyb.desc",\
+                        "fallback": "适合新手：给队友回血，给敌人扣血，就这么简单。"\
+                    }\
+                }\
+            },\
+            {\
+                "text": "     "\
+            },\
+            {\
+                "translate": "djzc.type_hkb",\
+                "fallback": "航空兵",\
+                "color": "aqua",\
+                "hover_event": {\
+                    "action": "show_text",\
+                    "value": {\
+                        "translate": "djzc.type_hkb.desc",\
+                        "fallback": "航空兵可以飞，也可以被防空兵打下来"\
+                    }\
+                }\
+            }\
+        ]\
     },\
     {\
     type:"plain_message",\
-    contents:"剩余时间 $(minute)分$(second)秒"\
+    contents:[\
+        {\
+            "translate": "djzc.dialog.time",\
+            "fallback":"剩余时间："\
+        },\
+        {\
+            "text":"$(minute)"\
+        },\
+        {\
+            "translate": "djzc.dialog.time_minute",\
+            "fallback":"分"\
+        },\
+        {\
+            "text":"$(second)"\
+        },\
+        {\
+            "translate": "djzc.dialog.time_second",\
+            "fallback":"秒"\
+        }\
+    ]\
     },\
     {\
         "type": "plain_message",\
         "contents": \
         {\
-            "text": "点击访问传送系统",\
+            "translate": "djzc.dialog.tp_system",\
+            "fallback": "点击访问传送系统",\
+            "color": "light_purple",\
+            "underlined": true,\
             "click_event": {\
                 "action": "run_command",\
                 "command":"trigger 3 set 16"\
@@ -80,10 +136,14 @@
     "actions": [\
         {\
             "label":{\
-                "text": "近战兵",\
+                "translate": "djzc.type_jzb",\
+                "fallback": "近战兵",\
                 "color": "gold"\
             },\
-            "tooltip": "传统的盾斧剑兵种，适合热血的狂战士",\
+            "tooltip": {\
+                "translate": "djzc.type_jzb.desc",\
+                "fallback": "传统的盾斧剑兵种，适合热血的狂战士"\
+            },\
             "action": {\
                 "type": "run_command",\
                 "command": "trigger type set 1"\
@@ -91,10 +151,14 @@
         },\
         {\
             "label":{\
-                "text": "狙击手",\
+                "translate": "djzc.type_jjs",\
+                "fallback": "狙击手",\
                 "color":"light_purple"\
             },\
-            "tooltip": "配备大威力弓箭，一箭一个小朋友",\
+            "tooltip": {\
+                "translate": "djzc.type_jjs.desc",\
+                "fallback": "配备大威力弓箭，一箭一个小朋友"\
+            },\
             "action": {\
                 "type": "run_command",\
                 "command": "trigger type set 2"\
@@ -102,10 +166,14 @@
         },\
         {\
             "label":{\
-                "text": "防空兵",\
+                "translate": "djzc.type_fkb",\
+                "fallback": "防空兵",\
                 "color":"green"\
             },\
-            "tooltip": "拥有高射速的弩和地空导弹，也可以对着地面扫射",\
+            "tooltip": {\
+                "translate": "djzc.type_fkb.desc",\
+                "fallback": "拥有高射速的弩和地空导弹，也可以对着地面扫射"\
+            },\
             "action": {\
                 "type": "run_command",\
                 "command": "trigger type set 3"\
@@ -113,10 +181,14 @@
         },\
         {\
             "label":{\
-                "text": "航空兵",\
+                "translate": "djzc.type_ltjd",\
+                "fallback": "航空兵",\
                 "color":"aqua"\
             },\
-            "tooltip": "可以飞起来，并使用导弹进行战斗",\
+            "tooltip": {\
+                "translate": "djzc.type_ltjd.desc",\
+                "fallback": "可以飞起来，并使用导弹进行战斗"\
+            },\
             "action": {\
                 "type": "run_command",\
                 "command": "trigger type set 4"\
@@ -124,10 +196,14 @@
         },\
         {\
             "label":{\
-                "text": "三叉戟兵",\
+                "translate": "djzc.type_scj",\
+                "fallback": "三叉戟兵",\
                 "color":"gold"\
             },\
-            "tooltip": "可能只是拿着三叉戟的近战兵而已",\
+            "tooltip": {\
+                "translate": "djzc.type_scj.desc",\
+                "fallback": "可能只是拿着三叉戟的近战兵而已"\
+            },\
             "action": {\
                 "type": "run_command",\
                 "command": "trigger type set 5"\
@@ -135,10 +211,14 @@
         },\
         {\
             "label":{\
-                "text": "游骑兵",\
+                "translate": "djzc.type_yqb",\
+                "fallback": "游骑兵",\
                 "color": "light_purple"\
             },\
-            "tooltip": "拥有特色武器“骑兵枪”，重要的是，他很快",\
+            "tooltip": {\
+                "translate": "djzc.type_yqb.desc",\
+                "fallback": "拥有特色武器“骑兵枪”，重要的是，他很快"\
+            },\
             "action": {\
                 "type": "run_command",\
                 "command": "trigger type set 6"\
@@ -146,10 +226,14 @@
         },\
         {\
             "label":{\
-                "text": "干员·冈格尼尔",\
+                "translate": "djzc.type_ggne",\
+                "fallback": "干员·冈格尼尔",\
                 "color":"green"\
             },\
-            "tooltip": "贯穿一切，抵抗命运。",\
+            "tooltip": {\
+                "translate": "djzc.type_ggne.desc",\
+                "fallback": "贯穿一切，抵抗命运。"\
+            },\
             "action": {\
                 "type": "run_command",\
                 "command": "trigger type set 7"\

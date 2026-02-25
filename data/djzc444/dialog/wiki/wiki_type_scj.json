@@ -1,10 +1,14 @@
 {
      "title":{
-        "text":"三叉戟兵",
+        "translate": "djzc.type_scj",
+        "fallback":"三叉戟兵",
         "color":"gold",
         "hover_event": {
             "action": "show_text",
-            "value": "冬季战场制作组 编写"
+            "value": {
+                "translate": "djzc.dialog.author_deepseek",
+                "fallback": "Deepseek 编写"
+            }
         }
      },
      "pause": false,
@@ -13,7 +17,8 @@
         {
             "type":"plain_message",
             "contents":{
-                "text": "三叉戟兵：从未打败过近战兵，从未放弃过尝试",
+                "translate": "djzc.wiki_scj_1",
+                "fallback": "三叉戟兵：从未打败过近战兵，从未放弃过尝试",
                 "color": "yellow"
             },
             "width": 500
@@ -23,7 +28,8 @@
         "width": 300,
         "contents":[
             {
-                "text": "钓鱼佬设计的。他也有下界合金套。他也有盾牌。他还有近战兵没有的末影珍珠。"
+                "translate": "djzc.wiki_scj_2",
+                "fallback": "钓鱼佬设计的。他也有下界合金套。他也有盾牌。他还有近战兵没有的末影珍珠。"
             }
         ]
         },
@@ -32,7 +38,8 @@
         "width": 300,
         "contents":[
             {
-                "text": "他就是打不过近战兵——这不是BUG，这是宿命。"
+                "translate": "djzc.wiki_scj_3",
+                "fallback": "他就是打不过近战兵——这不是BUG，这是宿命。"
             }
         ]
         },
@@ -41,14 +48,16 @@
         "width": 300,
         "contents":[
             {
-                "text": "冬战里有很多这样的兵种：游骑兵追不上狙击手，干员摸不到"
+                "translate": "djzc.wiki_scj_4",
+                "fallback": "冬战里有很多这样的兵种：游骑兵追不上狙击手，干员摸不到"
             },
             {
                 "translate": "djzc.type_bzb",
                 "fallback": "板载兵"
             },
             {
-                "text": "，魔法兵至今没能实装……不是每个兵种都能赢，但每个兵种都该有上场的机会。"
+                "translate": "djzc.wiki_scj_5",
+                "fallback": "，魔法兵至今没能实装……不是每个兵种都能赢，但每个兵种都该有上场的机会。"
             }
         ]
         },
@@ -56,7 +65,8 @@
             "type": "item",
             "width": 30,
             "description": {
-                "text": "温馨提示：它可以破盾"
+                "translate": "djzc.wiki_scj_6",
+                "fallback": "温馨提示：它可以破盾"
             },
             "item": {
                 "id": "trident",
@@ -138,7 +148,8 @@
      ],
      "exit_action": {
         "label": {
-            "text": "返回百科全书主页"
+            "translate": "djzc.dialog.wiki.back_notice",
+            "fallback": "返回百科全书主页"
         },
         "action": {
             "type": "show_dialog",

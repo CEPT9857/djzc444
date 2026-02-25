@@ -4,8 +4,14 @@
         "icon": {
             "id": "minecraft:snowball"
         },
-        "title": {"text":"虚无"},
-        "description": "这是？伏特加！",
+        "title": {
+            "translate": "djzc.advancement.buff_xw",
+            "fallback":"虚无"
+        },
+        "description": {
+            "translate": "djzc.advancement.buff_xw.desc",
+            "fallback": "这是？伏特加！"
+        },
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": false,

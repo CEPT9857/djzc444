@@ -4,8 +4,14 @@
         "icon": {
             "id": "minecraft:snowball"
         },
-        "title": {"text":"存护"},
-        "description": "防守就是最好的进攻——固若金汤。",
+        "title": {
+            "translate":"djzc.advancement.buff_ch",
+            "fallback":"存护"
+        },
+        "description": {
+            "translate": "djzc.advancement.buff_ch.desc",
+            "fallback": "防守就是最好的进攻——固若金汤。"
+        },
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": false,

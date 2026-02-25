@@ -1,10 +1,14 @@
 {
      "title":{
-        "text":"地图速览",
+        "translate": "djzc.dialog.wiki.map.title",
+        "fallback":"地图速览",
         "color":"white",
         "hover_event": {
             "action": "show_text",
-            "value": "冬季战场制作组 编写"
+            "value": {
+                "translate": "djzc.dialog.author_deepseek",
+                "fallback": "Deepseek 编写"
+            }
         }
      },
      "pause": false,
@@ -13,7 +17,8 @@
     {
         "type": "plain_message",
         "contents":{
-        "text": "· 温馨提示：战区和启动器的位置已被信标和悬浮文字标识在在地图上",
+        "translate": "djzc.dialog.wiki.map.body1",
+        "fallback": "· 温馨提示：战区和启动器的位置已被信标和悬浮文字标识在在地图上",
         "color": "yellow"
     },
         "width": 500
@@ -23,11 +28,13 @@
         "width": 500,
         "contents":[
             {
-                "text": "· 如果你是陆军单位，可以选择从这里出发:",
+                "translate": "djzc.dialog.wiki.map.body2",
+                "fallback": "· 如果你是陆军单位，可以选择从这里出发:",
                 "hover_event": {
                     "action": "show_text",
                     "value": {
-                        "text":"其实空军单位也可以",
+                        "translate": "djzc.dialog.wiki.map.body2.desc",
+                        "fallback":"其实空军单位也可以",
                         "color": "gray",
                         "strikethrough": true
                     }
@@ -37,44 +44,60 @@
                 "text": "   "
             },
             {
-                "text": "CT出生点1",
+                "translate": "djzc.dialog.respawn_piont1_ct",
+                "fallback": "CT出生点1",
                 "color": "blue",
                 "hover_event": {
                     "action": "show_text",
-                    "value": "D3旁边"
+                    "value": {
+                        "translate": "djzc.dialog.respawn_point1_ct.desc",
+                        "fallback": "D3旁边"
+                    }
                 }
             },
             {
                 "text": "   "
             },
             {
-                "text": "CT出生点2",
+                "translate": "djzc.dialog.respawn_point2_ct",
+                "fallback": "CT出生点2",
                 "color": "blue",
                 "hover_event": {
                     "action": "show_text",
-                    "value": "一个碉堡。"
+                    "value": {
+                        "translate": "djzc.dialog.respawn_piont2_ct.desc",
+                        "fallback": "一个碉堡。"
+                    }
                 }
             },
             {
                 "text": "   "
             },
             {
-                "text": "T出生点1",
+                "translate": "djzc.dialog.respawn_piont1_t",
+                "fallback": "T出生点1",
                 "color": "red",
                 "hover_event": {
                     "action": "show_text",
-                    "value": "在A点附近"
+                    "value": {
+                "translate": "djzc.dialog.respawn_point1_t.desc",
+                "fallback": "在A点附近"
+            }
                 }
             },
             {
                 "text": "   "
             },
             {
-                "text": "T出生点2",
+                "translate": "djzc.dialog.respawn_piont2_t",
+                "fallback": "T出生点2",
                 "color": "red",
                 "hover_event": {
                     "action": "show_text",
-                    "value": "在B点附近"
+                    "value": {
+                "translate": "djzc.dialog.respawn_piont2_t.desc",
+                "fallback": "在B点附近"
+            }
                 }
             }
         ]
@@ -84,11 +107,13 @@
         "width": 500,
         "contents":[
             {
-                "text": "· 如果你是空军单位，可以选择从这里出发:",
+                "translate": "djzc.dialog.wiki.map.body3",
+                "fallback": "· 如果你是空军单位，可以选择从这里出发:",
                 "hover_event": {
                     "action": "show_text",
                     "value": {
-                        "text":"其实陆军单位也可以",
+                        "translate": "djzc.dialog.wiki.map.body3.desc",
+                        "fallback":"其实陆军单位也可以",
                         "color": "gray",
                         "strikethrough": true
                     }
@@ -98,44 +123,60 @@
                 "text": "   "
             },
             {
-                "text": "CT空中出生点",
+                "translate": "djzc.dialog.respawn_sky_ct",
+                "fallback": "CT空中出生点",
                 "color": "blue",
                 "hover_event": {
                     "action": "show_text",
-                    "value": "这里有点高"
+                    "value": {
+                        "translate": "djzc.dialog.respawn_sky_ct.desc",
+                        "fallback": "这里有点高"
+                    }
                 }
             },
             {
                 "text": "   "
             },
             {
-                "text": "CT机场",
+                "translate": "djzc.dialog.respawn_airport_ct",
+                "fallback": "CT机场",
                 "color": "blue",
                 "hover_event": {
                     "action": "show_text",
-                    "value": "你可以在里面休息一下"
+                    "value": {
+                        "translate":"djzc.dialog.respawn_airport_ct.desc",
+                        "fallback": "你可以在里面休息一下"
+                    }
                 }
             },
             {
                 "text": "   "
             },
             {
-                "text": "T空中出生点",
+                "translate": "djzc.dialog.respawn_sky_t",
+                "fallback": "T空中出生点",
                 "color": "red",
                 "hover_event": {
                     "action": "show_text",
-                    "value": "这里也有点高"
+                    "value": {
+                        "translate": "djzc.dialog.respawn_sky_t.desc",
+                        "fallback": "这里也有点高"
+                    }
                 }
             },
             {
                 "text": "   "
             },
             {
-                "text": "T机场",
+                "translate": "djzc.dialog.respawn_airport_t",
+                "fallback": "T机场",
                 "color": "red",
                 "hover_event": {
                     "action": "show_text",
-                    "value": "你可以在里面休息一下"
+                    "value": {
+                        "translate": "djzc.dialog.respawn_airport_t.desc",
+                        "fallback": "你可以在里面休息一下"
+                    }
                 }
             }
         ]
@@ -145,50 +186,67 @@
         "width": 500,
         "contents":[
             {
-                "text": "· 这是你需要关注的战区"
+                "translate": "djzc.dialog.wiki.map.body4",
+                "fallback": "· 这是你需要关注的战区"
             },
             {
                 "text": "   "
             },
             {
-                "text": "A点",
+                "translate": "djzc.dialog.point_a",
+                "fallback": "A点",
                 "color": "light_purple",
                 "hover_event": {
                     "action": "show_text",
-                    "value": "T家附近冰刺之地北侧，冰湖中的小船，易攻难守"
+                    "value": {
+                        "translate": "djzc.dialog.wiki.map.body4.a",
+                        "fallback": "T家附近冰刺之地北侧，冰湖中的小船，易攻难守"
+                    }
                 }
             },
             {
                 "text": "   "
             },
             {
-                "text": "B点",
+                "translate": "djzc.dialog.point_b",
+                "fallback": "B点",
                 "color": "light_purple",
                 "hover_event": {
                     "action": "show_text",
-                    "value": "A点南侧冰刺之地，冰刺之地中的地堡，易守难攻"
+                    "value": {
+                        "translate": "djzc.dialog.wiki.map.body4.b",
+                        "fallback": "A点南侧冰刺之地，冰刺之地中的地堡，易守难攻"
+                    }
                 }
             },
             {
                 "text": "   "
             },
             {
-                "text": "C点",
+                "translate": "djzc.dialog.point_c",
+                "fallback": "C点",
                 "color": "light_purple",
                 "hover_event": {
                     "action": "show_text",
-                    "value": "雪原村庄（有地道）的中心，常常引发激烈的战斗"
+                    "value": {
+                        "translate": "djzc.dialog.wiki.map.body4.c",
+                        "fallback": "雪原村庄（有地道）的中心，常常引发激烈的战斗"
+                    }
                 }
             },
             {
                 "text": "   "
             },
             {
-                "text": "D点",
+                "translate": "djzc.dialog.point_d",
+                "fallback": "D点",
                 "color": "light_purple",
                 "hover_event": {
                     "action": "show_text",
-                    "value": "灯塔之下，CT最后的堡垒，决定成败之地"
+                    "value": {
+                        "translate": "djzc.dialog.wiki.map.body4.d",
+                        "fallback": "灯塔之下，CT最后的堡垒，决定成败之地"
+                    }
                 }
             }
         ]
@@ -198,74 +256,102 @@
         "width": 500,
         "contents":[
             {
-                "text": "· 这是你需要关注的战区启动器"
+                "translate": "djzc.dialog.wiki.map.body5",
+                "fallback": "· 这是你需要关注的战区启动器"
             },
             {
                 "text": "   "
             },
             {
-                "text": "C1",
+                "translate": "djzc.dialog.point_c1",
+                "fallback": "C1",
                 "color": "white",
                 "hover_event": {
                     "action": "show_text",
-                    "value": "C点南侧战壕旁的地洞"
+                    "value": {
+                        "translate": "djzc.dialog.wiki.map.body5.c1",
+                        "fallback": "C点南侧战壕旁的地洞"
+                    }
                 }
             },
             {
                 "text": "   "
             },
             {
-                "text": "C2",
+                "translate": "djzc.dialog.point_c2",
+                "fallback": "C2",
                 "hover_event": {
                     "action": "show_text",
-                    "value": "位于村庄地道系统，需要在房子中寻找入口钻下去"
+                    "value": {
+                        "translate": "djzc.dialog.wiki.map.body5.c2",
+                        "fallback": "位于村庄地道系统，需要在房子中寻找入口钻下去"
+                    }
                 }
             },
             {
                 "text": "   "
             },
             {
-                "text": "C3",
+                "translate": "djzc.dialog.point_c3",
+                "fallback": "C3",
                 "hover_event": {
                     "action": "show_text",
-                    "value": "位于地图北部山地的山腰处"
+                    "value": {
+                        "translate": "djzc.dialog.wiki.map.body5.c3",
+                        "fallback": "位于地图北部山地的山腰处"
+                    }
                 }
             },
             {
                 "text": "   "
             },
             {
-                "text": "D1",
+                "translate": "djzc.dialog.point_d1",
+                "fallback": "D1",
                 "hover_event": {
                     "action": "show_text",
-                    "value": "D点附近的一个碉堡"
+                    "value": {
+                        "translate": "djzc.dialog.wiki.map.body5.d1",
+                        "fallback": "D点附近的一个碉堡"
+                    }
                 }
             },
             {
                 "text": "   "
             },
             {
-                "text": "D2",
+                "translate": "djzc.dialog.point_d2.desc",
+                "fallback": "D2",
                 "hover_event": {
                     "action": "show_text",
-                    "value": "在D点附近的灯塔下方"
+                    "value": {
+                        "translate": "djzc.dialog.wiki.map.body5.d2",
+                        "fallback": "在D点附近的灯塔下方"
+                    }
                 }
             },
             {
                 "text": "   "
             },
             {
-                "text": "D3",
+                "translate": "djzc.dialog.point_d3",
+                "fallback": "D3",
                 "hover_event": {
                     "action": "show_text",
-                    "value": "在CT家里"
+                    "value": {
+                        "translate": "djzc.dialog.wiki.map.body5.d3",
+                        "fallback": "在CT家里"
+                    }
                 }
             }
         ]
     },
     {
         "type": "plain_message",
-        "contents": "· 如果需要详细的地图信息，可以关注起始大厅展示的地图，以及我们提供的地图解析文档",
+        "contents": {
+            "translate": "djzc.dialog.wiki.map.body6",
+            "fallback": "· 如果需要详细的地图信息，可以关注起始大厅展示的地图，以及我们提供的地图解析文档"
+        },
         "width": 500
     }
     ],
@@ -275,7 +361,8 @@
      ],
      "exit_action": {
         "label": {
-            "text": "返回百科全书主页"
+            "translate": "djzc.dialog.wiki.back_notice",
+            "fallback": "返回百科全书主页"
         },
         "action": {
             "type": "show_dialog",

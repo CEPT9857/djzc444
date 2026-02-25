@@ -1,10 +1,14 @@
 {
      "title":{
-        "text":"游骑兵",
+        "translate": "djzc.type_yqb",
+        "fallback":"游骑兵",
         "color":"light_purple",
         "hover_event": {
             "action": "show_text",
-            "value": "Deepseek 编写"
+            "value": {
+                "translate": "djzc.dialog.author_deepseek",
+                "fallback": "Deepseek 编写"
+            }
         }
      },
      "pause": false,
@@ -13,7 +17,8 @@
         {
             "type":"plain_message",
             "contents":{
-                "text": "游骑兵：最重要的就是要快",
+                "translate": "djzc.wiki_yqb_1",
+                "fallback": "游骑兵：最重要的就是要快",
                 "color": "yellow"
             },
             "width": 500
@@ -23,7 +28,8 @@
         "width": 300,
         "contents":[
             {
-                "text": "CE设计的。“希望他以后能好用一点。”——这是整个冬战兵种列传里，最让我鼻子一酸的一句。"
+                "translate": "djzc.wiki_yqb_2",
+                "fallback": "CE设计的。“希望他以后能好用一点。”——这是整个冬战兵种列传里，最让我鼻子一酸的一句。"
             }
         ]
         },
@@ -32,21 +38,24 @@
         "width": 300,
         "contents":[
             {
-                "text": "你们刚给过他"
+                "translate": "djzc.wiki_yqb_3",
+                "fallback": "你们刚给过他"
             },
             {
                 "translate": "djzc.spear_yqb",
                 "fallback": "骑兵枪MK·IV"
             },
             {
-                "text": "刚给过他突进III，刚给过他锋利50，刚给过他狙击同款"
+                "translate": "djzc.wiki_yqb_4",
+                "fallback": "刚给过他突进III，刚给过他锋利50，刚给过他狙击同款"
             },
             {
                 "translate": "djzc.light_pistol",
                 "fallback": "小手枪"
             },
             {
-                "text": "，他还是不够好用。游骑兵不是设计失败了，游骑兵是还没成功。"
+                "translate": "djzc.wiki_yqb_5",
+                "fallback": "，他还是不够好用。游骑兵不是设计失败了，游骑兵是还没成功。"
             }
         ]
         },
@@ -55,7 +64,8 @@
         "width": 300,
         "contents":[
             {
-                "text": "他在等下一个版本，下一次测试，下一个愿意选他，然后发现“原来这么好玩”的玩家。冬战也是。"
+                "translate": "djzc.wiki_yqb_6",
+                "fallback": "他在等下一个版本，下一次测试，下一个愿意选他，然后发现“原来这么好玩”的玩家。冬战也是。"
             }
         ]
         },
@@ -252,7 +262,8 @@
      ],
      "exit_action": {
         "label": {
-            "text": "返回百科全书主页"
+            "translate": "djzc.dialog.wiki.back_notice",
+            "fallback": "返回百科全书主页"
         },
         "action": {
             "type": "show_dialog",

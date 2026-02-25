@@ -1,1 +1,1 @@
-give @p written_book[custom_name={text:"冬战成员用书",italic:false},lore=[{text:"冬战制作组 制作",color:"white",italic:false},{text:"基于对话框系统打造的全新版本",italic:false}],custom_data={tags:[userbook]}]
+give @p written_book[custom_name={translate:"djzc.book_userbook",fallback:"冬战成员用书",italic:false},lore=[{translate:"djzc.dialog.author1",fallback:"冬战制作组 制作",color:"white",italic:false},{translate:"djzc.book_userbook.desc",fallback:"基于对话框系统打造的全新版本",italic:false}],custom_data={tags:[userbook]}]

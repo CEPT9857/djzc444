@@ -4,10 +4,10 @@ scoreboard players set A gameflow -1
 scoreboard players set B gameflow -1
 scoreboard players set B+ gameflow 1
 
-title @a title [{"text":"A点和B点已被T方占领","color":"red"}]
-title @a[team=T] subtitle [{"text":"进攻C点启动器","color":"dark_aqua"}]
-title @a[team=CT] subtitle [{"text":"防守C点启动器","color":"dark_aqua"}]
-tellraw @a {text:"C点启动器的位置已被高亮，旋转物品展示框会激活启动器。若启动器被全部激活，C点就可以被T阵营占领",color:"green"}
+title @a title [{translate:"djzc.msg.a_b",fallback:"A点和B点已被T方占领","color":"red"}]
+title @a[team=T] subtitle [{translate:"djzc.msg.a_b.t",fallback:"进攻C点启动器","color":"dark_aqua"}]
+title @a[team=CT] subtitle [{translate:"djzc.msg.a_b.ct",fallback:"防守C点启动器","color":"dark_aqua"}]
+tellraw @a {translate:"djzc.msg.a_b.desc",fallback:"C点启动器的位置已被高亮，旋转物品展示框会激活启动器。若启动器被全部激活，C点就可以被T阵营占领",color:"green"}
 #友情提示
 
 effect give @e[tag=c1] minecraft:glowing infinite
