@@ -4,8 +4,14 @@
         "icon": {
             "id": "minecraft:snowball"
         },
-        "title": {"text":"赐福"},
-        "description": "诸天众神聆听我的祈祷——这个世界也会回应我吗？",
+        "title": {
+            "translate": "djzc.advancement.buff",
+            "fallback":"赐福"
+        },
+        "description": {
+            "translate": "djzc.advancement.buff.desc",
+            "fallback": "诸天众神聆听我的祈祷——这个世界也会回应我吗？"
+        },
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": false,

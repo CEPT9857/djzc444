@@ -12,7 +12,7 @@ execute as @a[x=-306,y=63,z=-857,dx=23,dy=7,dz=4,team=CT] at @s run scoreboard p
 function djzc444:game/game_flow
 #运行游戏流程计算器
 
-tellraw @a {text:"A点已被CT阵营占领!",color:"green"}
+tellraw @a {translate:"djzc.msg.a_occupy_by_ct",fallback:"A点已被CT阵营占领!",color:"green"}
 #友情提示
 
 bossbar set minecraft:a visible false

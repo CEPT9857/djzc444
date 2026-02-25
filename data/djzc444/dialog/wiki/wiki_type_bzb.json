@@ -7,11 +7,8 @@
             "action": "show_text",
             "value": [
             {
-                "translate": "djzc.wiki_author1",
-                "fallback": "冬季战场制作组"
-            },
-            {
-                "text": " 编写"
+                "translate": "djzc.dialog.author_deepseek",
+                "fallback": "Deepseek 编写"
             }
         ]
         }
@@ -904,7 +901,8 @@
      ],
      "exit_action": {
         "label": {
-            "text": "返回百科全书主页"
+            "translate": "djzc.dialog.wiki.back_notice",
+            "fallback": "返回百科全书主页"
         },
         "action": {
             "type": "show_dialog",

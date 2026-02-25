@@ -1,1 +1,1 @@
-give @p egg[custom_name={translate:"djzc.missile_ag",fallback:"空地导弹",color:dark_aqua},lore=[{text:"右键以发射，但要当心敌方的干扰措施……"},{text:"（温馨提示：Q键投掷任意物品即可干扰）"}],use_cooldown={seconds:3,cooldown_group:missile}] 8
+give @p egg[custom_name={translate:"djzc.missile_ag",fallback:"空地导弹",color:dark_aqua},lore=[{translate:"djzc.missile.desc1",fallback:"右键以发射，但要当心敌方的干扰措施……"},{translate:"djzc.missile.desc2",fallback:"温馨提示：Q键投掷任意物品即可干扰"}],use_cooldown={seconds:3,cooldown_group:missile}] 8

@@ -1,0 +1,1 @@
+give @p tipped_arrow[custom_name={translate:"djzc.arrow_dgsmzs",fallback:"帝弓司命之矢",italic:true},lore=[{translate:"djzc.arrow_dgsmzs.desc",fallback:"这一发，贯穿星辰！",color:yellow,italic:true}],enchantments={},potion_contents={custom_effects:[{id:"instant_damage",amplifier:5,duration:600,show_particles:false}],custom_color:16733695}]

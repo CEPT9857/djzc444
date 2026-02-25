@@ -4,8 +4,14 @@
         "icon": {
             "id": "minecraft:snowball"
         },
-        "title": {"text":"繁育"},
-        "description": "我的回合，还是我的回合！",
+        "title": {
+            "translate": "djzc.advancement.buff_fy",
+            "fallback":"繁育"
+        },
+        "description": {
+            "translate": "djzc.advancement.buff_fy.desc",
+            "fallback": "我的回合，还是我的回合！"
+        },
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": false,

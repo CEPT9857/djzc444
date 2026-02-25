@@ -1,2 +1,2 @@
 scoreboard players reset @s 3
-scoreboard objectives setdisplay sidebar dz_kill
+scoreboard objectives setdisplay sidebar 1

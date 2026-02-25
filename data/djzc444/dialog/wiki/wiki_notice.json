@@ -1,10 +1,14 @@
 {
      "title":{
-        "text":"冬季战场百科全书",
+        "translate": "djzc.dialog.wiki_notice.title",
+        "fallback":"冬季战场百科全书",
         "color":"white",
         "hover_event": {
             "action": "show_text",
-            "value": "冬季战场制作组 编写"
+            "value": {
+                "translate": "djzc.dialog.author2",
+                "fallback": "冬季战场制作组 编写"
+            }
         }
      },
      "pause": false,
@@ -13,14 +17,16 @@
         {
             "type":"plain_message",
             "contents":{
-                "text":"欢迎来到冬季战场！",
+                "translate": "djzc.dialog.wiki_notice.body1",
+                "fallback":"欢迎来到冬季战场！",
                 "color":"yellow"
             }
         },
         {
             "type":"plain_message",
             "contents":{
-                "text":"这是一场在冰天雪地中展开的攻防对抗。无论你是刚加入的新兵，还是阔别已久的老兵，下面这些核心信息能帮你快速融入战场。",
+                "translate": "djzc.dialog.wiki_notice.body2",
+                "fallback":"这是一场在冰天雪地中展开的攻防对抗。无论你是刚加入的新兵，还是阔别已久的老兵，下面这些核心信息能帮你快速融入战场。",
                 "color":"white"
             },
             "width": 300
@@ -36,7 +42,8 @@
      ],
      "exit_action": {
         "label": {
-            "text": "返回冬战成员用书"
+            "translate": "djzc.dialog.wiki.back_userbook",
+            "fallback": "返回冬战成员用书"
         },
         "action": {
             "type": "show_dialog",

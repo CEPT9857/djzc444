@@ -1,10 +1,14 @@
 {
      "title":{
-        "text":"兵种介绍",
+        "translate": "djzc.dialog.wiki.type_intro.title",
+        "fallback":"兵种介绍",
         "color":"white",
         "hover_event": {
             "action": "show_text",
-            "value": "冬季战场制作组 编写"
+            "value": {
+                "translate": "djzc.dialog.author_deepseek",
+                "fallback": "Deepseek 编写"
+            }
         }
      },
      "pause": false,
@@ -13,7 +17,8 @@
         {
             "type":"plain_message",
             "contents":{
-                "text": "· 目前有四大类兵种，每个大类下有两个亚种，共8个可选兵种"
+                "translate": "djzc.dialog.wiki.type_intro.body1",
+                "fallback": "· 目前有四大类兵种，每个大类下有两个亚种，共8个可选兵种"
             },
             "width": 500
         },
@@ -22,45 +27,75 @@
         "width": 300,
         "contents":[
             {
-                "text": "兵种定位：     ",
+                "translate": "djzc.dialog.type_choose.body1",
+                "fallback": "兵种定位：",
                 "hover_event": {
                     "action": "show_text",
                     "value": {
-                        "text":"仅供参考喵～(∠・ω< )⌒★",
+                        "translate": "djzc.dialog.type_choose.body1.desc",
+                        "fallback":"仅供参考喵～(∠・ω< )⌒★",
                         "color": "light_purple"
                     }
                 }
             },
             {
-                "text": "突击兵     ",
+                "text": "     "
+            },
+            {
+                "translate": "djzc.type_tjb",
+                "fallback": "突击兵",
                 "color": "gold",
                 "hover_event": {
                     "action": "show_text",
-                    "value": "突击兵有厚重的装甲和强大的近战能力"
+                    "value": {
+                        "translate": "djzc.type_tjb.desc",
+                        "fallback": "突击兵有厚重的装甲和强大的近战能力"
+                    }
                 }
             },
             {
-                "text": "侦察兵     ",
+                "text": "     "
+            },
+            {
+                "translate": "djzc.type_zcb",
+                "fallback": "侦察兵",
                 "color": "light_purple",
                 "hover_event": {
                     "action": "show_text",
-                    "value": "侦察兵可以对敌人进行强有力的远程火力打击"
+                    "value": {
+                        "translate": "djzc.type_zcb.desc",
+                        "fallback": "侦察兵可以对敌人进行强有力的远程火力打击"
+                    }
                 }
             },
             {
-                "text": "支援兵     ",
+                "text": "     "
+            },
+            {
+                "translate": "djzc.type_zyb",
+                "fallback": "支援兵",
                 "color": "green",
                 "hover_event": {
                     "action": "show_text",
-                    "value": "适合新手：给队友回血，给敌人扣血，就这么简单。"
+                    "value": {
+                        "translate": "djzc.type_zyb.desc",
+                        "fallback": "适合新手：给队友回血，给敌人扣血，就这么简单。"
+                    }
                 }
             },
             {
-                "text": "航空兵     ",
+                "text": "     "
+            },
+            {
+                "translate": "djzc.type_hkb",
+                "fallback": "航空兵",
                 "color": "aqua",
                 "hover_event": {
                     "action": "show_text",
-                    "value": "航空兵可以飞，也可以被防空兵打下来"
+                    "value": {
+                        "translate": "djzc.type_hkb.desc",
+                        "fallback": "航空兵可以飞，也可以被防空兵打下来"
+                    }
                 }
             }
         ]
@@ -79,7 +114,8 @@
      ],
      "exit_action": {
         "label": {
-            "text": "返回百科全书主页"
+            "translate": "djzc.dialog.wiki.back_notice",
+            "fallback": "返回百科全书主页"
         },
         "action": {
             "type": "show_dialog",

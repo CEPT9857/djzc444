@@ -1,10 +1,14 @@
 {
      "title":{
-        "text":"航空兵",
+        "translate": "djzc.type_ltjd",
+        "fallback":"航空兵",
         "color":"aqua",
         "hover_event": {
             "action": "show_text",
-            "value": "冬季战场制作组 编写"
+            "value": {
+                "translate": "djzc.dialog.author_deepseek",
+                "fallback": "Deepseek 编写"
+            }
         }
      },
      "pause": false,
@@ -13,7 +17,8 @@
         {
             "type":"plain_message",
             "contents":{
-                "text": "立体机动装置：BUG堆里飞起来的天空",
+                "translate": "djzc.wiki_ltjd_1",
+                "fallback": "立体机动装置：BUG堆里飞起来的天空",
                 "color": "yellow"
             },
             "width": 500
@@ -23,7 +28,8 @@
         "width": 300,
         "contents":[
             {
-                "text": "栋设计的。他是冬战第四个兵种，唯一需要“杀五个人”才能解锁的单位。——这不是门槛，这是敬意。"
+                "translate": "djzc.wiki_ltjd_2",
+                "fallback": "栋设计的。他是冬战第四个兵种，唯一需要“杀五个人”才能解锁的单位。——这不是门槛，这是敬意。"
             }
         ]
         },
@@ -32,7 +38,8 @@
         "width": 300,
         "contents":[
             {
-                "text": "最早的立体机动，只有弩箭和雷枪。后来有了导弹，也有了冬战史上最多的BUG。导弹追着自己人炸过，近炸引信该响不响过，发射器切模式切到死循环过。但他撑起了冬战的CAS。"
+                "translate": "djzc.wiki_ltjd_3",
+                "fallback": "最早的立体机动，只有弩箭和雷枪。后来有了导弹，也有了冬战史上最多的BUG。导弹追着自己人炸过，近炸引信该响不响过，发射器切模式切到死循环过。但他撑起了冬战的CAS。"
             }
         ]
         },
@@ -41,7 +48,8 @@
         "width": 300,
         "contents":[
             {
-                "text": "CE说，未来要给他找个机场，要给航空版一键三连加加油。因为他值得。在那个命令方块铺满地图的年代，是他第一次让冬战的玩家抬起头，看见天空也是战场。"
+                "translate": "djzc.wiki_ltjd_4",
+                "fallback": "CE说，未来要给他找个机场，要给航空版一键三连加加油。因为他值得。在那个命令方块铺满地图的年代，是他第一次让冬战的玩家抬起头，看见天空也是战场。"
             }
         ]
         },
@@ -123,7 +131,8 @@
      ],
      "exit_action": {
         "label": {
-            "text": "返回百科全书主页"
+            "translate": "djzc.dialog.wiki.back_notice",
+            "fallback": "返回百科全书主页"
         },
         "action": {
             "type": "show_dialog",

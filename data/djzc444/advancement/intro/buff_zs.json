@@ -4,8 +4,14 @@
         "icon": {
             "id": "minecraft:snowball"
         },
-        "title": {"text":"智识"},
-        "description": "原来你在这儿！",
+        "title": {
+            "translate": "djzc.advancement.buff_zs",
+            "fallback":"智识"
+        },
+        "description": {
+            "translate": "djzc.advancement.buff_zs.desc",
+            "fallback": "原来你在这儿！"
+        },
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": false,

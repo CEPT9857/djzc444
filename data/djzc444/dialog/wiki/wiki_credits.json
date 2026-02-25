@@ -4,7 +4,10 @@
         "color":"white",
         "hover_event": {
             "action": "show_text",
-            "value": "冬季战场制作组 编写"
+            "value": {
+                "translate": "djzc.dialog.author2",
+                "fallback": "冬季战场制作组 编写"
+            }
         }
      },
      "pause": false,

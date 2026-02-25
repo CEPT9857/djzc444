@@ -1,1 +1,1 @@
-give @p crossbow[custom_name={translate:"djzc.sanlian3",fallback:"一键三连·MKIII",italic:false},lore=[{translate:"djzc.sanlian3.desc",fallback:"更高 更快 更强",italic:false}],custom_data={Tags:[sanlian]},unbreakable={},enchantments={infinity:1,quick_charge:5,piercing:5,power:5}]
+give @p crossbow[custom_name={translate:"djzc.sanlian3",fallback:"一键三连·MKIII",italic:false},lore=[{translate:"djzc.sanlian3.desc",fallback:"更高 更快 更强 更团结",italic:false}],custom_data={Tags:[sanlian]},unbreakable={},enchantments={infinity:1,quick_charge:5,piercing:5,power:5}]

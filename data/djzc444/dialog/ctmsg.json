@@ -3,11 +3,15 @@
     "pause": false,
     "title":[
         {
-        "text": "CT步话机",
+        "translate":"djzc.dialog.ctmsg.title",
+        "fallback": "CT步话机",
         "color": "blue",
         "hover_event": {
             "action": "show_text",
-            "value": "MK·IV型步话机，基于对话框系统打造"
+            "value": {
+                "translate": "djzc.dialog.ctmsg.title.desc",
+                "fallback": "MK·IV型步话机，基于对话框系统打造"
+            }
         }
     }
     ],
@@ -15,7 +19,8 @@
     "actions": [
         {
             "label":{
-                "text": "赞成!",
+                "translate": "djzc.msg.allow",
+                "fallback": "赞成!",
                 "color":"green"
             },
             "action": {
@@ -25,7 +30,8 @@
         },
         {
             "label":{
-                "text": "反对!",
+                "translate": "djzc.msg.oppose",
+                "fallback": "反对!",
                 "color":"red"
             },
             "action": {
@@ -34,35 +40,50 @@
             }
         },
         {
-            "label": "和我一起冲上去！",
+            "label": {
+                "translate": "djzc.msg.rush",
+                "fallback": "和我一起冲上去！"
+            },
             "action": {
                 "type": "run_command",
                 "command": "trigger ctmsg set 3"
             }
         },
         {
-            "label": "撤退！",
+            "label": {
+                "translate": "djzc.msg.retreat",
+                "fallback": "撤退！"
+            },
             "action": {
                 "type": "run_command",
                 "command": "trigger ctmsg set 4"
             }
         },
         {
-            "label": "发现敌人！",
+            "label": {
+                "translate": "djzc.msg.enemy",
+                "fallback": "发现敌人！"
+            },
             "action": {
                 "type": "run_command",
                 "command": "trigger ctmsg set 5"
             }
         },
         {
-            "label": "请求支援！",
+            "label": {
+                "translate": "djzc.msg.sos",
+                "fallback": "请求支援！"
+            },
             "action": {
                 "type": "run_command",
                 "command": "trigger ctmsg set 6"
             }
         },
         {
-            "label": "我来助你！",
+            "label": {
+                "translate": "djzc.msg.cover",
+                "fallback": "我来助你！"
+            },
             "action": {
                 "type": "run_command",
                 "command": "trigger ctmsg set 7"
@@ -70,11 +91,13 @@
         },
         {
             "label":{
-                "text": "Ciallo～(∠・ω< )⌒★",
+                "translate": "djzc.msg.ciallo",
+                "fallback": "Ciallo～(∠・ω< )⌒★",
                 "color":"light_purple"
             },
             "tooltip": {
-                "text": "和对手一起Ciallo～(∠・ω< )⌒★",
+                "translate": "djzc.msg.ciallo.desc",
+                "fallback": "和对手一起Ciallo～(∠・ω< )⌒★",
                 "color":"light_purple"
             },
             "action": {
@@ -84,7 +107,8 @@
         },
         {
             "label":{
-                "text": "进攻A点",
+                "translate": "djzc.msg.attack_a",
+                "fallback": "进攻A点",
                 "color":"dark_red"
             },
             "action": {
@@ -94,7 +118,8 @@
         },
         {
             "label":{
-                "text": "进攻B点",
+                "translate": "djzc.msg.attack_b",
+                "fallback": "进攻B点",
                 "color":"dark_red"
             },
             "action": {
@@ -104,7 +129,8 @@
         },
         {
             "label":{
-                "text": "进攻C点",
+                "translate": "djzc.msg.attack_c",
+                "fallback": "进攻C点",
                 "color":"dark_red"
             },
             "action": {
@@ -114,7 +140,8 @@
         },
         {
             "label":{
-                "text": "进攻D点",
+                "translate": "djzc.msg.attack_d",
+                "fallback": "进攻D点",
                 "color":"dark_red"
             },
             "action": {
@@ -124,7 +151,8 @@
         },
         {
             "label":{
-                "text": "防守A点",
+                "translate": "djzc.msg.defend_a",
+                "fallback": "防守A点",
                 "color":"blue"
             },
             "action": {
@@ -134,7 +162,8 @@
         },
         {
             "label":{
-                "text": "防守B点",
+                "translate": "djzc.msg.defend_b",
+                "fallback": "防守B点",
                 "color":"blue"
             },
             "action": {
@@ -144,7 +173,8 @@
         },
         {
             "label":{
-                "text": "防守C点",
+                "translate": "djzc.msg.defend_c",
+                "fallback": "防守C点",
                 "color":"blue"
             },
             "action": {
@@ -154,7 +184,8 @@
         },
         {
             "label":{
-                "text": "防守D点",
+                "translate": "djzc.msg.defend_d",
+                "fallback": "防守D点",
                 "color":"blue"
             },
             "action": {

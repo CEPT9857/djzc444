@@ -1,10 +1,14 @@
 {
      "title":{
-        "text":"防空兵",
+        "translate": "djzc.type_fkb",
+        "fallback":"防空兵",
         "color":"green",
         "hover_event": {
             "action": "show_text",
-            "value": "冬季战场制作组 编写"
+            "value": {
+                "translate": "djzc.dialog.author_deepseek",
+                "fallback": "Deepseek 编写"
+            }
         }
      },
      "pause": false,
@@ -13,7 +17,8 @@
         {
             "type":"plain_message",
             "contents":{
-                "text": "普通兵：那个最早挨踢的，后来撑起了整片天",
+                "translate": "djzc.wiki_fkb_1",
+                "fallback": "普通兵：那个最早挨踢的，后来撑起了整片天",
                 "color": "yellow"
             },
             "width": 500
@@ -23,7 +28,8 @@
         "width": 300,
         "contents":[
             {
-                "text": "御三家之一。CE亲自设计。最初的普通兵，拿着“一键三连”，打近战兵像挠痒痒，然后被一脚踢死。——这是什么？这是冬战最早的笑话，也是最硬的预言。"
+                "translate": "djzc.wiki_fkb_2",
+                "fallback": "御三家之一。CE亲自设计。最初的普通兵，拿着“一键三连”，打近战兵像挠痒痒，然后被一脚踢死。——这是什么？这是冬战最早的笑话，也是最硬的预言。"
             }
         ]
         },
@@ -32,7 +38,8 @@
         "width": 300,
         "contents":[
             {
-                "text": "他挨了最毒的打，等了最久的加强。从1.0.1熬到1.0.4，从“根本打不穿”到“新星”入列，从被近战兵当经验包，变成能用铺天盖地的箭雨洗死任何敢低空的单位。"
+                "translate": "djzc.wiki_fkb_3",
+                "fallback": "他挨了最毒的打，等了最久的加强。从1.0.1熬到1.0.4，从“根本打不穿”到“新星”入列，从被近战兵当经验包，变成能用铺天盖地的箭雨洗死任何敢低空的单位。"
             }
         ]
         },
@@ -41,7 +48,8 @@
         "width": 300,
         "contents":[
             {
-                "text": "普通兵从来不是“普通”的。他是冬战最长的备胎，最晚的主角。他告诉每一个后来者：在这个游戏里，没有哪个兵种注定是废物，没有哪行代码注定是死循环。我们曾考虑要不要换个更加合适的名字——换了，他等这个名字，等了两年。"
+                "translate": "djzc.wiki_fkb_4",
+                "fallback": "普通兵从来不是“普通”的。他是冬战最长的备胎，最晚的主角。他告诉每一个后来者：在这个游戏里，没有哪个兵种注定是废物，没有哪行代码注定是死循环。我们曾考虑要不要换个更加合适的名字——换了，他等这个名字，等了两年。"
             }
         ]
         },
@@ -140,7 +148,8 @@
      ],
      "exit_action": {
         "label": {
-            "text": "返回百科全书主页"
+            "translate": "djzc.dialog.wiki.back_notice",
+            "fallback": "返回百科全书主页"
         },
         "action": {
             "type": "show_dialog",

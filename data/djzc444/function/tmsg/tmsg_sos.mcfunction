@@ -1,3 +1,3 @@
 scoreboard players reset @s tmsg
-teammsg 请求支援！
+execute as @s run tellraw @a[team=T] {"selector":"@s","extra":[{"text":":"},{"translate":"djzc.msg.sos",fallback:"请求支援！"}]}
 playsound entity.piglin.retreat player @a[team=T] ~ ~ ~ 100

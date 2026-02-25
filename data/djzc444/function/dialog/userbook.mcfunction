@@ -4,23 +4,47 @@
     "pause": false,\
     title:[\
     {\
-    "text":"冬战成员用书",\
+    "translate": "djzc.dialog.userbook",\
+    "fallback":"冬战成员用书",\
     "hover_event": {\
     "action": "show_text",\
-    "value": "冬战制作组 著"\
+    "value": {\
+        "translate": "djzc.dialog.author1",\
+        "fallback": "冬战制作组 制作"\
+    }\
     }\
     }\
     ],\
     body:[\
     {\
     type:"plain_message",\
-    contents:"剩余时间 $(minute)分$(second)秒"\
+    contents:[\
+        {\
+            "translate": "djzc.dialog.time",\
+            "fallback":"剩余时间："\
+        },\
+        {\
+            "text":"$(minute)"\
+        },\
+        {\
+            "translate": "djzc.dialog.time_minute",\
+            "fallback":"分"\
+        },\
+        {\
+            "text":"$(second)"\
+        },\
+        {\
+            "translate": "djzc.dialog.time_second",\
+            "fallback":"秒"\
+        }\
+    ]\
     },\
     {\
         "type": "plain_message",\
         "contents": \
         {\
-            "text": "点击访问传送系统",\
+            "translate": "djzc.dialog.tp_system",\
+            "fallback": "点击进入传送系统",\
             "color":"light_purple",\
             "underlined": true,\
             "click_event": {\
@@ -34,7 +58,8 @@
     "actions": [\
         {\
             "label":{\
-                "text": "总击杀数",\
+                "translate": "djzc.dialog.userbook.kill_dz",\
+                "fallback": "总击杀数",\
                 "color":"green"\
             },\
             "action": {\
@@ -44,7 +69,8 @@
         },\
         {\
             "label":{\
-                "text": "总阵亡数",\
+                "translate": "djzc.dialog.userbook.death_dz",\
+                "fallback": "总阵亡数",\
                 "color":"black"\
             },\
             "action": {\
@@ -54,7 +80,8 @@
         },\
         {\
             "label":{\
-                "text": "CT击杀数",\
+                "translate": "djzc.dialog.userbook.kill_ct",\
+                "fallback": "CT击杀数",\
                 "color":"blue"\
             },\
             "action": {\
@@ -64,7 +91,8 @@
         },\
         {\
             "label":{\
-                "text": "T击杀数",\
+                "translate": "djzc.dialog.userbook.kill_t",\
+                "fallback": "T击杀数",\
                 "color":"dark_red"\
             },\
             "action": {\
@@ -74,7 +102,8 @@
         },\
         {\
             "label":{\
-                "text": "战斗场次"\
+                "translate": "djzc.dialog.userbook.fight",\
+                "fallback": "战斗场次"\
             },\
             "action": {\
                 "type": "run_command",\
@@ -83,7 +112,8 @@
         },\
         {\
             "label":{\
-                "text": "胜利场次"\
+                "translate": "djzc.dialog.userbook.win",\
+                "fallback": "胜利场次"\
             },\
             "action": {\
                 "type": "run_command",\
@@ -92,7 +122,8 @@
         },\
         {\
             "label":{\
-                "text": "失败场次"\
+                "translate": "djzc.dialog.userbook.lost",\
+                "fallback": "失败场次"\
             },\
             "action": {\
                 "type": "run_command",\
@@ -101,7 +132,8 @@
         },\
         {\
             "label":{\
-                "text": "准备情况"\
+                "translate": "djzc.dialog.userbook.prepare",\
+                "fallback": "准备情况"\
             },\
             "action": {\
                 "type": "run_command",\
@@ -110,12 +142,14 @@
         },\
         {\
             "label":{\
-                "text": "加入CT",\
+                "translate": "djzc.dialog.userbook.join_ct",\
+                "fallback": "加入CT",\
                 "color":"blue",\
                 "underlined": true\
             },\
             "tooltip": {\
-                "text": "冬季战场的防守方，阻止T方占领全部战区，坚持到时间结束即获胜。"\
+                "translate": "djzc.dialog.userbook.join_ct.desc",\
+                "fallback": "冬季战场的防守方，阻止T方占领全部战区，坚持到时间结束即获胜。"\
             },\
             "action": {\
                 "type": "run_command",\
@@ -124,12 +158,14 @@
         },\
         {\
             "label":{\
-                "text": "加入T",\
+                "translate": "djzc.dialog.userbook.join_t",\
+                "fallback": "加入T",\
                 "color":"red",\
                 "underlined": true\
             },\
             "tooltip": {\
-                "text": "冬季战场的进攻方，占领全部四个战区（A、B、C、D）即可获胜。"\
+                "translate": "djzc.dialog.userbook.join_t.desc",\
+                "fallback": "冬季战场的进攻方，占领全部四个战区（A、B、C、D）即可获胜。"\
             },\
             "action": {\
                 "type": "run_command",\
@@ -138,7 +174,8 @@
         },\
         {\
             "label":{\
-                "text": "兵种选择",\
+                "translate": "djzc.dialog.userbook.type_choose",\
+                "fallback": "兵种选择",\
                 "color":"gold",\
                 "underlined": true\
             },\
@@ -149,7 +186,8 @@
         },\
         {\
             "label":{\
-                "text": "转到步话机",\
+                "translate": "djzc.dialog.userbook.msg",\
+                "fallback": "转到步话机",\
                 "color":"gold",\
                 "underlined": true\
             },\
@@ -160,7 +198,8 @@
         },\
         {\
             "label":{\
-                "text": "中止音乐（仅个人）",\
+                "translate": "djzc.dialog.userbook.stop_music",\
+                "fallback": "中止音乐（仅个人）",\
                 "color":"gold"\
             },\
             "action": {\
@@ -170,11 +209,13 @@
         },\
         {\
             "label":{\
-                "text": "重新部署",\
-                "color":"gray"\
+                "translate": "djzc.dialog.userbook.redeploy",\
+                "fallback": "重新部署",\
+                "color":"dark_gray"\
             },\
             "tooltip": {\
-                "text": "会死。",\
+                "translate": "djzc.dialog.userbook.redeploy.desc",\
+                "fallback": "会死。"\
             },\
             "action": {\
                 "type": "run_command",\
@@ -183,7 +224,8 @@
         },\
         {\
             "label":{\
-                "text": "准备",\
+                "translate": "djzc.dialog.userbook.to_prepare",\
+                "fallback": "准备",\
                 "color":"green"\
             },\
             "action": {\
@@ -193,7 +235,8 @@
         },\
         {\
             "label":{\
-                "text": "取消准备",\
+                "translate": "djzc.dialog.userbook.un_prepare",\
+                "fallback": "取消准备",\
                 "color":"red"\
             },\
             "action": {\
