@@ -109,7 +109,7 @@
             "type":"plain_message",
             "contents":{
                 "translate": "djzc.dialog.wiki.before_play.body12",
-                "fallback": "· 轰炸：在地图的某些敌方隐藏着“轰炸观测塔，右键“轰炸指示器”可以轰炸指定区域，可能炸到自己，请谨慎。"
+                "fallback": "· 轰炸：在地图的某些地方隐藏着“轰炸观测塔，右键“轰炸指示器”可以轰炸指定区域，可能炸到自己，请谨慎。"
             },
             "width": 500
         },
