@@ -1,6 +1,6 @@
 {
      "title":{
-        "translate": "djzc.dialog.wiki_notice.title",
+        "translate": "djzc.dialog.wiki.title",
         "fallback":"冬季战场百科全书",
         "color":"white",
         "hover_event": {

@@ -1,1 +1,4 @@
-give @p shield[enchantments={unbreaking:10,mending:1},banner_patterns=[{color:red,pattern:base},{color:yellow,pattern:globe}],unbreakable={},custom_name={translate:"djzc.shield_t",fallback:"普通的盾牌"}]
+execute if score harmony 3 matches 0 run give @p shield[enchantments={unbreaking:10,mending:1},banner_patterns=[{color:red,pattern:base},{color:yellow,pattern:globe}],unbreakable={},custom_name={translate:"djzc.shield_t",fallback:"普通的盾牌"}]
+#如果冬战没有和谐模式，使用普通盾牌
+execute unless score harmony 3 matches 0 run give @p shield[enchantments={unbreaking:10,mending:1},banner_patterns=[{color:"light_blue",pattern:base},{color:white,pattern:stripe_bottom},{color:white,pattern:triangles_top},{color:white,pattern:border},{color:white,pattern:skull}],unbreakable={},custom_name={translate:"djzc.shield_tv",fallback:"小电视盾牌"}]
+#如果冬战处于和谐模式，变成电视盾

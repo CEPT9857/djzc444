@@ -1,0 +1,1 @@
+give @p written_book[custom_name={translate:"djzc.book_opbook",fallback:"冬战管理用书",italic:false},lore=[{translate:"djzc.dialog.author1",fallback:"冬战制作组 制作",color:"white",italic:false},{translate:"djzc.book_opbook.desc",fallback:"基于对话框系统打造的全新版本管理用书",italic:false}],custom_data={tags:[opbook]}]

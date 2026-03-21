@@ -10,6 +10,7 @@ scoreboard players enable @a prepare
 scoreboard players enable @a 3
 scoreboard players enable @a type
 scoreboard players enable @a tp
+scoreboard players enable @a eula
 #开放trigger类计分板权限
 
 function djzc444:game/game_teammsg
@@ -17,12 +18,14 @@ function djzc444:game/game_userbook
 function djzc444:game/lib_books
 #步话机
 #成员用书
-function djzc444:game/game_type_choose
+execute as @a[x=-528,dx=543,y=40,dy=-100,z=-1040,dz=543] if score debug 3 matches 0 run function djzc444:game/game_type_choose
 #兵种选择系统
-execute as @a[y=40,dy=-100] run function djzc444:game/game_tp_system
+execute if score debug 3 matches 1 run function djzc444:game/game_type_choose
+#debug兵种选择系统
+execute as @a[x=-528,dx=543,y=40,dy=-100,z=-1040,dz=543] if score debug 3 matches 0 run function djzc444:game/game_tp_system
 #传送系统
-function djzc444:game/game_tp_system
-#如果需要debug,可以把这一行注释去掉
+execute if score debug 3 matches 1 run function djzc444:game/game_tp_system
+#debug传送系统
 
 execute as @a[scores={jump=1..,sneak=1..},nbt={SelectedItem:{components:{"minecraft:custom_data":{tags:[fly]}}}}] run function djzc444:game/lib_fly
 #一键三连航空版/骑兵枪 垂直机动检测
@@ -52,3 +55,4 @@ execute if score D gameflow matches 1 run function djzc444:points/d_point
 execute if score B+ gameflow matches 1 run function djzc444:game/game_starter_c
 execute if score C+ gameflow matches 1 run function djzc444:game/game_starter_d
 #启动器系统
+
