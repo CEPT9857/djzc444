@@ -1,0 +1,202 @@
+$dialog show @s \
+{\
+    "type":"multi_action",\
+    "pause": false,\
+    "title":[\
+    {\
+    "translate": "djzc.dialog.op",\
+    "fallback":"冬战管理用书",\
+    "hover_event": {\
+    "action": "show_text",\
+    "value": {\
+        "translate": "djzc.dialog.author1",\
+        "fallback": "冬战制作组 制作"\
+    }\
+    }\
+    }\
+    ],\
+    "body":[\
+    {\
+        "type": "plain_message",\
+        "contents": \
+        {\
+            "translate": "djzc.dialog.wiki.back_userbook",\
+            "fallback": "返回冬战成员用书",\
+            "click_event": {\
+                "action": "run_command",\
+                "command":"trigger 3 set 15"\
+            }\
+        }\
+    },\
+    {\
+        "type": "plain_message",\
+        "contents": \
+        {\
+            "translate": "djzc.dialog.tp_system",\
+            "fallback": "点击进入传送系统",\
+            "color":"light_purple",\
+            "underlined": true,\
+            "click_event": {\
+                "action": "run_command",\
+                "command":"trigger 3 set 16"\
+            }\
+        }\
+    },\
+    {\
+        "type": "plain_message",\
+        "contents": \
+        {\
+            "translate":"djzc.dialog.type_manage.title",\
+            "fallback": "兵种管理系统",\
+            "underlined": true,\
+            "click_event": {\
+                "action": "run_command",\
+                "command":"trigger 3 set 17"\
+            }\
+        }\
+    },\
+    {\
+        "type": "plain_message",\
+        "contents": [\
+        {\
+            "translate": "djzc.dialog.op.status_bar.boost",\
+            "fallback": "Boost",\
+            "color":"$(boost_color)",\
+        },\
+        {\
+            "translate": "djzc.dialog.op.status_bar.value.$(boost)",\
+            "color":"$(boost_color)",\
+        },\
+        {\
+            "text": " | "\
+        },\
+        {\
+            "translate": "djzc.dialog.op.status_bar.debug",\
+            "fallback": "debug",\
+            "color":"$(debug_color)",\
+        },\
+        {\
+            "translate": "djzc.dialog.op.status_bar.value.$(debug)",\
+            "color":"$(debug_color)",\
+        },\
+        {\
+            "text": " | "\
+        },\
+        {\
+            "translate": "djzc.dialog.op.status_bar.gameflow",\
+            "fallback": "游戏进程",\
+            "color":"$(gameflow_color)",\
+        },\
+        {\
+            "translate": "djzc.dialog.op.status_bar.value.$(gameflow)",\
+            "color":"$(gameflow_color)",\
+        },\
+        {\
+            "text": " | "\
+        },\
+        {\
+            "translate": "djzc.dialog.op.status_bar.harmony",\
+            "fallback": "和谐冬战",\
+            "color":"$(harmony_color)",\
+        },\
+        {\
+            "translate": "djzc.dialog.op.status_bar.value.$(harmony)",\
+            "color":"$(harmony_color)",\
+        }\
+        ]\
+    }\
+    ],\
+    "columns": 2,\
+    "actions": [\
+        {\
+            "label":{\
+                "translate": "djzc.dialog.op.boost",\
+                "fallback": "启用Boost",\
+                "color":"green"\
+            },\
+            "action": {\
+                "type": "run_command",\
+                "command": "function djzc444:option/boost"\
+            }\
+        },\
+        {\
+            "label":{\
+                "translate": "djzc.dialog.op.unboost",\
+                "fallback": "关闭Boost",\
+                "color":"red"\
+            },\
+            "action": {\
+                "type": "run_command",\
+                "command": "function djzc444:option/unboost"\
+            }\
+        },\
+        {\
+            "label":{\
+                "translate": "djzc.dialog.op.debug",\
+                "fallback": "启用debug",\
+                "color":"green"\
+            },\
+            "action": {\
+                "type": "run_command",\
+                "command": "scoreboard players set debug 3 1"\
+            }\
+        },\
+        {\
+            "label":{\
+                "translate": "djzc.dialog.op.undebug",\
+                "fallback": "关闭debug",\
+                "color":"red"\
+            },\
+            "action": {\
+                "type": "run_command",\
+                "command": "scoreboard players set debug 3 0"\
+            }\
+            \
+        },\
+        {\
+            "label":{\
+                "translate": "djzc.dialog.op.start",\
+                "fallback": "强制启动冬战",\
+                "color":"green"\
+            },\
+            "action": {\
+                "type": "run_command",\
+                "command": "function djzc444:game/start"\
+            }\
+        },\
+        {\
+            "label":{\
+                "translate": "djzc.dialog.op.stop",\
+                "fallback": "中止冬战",\
+                "color":"red"\
+            },\
+            "action": {\
+                "type": "run_command",\
+                "command": "function djzc444:game/end_custom"\
+            }\
+            \
+        },\
+        {\
+            "label":{\
+                "translate": "djzc.dialog.op.harmony",\
+                "fallback": "和谐冬战",\
+                "color":"green"\
+            },\
+            "action": {\
+                "type": "run_command",\
+                "command": "scoreboard players set harmony 3 1"\
+            }\
+        },\
+        {\
+            "label":{\
+                "translate": "djzc.dialog.op.harmony",\
+                "fallback": "和谐冬战",\
+                "color":"red"\
+            },\
+            "action": {\
+                "type": "run_command",\
+                "command": "scoreboard players set harmony 3 0"\
+            }\
+        }\
+    ]\
+ }

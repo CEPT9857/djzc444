@@ -1,8 +1,8 @@
 {
-     "title":{
+    "title": {
         "translate": "djzc.dialog.wiki.credits",
-        "fallback":"制作人名单",
-        "color":"white",
+        "fallback": "制作人名单",
+        "color": "white",
         "hover_event": {
             "action": "show_text",
             "value": {
@@ -10,16 +10,16 @@
                 "fallback": "冬季战场制作组 编写"
             }
         }
-     },
-     "pause": false,
-     "type":"dialog_list",
-     "body":[
+    },
+    "pause": false,
+    "type": "dialog_list",
+    "body": [
         {
-            "type":"plain_message",
-            "contents":{
+            "type": "plain_message",
+            "contents": {
                 "translate": "djzc.dialog.wiki.credits.djzc",
-                "fallback":"-冬季战场制作组-",
-                "color":"yellow"
+                "fallback": "-冬季战场制作组-",
+                "color": "yellow"
             },
             "width": 300
         },
@@ -112,15 +112,15 @@
             "type": "plain_message",
             "contents": {
                 "translate": "djzc.dialog.wiki.credits.deepseek",
-                "fallback": "文案设计：Deepseek"
+                "fallback": "特别鸣谢：Deepseek"
             }
         },
         {
-            "type":"plain_message",
-            "contents":{
+            "type": "plain_message",
+            "contents": {
                 "translate": "djzc.dialog.wiki.credits.djzc_by_cept",
-                "fallback":"-赛扬的冬季战场 制作组-",
-                "color":"blue"
+                "fallback": "-赛扬的冬季战场 制作组-",
+                "color": "blue"
             },
             "width": 300
         },
@@ -158,11 +158,11 @@
             }
         },
         {
-            "type":"plain_message",
-            "contents":{
+            "type": "plain_message",
+            "contents": {
                 "translate": "djzc.dialog.wiki.credits.djzc_xylt",
                 "fallback": "-冬季战场-雪域龙腾 制作组-",
-                "color":"red"
+                "color": "red"
             },
             "width": 500
         },
@@ -184,19 +184,19 @@
             }
         },
         {
-            "type":"plain_message",
-            "contents":{
+            "type": "plain_message",
+            "contents": {
                 "translate": "djzc.dialog.wiki.credits.1_0_6_1st_test",
-                "fallback":"-v1.0.6 第一次测试光荣榜-",
-                "color":"yellow"
+                "fallback": "-v1.0.6 第一次测试光荣榜-",
+                "color": "yellow"
             },
             "width": 300
         },
         {
-            "type":"plain_message",
-            "contents":{
-                "translate": "djzc.dialog.wiki.credits.1_0_6_1st_test.desc",
-                "fallback":"(按账号首字母顺序排列)",
+            "type": "plain_message",
+            "contents": {
+                "translate": "djzc.dialog.wiki.credits.sort1",
+                "fallback": "(按账号首字母顺序排列)",
                 "color": "gray"
             },
             "width": 300
@@ -312,13 +312,115 @@
                     }
                 }
             }
+        },
+        {
+            "type": "plain_message",
+            "contents": {
+                "translate": "djzc.dialog.wiki.credits.1_0_6_2nd_test",
+                "fallback": "-v1.0.6 第二次测试光荣榜-",
+                "color": "yellow"
+            },
+            "width": 300
+        },
+        {
+            "type": "plain_message",
+            "contents": {
+                "translate": "djzc.dialog.wiki.credits.sort1",
+                "fallback": "(按账号首字母顺序排列)",
+                "color": "gray"
+            },
+            "width": 300
+        },
+        {
+            "type": "item",
+            "description": "CE_PT",
+            "item": {
+                "id": "player_head",
+                "components": {
+                    "profile": "CE_PT",
+                    "custom_name": {
+                        "translate": "djzc.dialog.wiki.credits.cept_model",
+                        "fallback": "CE_PT的手办"
+                    }
+                }
+            }
+        },
+        {
+            "type": "item",
+            "description": "GNOD728",
+            "item": {
+                "id": "player_head",
+                "components": {
+                    "profile": "GNOD728",
+                    "custom_name": {
+                        "translate": "djzc.dialog.wiki.credits.gnod728_model",
+                        "fallback": "GNOD728的手办"
+                    }
+                }
+            }
+        },
+        {
+            "type": "item",
+            "description": "h2O",
+            "item": {
+                "id": "player_head",
+                "components": {
+                    "profile": "h2O",
+                    "custom_name": {
+                        "translate": "djzc.dialog.wiki.credits.h2o_model",
+                        "fallback": "h2O的手办"
+                    }
+                }
+            }
+        },
+        {
+            "type": "item",
+            "description": "k55k7",
+            "item": {
+                "id": "player_head",
+                "components": {
+                    "profile": "k55k7",
+                    "custom_name": {
+                        "translate": "djzc.dialog.wiki.credits.k55k7_model",
+                        "fallback": "k55k7的手办"
+                    }
+                }
+            }
+        },
+        {
+            "type": "item",
+            "description": "Kakarotto",
+            "item": {
+                "id": "player_head",
+                "components": {
+                    "profile": "Kakarotto",
+                    "custom_name": {
+                        "translate": "djzc.dialog.wiki.credits.kakarotto_model",
+                        "fallback": "Kakarotto的手办"
+                    }
+                }
+            }
+        },
+        {
+            "type": "item",
+            "description": "yijiansanlian",
+            "item": {
+                "id": "player_head",
+                "components": {
+                    "profile": "yijiansanlian",
+                    "custom_name": {
+                        "translate": "djzc.dialog.wiki.credits.yijiansanlian_model",
+                        "fallback": "yijiansanlian的手办"
+                    }
+                }
+            }
         }
-     ],
-     "columns": 4,
-     "dialogs": [
+    ],
+    "columns": 4,
+    "dialogs": [
         "djzc444:wiki/wiki_notice"
-     ],
-     "exit_action": {
+    ],
+    "exit_action": {
         "label": {
             "translate": "djzc.dialog.wiki.back_notice",
             "fallback": "返回百科全书主页"
@@ -327,5 +429,5 @@
             "type": "show_dialog",
             "dialog": "djzc444:wiki/wiki_notice"
         }
-     }
+    }
 }
