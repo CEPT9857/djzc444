@@ -4,6 +4,9 @@ execute if score game gameflow matches 1 run function djzc444:game/time_game
 execute if score game gameflow matches 0 run function djzc444:game/game_prepare
 #准备系统
 
+execute as @a[gamemode=survival] run gamemode adventure
+#把所有生存模式玩家改成冒险模式-反破坏
+
 scoreboard players enable @a ctmsg
 scoreboard players enable @a tmsg
 scoreboard players enable @a prepare

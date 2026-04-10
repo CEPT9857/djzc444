@@ -16,13 +16,13 @@ execute if score T_D time3 <= 1000 time3 run scoreboard players set T_D time3 10
 #小于1000时退位
 
 execute if score T_SD time3 <= 0 time3 run function djzc444:points/d_occupy_by_t
-execute if score T_SD time3 <= 0 time3 run scoreboard players set T_SD time3 30
+execute if score T_SD time3 <= 0 time3 run scoreboard players set T_SD time3 60
 #引用占点函数
 
 execute if score T_D time3 > 1040 time3 run scoreboard players add T_SD time3 1
 execute if score T_D time3 > 1040 time3 run scoreboard players set T_D time3 1002
 #超过1040时进位
-execute if score T_SD time3 > 30 time3 run scoreboard players set T_SD time3 30
+execute if score T_SD time3 > 60 time3 run scoreboard players set T_SD time3 60
 #超过30时限制最大值
 
 

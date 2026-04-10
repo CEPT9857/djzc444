@@ -119,6 +119,104 @@
     },\
     {\
         "type": "plain_message",\
+        "contents": [\
+        {\
+            "translate": "djzc.type_jzb",\
+            "fallback": "近战兵",\
+            "color":"$(jzb_color)"\
+        },\
+        {\
+            "translate": "djzc.dialog.type_manage.status_bar.value.$(jzb)",\
+            "color":"$(jzb_color)"\
+        },\
+        {\
+            "text": " | "\
+        },\
+        {\
+            "translate": "djzc.type_jjs",\
+            "fallback": "狙击手",\
+            "color":"$(jjs_color)"\
+        },\
+        {\
+            "translate": "djzc.dialog.type_manage.status_bar.value.$(jjs)",\
+            "color":"$(jjs_color)"\
+        },\
+        {\
+            "text": " | "\
+        },\
+        {\
+            "translate": "djzc.type_fkb",\
+            "fallback": "防空兵",\
+            "color":"$(fkb_color)"\
+        },\
+        {\
+            "translate": "djzc.dialog.type_manage.status_bar.value.$(fkb)",\
+            "color":"$(fkb_color)"\
+        },\
+        {\
+            "text": " | "\
+        },\
+        {\
+            "translate": "djzc.type_ltjd",\
+            "fallback": "航空兵",\
+            "color":"$(ltjd_color)"\
+        },\
+        {\
+            "translate": "djzc.dialog.type_manage.status_bar.value.$(ltjd)",\
+            "color":"$(ltjd_color)"\
+        },\
+        {\
+            "text": " | "\
+        },\
+        {\
+            "translate": "djzc.type_scj",\
+            "fallback": "三叉戟兵",\
+            "color":"$(scj_color)"\
+        },\
+        {\
+            "translate": "djzc.dialog.type_manage.status_bar.value.$(scj)",\
+            "color":"$(scj_color)"\
+        },\
+        {\
+            "text": " | "\
+        },\
+        {\
+            "translate": "djzc.type_yqb",\
+            "fallback": "游骑兵",\
+            "color":"$(yqb_color)"\
+        },\
+        {\
+            "translate": "djzc.dialog.type_manage.status_bar.value.$(yqb)",\
+            "color":"$(yqb_color)"\
+        },\
+        {\
+            "text": " | "\
+        },\
+        {\
+            "translate": "djzc.type_ggne",\
+            "fallback": "干员·冈格尼尔",\
+            "color":"$(ggne_color)"\
+        },\
+        {\
+            "translate": "djzc.dialog.type_manage.status_bar.value.$(ggne)",\
+            "color":"$(ggne_color)"\
+        },\
+        {\
+            "text": " | "\
+        },\
+        {\
+            "translate": "djzc.type_bzb",\
+            "fallback": "板载兵",\
+            "color":"$(bzb_color)"\
+        },\
+        {\
+            "translate": "djzc.dialog.type_manage.status_bar.value.$(bzb)",\
+            "color":"$(bzb_color)"\
+        }\
+        ]\
+    },\
+    {\
+        "type": "plain_message",\
         "contents": \
         {\
             "translate": "djzc.dialog.tp_system",\

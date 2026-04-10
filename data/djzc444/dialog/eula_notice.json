@@ -35,6 +35,15 @@
         {
             "type":"plain_message",
             "contents":{
+                "translate": "djzc.dialog.wiki.before_play.body1",
+                "fallback":"温馨提示：冬季战场的大多数用户操作基于对话框系统，如果出现了对话框被截断等问题，请调整游戏视频设置，将界面大小控制在您的屏幕以内",
+                "color":"yellow"
+            },
+            "width": 300
+        },
+        {
+            "type":"plain_message",
+            "contents":{
                 "translate": "djzc.dialog.eula_notice.body3",
                 "fallback":"【健康游戏忠告】",
                 "color":"yellow",
@@ -194,7 +203,7 @@
         {
             "type":"plain_message",
             "contents":{
-                "translate": "djzc.dialog.eula_notice.body16",
+                "translate": "djzc.dialog.eula_notice.body18",
                 "fallback":"4.冬战是免费的。",
                 "color":"white",
                 "bold": true
@@ -204,7 +213,7 @@
         {
             "type":"plain_message",
             "contents":{
-                "translate": "djzc.dialog.eula_notice.body17",
+                "translate": "djzc.dialog.eula_notice.body19",
                 "fallback":"如果你在任何地方花钱购买了它，你被骗了。",
                 "color":"white",
                 "italic": true
@@ -214,7 +223,7 @@
         {
             "type":"plain_message",
             "contents":{
-                "translate": "djzc.dialog.eula_notice.body16",
+                "translate": "djzc.dialog.eula_notice.body20",
                 "fallback":"5.具体服务器的管理规则，请遵守对应服务器的规定。",
                 "color":"white",
                 "bold": true
@@ -224,7 +233,7 @@
         {
             "type":"plain_message",
             "contents":{
-                "translate": "djzc.dialog.eula_notice.body17",
+                "translate": "djzc.dialog.eula_notice.body21",
                 "fallback":"我们管不了每个服，但希望每个服都像60144一样有爱。",
                 "color":"white",
                 "italic": true

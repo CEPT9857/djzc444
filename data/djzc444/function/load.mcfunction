@@ -14,11 +14,8 @@ advancement grant @a only djzc444:fight/root
 advancement grant @a from djzc444:intro/root
 #初始成就
 
-scoreboard players set game gameflow 0
-#复位游戏流程计算器
-
-scoreboard players set debug 3 0
-#复位debug模式
+execute unless score initialize 3 matches 1 run function djzc444:initialize
+#首次启动时，执行初始化
 
 scoreboard objectives add gameflow dummy
 #游戏流程计算器
@@ -33,7 +30,7 @@ scoreboard objectives add 2 deathCount {translate:"djzc.scoreboard.2",fallback:"
 scoreboard objectives add 3 trigger {translate:"djzc.scoreboard.3",fallback:"设置"}
 #计分板3在老服存档中被设定为经验计分板，在冬战里没有什么作用，故换成了设置
 scoreboard objectives add 4 health {translate:"djzc.scoreboard.4",fallback:"cm"}
-scoreboard objectives add 5 dummy {translate:"djzc.scoreboard.5",fallback:"兵种价格"}
+scoreboard objectives add 5 dummy {translate:"djzc.scoreboard.5",fallback:"兵种计算"}
 
 scoreboard objectives add CT teamkill.red {translate:"djzc.scoreboard.ct",fallback:"击杀数"}
 scoreboard objectives add T teamkill.blue {translate:"djzc.scoreboard.t",fallback:"击杀数"}
@@ -99,22 +96,22 @@ bossbar set minecraft:time style notched_10
 bossbar set minecraft:time players @a
 
 bossbar add minecraft:a "a"
-bossbar set minecraft:a max 30
+bossbar set minecraft:a max 60
 bossbar set minecraft:a style notched_6
 bossbar set minecraft:a name A
 
 bossbar add minecraft:b "b"
-bossbar set minecraft:b max 30
+bossbar set minecraft:b max 60
 bossbar set minecraft:b style notched_6
 bossbar set minecraft:b name B
 
 bossbar add minecraft:c "c"
-bossbar set minecraft:c max 30
+bossbar set minecraft:c max 60
 bossbar set minecraft:c style notched_6
 bossbar set minecraft:c name C
 
 bossbar add minecraft:d "d"
-bossbar set minecraft:d max 30
+bossbar set minecraft:d max 60
 bossbar set minecraft:d style notched_6
 bossbar set minecraft:d name D
 #bossbar配置
@@ -130,5 +127,5 @@ team join T @e[tag=d3]
 function djzc444:advancement/detection
 #成就检测
 
-execute as @a at @s unless score @s eula matches 1 run dialog show @s djzc444:eula_notice
+function djzc444:game/game_eula
 #显示欢迎界面

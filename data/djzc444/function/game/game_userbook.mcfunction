@@ -21,3 +21,4 @@ execute if score game gameflow matches 1 as @a[team=CT] at @s if score @s 3 matc
 
 execute as @a at @s if score @s 3 matches 15 run function djzc444:dialog/user_dialog
 execute as @a at @s if score @s 3 matches 16 run function djzc444:dialog/tp_dialog
+execute as @a at @s if score @s 3 matches 17 run function djzc444:dialog/manage_dialog

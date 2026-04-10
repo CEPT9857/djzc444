@@ -1,0 +1,1 @@
+$tellraw @s [{"text":"$(display_text)", "color":"$(text_color)"}]

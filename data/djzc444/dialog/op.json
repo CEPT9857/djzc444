@@ -40,6 +40,19 @@
                 "command":"trigger 3 set 16"
             }
         }
+    },
+    {
+        "type": "plain_message",
+        "contents": 
+        {
+            "translate":"djzc.dialog.type_manage.title",
+            "fallback": "兵种管理系统",
+            "underlined": true,
+            "click_event": {
+                "action": "run_command",
+                "command":"trigger 3 set 17"
+            }
+        }
     }
     ],
     "columns": 2,

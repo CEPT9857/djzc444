@@ -320,7 +320,7 @@
                 "text": "   "
             },
             {
-                "translate": "djzc.dialog.point_d2.desc",
+                "translate": "djzc.dialog.point_d2",
                 "fallback": "D2",
                 "hover_event": {
                     "action": "show_text",
