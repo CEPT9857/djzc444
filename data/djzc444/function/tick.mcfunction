@@ -16,6 +16,9 @@ scoreboard players enable @a tp
 scoreboard players enable @a eula
 #开放trigger类计分板权限
 
+function djzc444:game/time_custom
+#常驻时钟
+
 function djzc444:game/game_teammsg
 function djzc444:game/game_userbook
 function djzc444:game/lib_books
@@ -45,7 +48,15 @@ execute as @a[scores={r_click=1..}] run function djzc444:game/lib_missile_ga
 execute as @a[scores={r_click1=1..}] run function djzc444:game/lib_missile_aa
 execute as @a[scores={r_click2=1..}] run function djzc444:game/lib_missile_ag
 function djzc444:game/lib_missile_track
+function djzc444:game/lib_missile_fuze
 #导弹系统
+
+function djzc444:game/lib_smoke
+#烟雾弹
+
+function djzc444:game/lib_allay_drone
+function djzc444:game/lib_swarm_drones
+#无人机系统
 
 function djzc444:game/death_scoreboard
 #阵亡计分板
@@ -58,4 +69,3 @@ execute if score D gameflow matches 1 run function djzc444:points/d_point
 execute if score B+ gameflow matches 1 run function djzc444:game/game_starter_c
 execute if score C+ gameflow matches 1 run function djzc444:game/game_starter_d
 #启动器系统
-

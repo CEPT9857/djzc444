@@ -1,0 +1,1 @@
+give @p crossbow[custom_name={text:"蜂群无人机召唤器",italic:false},lore=[],enchantments={quick_charge:5,piercing:8},charged_projectiles=[{id:arrow}],damage=464]

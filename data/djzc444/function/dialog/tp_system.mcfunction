@@ -34,7 +34,7 @@
                 }\
             },\
             {\
-                "text": "   "\
+                "text": " | "\
             },\
             {\
                 "translate": "djzc.dialog.respawn_sky_ct",\
@@ -53,7 +53,7 @@
                 }\
             },\
             {\
-                "text": "   "\
+                "text": " | "\
             },\
             {\
                 "translate": "djzc.dialog.respawn_airport_ct",\
@@ -72,7 +72,7 @@
                 }\
             },\
             {\
-                "text": "   "\
+                "text": " | "\
             },\
             {\
                 "translate": "djzc.dialog.respawn_sky_t",\
@@ -91,7 +91,7 @@
                 }\
             },\
             {\
-                "text": "   "\
+                "text": " | "\
             },\
             {\
                 "translate": "djzc.dialog.respawn_airport_t",\

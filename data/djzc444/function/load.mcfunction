@@ -14,16 +14,19 @@ advancement grant @a only djzc444:fight/root
 advancement grant @a from djzc444:intro/root
 #初始成就
 
-execute unless score initialize 3 matches 1 run function djzc444:initialize
-#首次启动时，执行初始化
+execute as @a run spawnpoint @s -245 65 -630
+#默认重生点
 
 scoreboard objectives add gameflow dummy
 #游戏流程计算器
 
 scoreboard objectives add time dummy {translate:"djzc.scoreboard.time",fallback:"剩余时间"}
-scoreboard objectives add time2 dummy {translate:"djzc.scoreboard.time2",fallback:"战役时间"}
-scoreboard objectives add time3 dummy {translate:"djzc.scoreboard.time3",fallback:"剩余时间"}
+scoreboard objectives add time2 dummy {translate:"djzc.scoreboard.time2",fallback:"常驻时钟"}
+scoreboard objectives add time3 dummy {translate:"djzc.scoreboard.time3",fallback:"时间计算"}
 #初始时钟
+scoreboard objectives add airport_ct dummy
+scoreboard objectives add airport_t dummy
+#机场计时
 
 scoreboard objectives add 1 playerKillCount {translate:"djzc.scoreboard.1",fallback:"击杀数"}
 scoreboard objectives add 2 deathCount {translate:"djzc.scoreboard.2",fallback:"阵亡数"}
@@ -38,7 +41,7 @@ scoreboard objectives add CT_D_by_T killedByTeam.blue
 scoreboard objectives add T_D_by_CT killedByTeam.red
 scoreboard objectives add dz_kill playerKillCount {translate:"djzc.scoreboard.dz_kill",fallback:"本局击杀数"}
 scoreboard objectives add dz_die deathCount {translate:"djzc.scoreboard.dz_die",fallback:"本局阵亡数"}
-scoreboard objectives add dz_die1 dummy
+scoreboard objectives add dz_die1 deathCount
 
 scoreboard objectives add fight dummy {translate:"djzc.scoreboard.fight",fallback:"战斗场次"}
 scoreboard objectives add fight_win dummy {translate:"djzc.scoreboard.fight_win",fallback:"胜利场次"}
@@ -49,8 +52,9 @@ scoreboard objectives add eula trigger
 #用户协议
 
 scoreboard objectives add tp trigger
-scoreboard objectives add type trigger
 #传送系统
+scoreboard objectives add type trigger
+#兵种选择
 
 scoreboard objectives add ctmsg trigger
 scoreboard objectives add tmsg trigger
@@ -67,6 +71,8 @@ scoreboard objectives add sneak minecraft.custom:minecraft.sneak_time
 scoreboard objectives add r_click minecraft.used:minecraft.fishing_rod "r_click"
 scoreboard objectives add r_click1 minecraft.used:minecraft.snowball "r_click_snowball"
 scoreboard objectives add r_click2 minecraft.used:minecraft.egg "r_click_egg"
+scoreboard objectives add r_click3 minecraft.used:minecraft.blue_egg "r_click_blue_egg"
+scoreboard objectives add r_click4 minecraft.used:minecraft.brown_egg "r_click_brown_egg"
 scoreboard objectives add r_click5 minecraft.used:minecraft.carrot_on_a_stick "r_click_carrot_on_a_stick"
 scoreboard objectives add r_click7 minecraft.used:minecraft.written_book "r_click_written_book"
 #行为检测类计分板
@@ -78,6 +84,8 @@ scoreboard players set 立体机动 5 5
 scoreboard players set 1 gameflow 1
 #常量设置
 
+team add starter
+team modify starter color dark_red
 team add T
 team modify T color dark_red
 team add CT
@@ -116,12 +124,12 @@ bossbar set minecraft:d style notched_6
 bossbar set minecraft:d name D
 #bossbar配置
 
-team join T @e[tag=c1]
-team join T @e[tag=c2]
-team join T @e[tag=c3]
-team join T @e[tag=d1]
-team join T @e[tag=d2]
-team join T @e[tag=d3]
+team join starter @e[tag=c1]
+team join starter @e[tag=c2]
+team join starter @e[tag=c3]
+team join starter @e[tag=d1]
+team join starter @e[tag=d2]
+team join starter @e[tag=d3]
 #盔甲架入队调色
 
 function djzc444:advancement/detection
@@ -129,3 +137,6 @@ function djzc444:advancement/detection
 
 function djzc444:game/game_eula
 #显示欢迎界面
+
+execute unless score initialize 3 matches 1 run function djzc444:initialize
+#首次启动时，执行初始化

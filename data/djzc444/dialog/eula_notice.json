@@ -81,15 +81,6 @@
             "type":"plain_message",
             "contents":{
                 "translate": "djzc.dialog.eula_notice.body7",
-                "fallback":"· G键：打开「冬战成员用书」",
-                "color":"white"
-            },
-            "width": 300
-        },
-        {
-            "type":"plain_message",
-            "contents":{
-                "translate": "djzc.dialog.eula_notice.body8",
                 "fallback":"兵种选择、传送、步话机、百科全书，都在这里。",
                 "color":"white"
             },
@@ -98,7 +89,7 @@
         {
             "type":"plain_message",
             "contents":{
-                "translate": "djzc.dialog.eula_notice.body9",
+                "translate": "djzc.dialog.eula_notice.body8",
                 "fallback":"· 管理员专用：/dialog show @s djzc444:op",
                 "color":"white"
             },
@@ -107,7 +98,7 @@
         {
             "type":"plain_message",
             "contents":{
-                "translate": "djzc.dialog.eula_notice.body10",
+                "translate": "djzc.dialog.eula_notice.body9",
                 "fallback":"只有OP能用的管理面板，可开关Boost、Debug，甚至显示健康忠告。",
                 "color":"white"
             },
@@ -116,7 +107,7 @@
         {
             "type":"plain_message",
             "contents":{
-                "translate": "djzc.dialog.eula_notice.body11",
+                "translate": "djzc.dialog.eula_notice.body10",
                 "fallback":"· 想深入了解？ 资源包和数据包的根目录都附带了一份 README",
                 "color":"white"
             },
@@ -125,7 +116,7 @@
         {
             "type":"plain_message",
             "contents":{
-                "translate": "djzc.dialog.eula_notice.body12",
+                "translate": "djzc.dialog.eula_notice.body11",
                 "fallback":"里面有详细的兵种列表、机制说明、以及一些开发者的碎碎念。",
                 "color":"white"
             },
@@ -134,7 +125,7 @@
         {
             "type":"plain_message",
             "contents":{
-                "translate": "djzc.dialog.eula_notice.body13",
+                "translate": "djzc.dialog.eula_notice.body12",
                 "fallback":"最终用户许可协议（EULA）",
                 "color":"yellow",
                 "bold": true
@@ -143,7 +134,7 @@
         {
             "type":"plain_message",
             "contents":{
-                "translate": "djzc.dialog.eula_notice.body14",
+                "translate": "djzc.dialog.eula_notice.body13",
                 "fallback":"1.严禁使用外挂、作弊软件、恶意漏洞。",
                 "color":"white",
                 "bold": true
@@ -153,7 +144,7 @@
         {
             "type":"plain_message",
             "contents":{
-                "translate": "djzc.dialog.eula_notice.body15",
+                "translate": "djzc.dialog.eula_notice.body14",
                 "fallback":"无论你在哪个服务器玩冬战，我们都强烈谴责这种行为。公平游戏，是冬战的底线。",
                 "color":"white",
                 "italic": true
@@ -163,7 +154,7 @@
         {
             "type":"plain_message",
             "contents":{
-                "translate": "djzc.dialog.eula_notice.body14",
+                "translate": "djzc.dialog.eula_notice.body15",
                 "fallback":"2.你可以自制资源包修改文本、音效、纹理。",
                 "color":"white",
                 "bold": true
@@ -173,7 +164,7 @@
         {
             "type":"plain_message",
             "contents":{
-                "translate": "djzc.dialog.eula_notice.body15",
+                "translate": "djzc.dialog.eula_notice.body16",
                 "fallback":"但包里的内容由你负责，与冬战制作组无关。",
                 "color":"white",
                 "italic": true
@@ -183,7 +174,7 @@
         {
             "type":"plain_message",
             "contents":{
-                "translate": "djzc.dialog.eula_notice.body16",
+                "translate": "djzc.dialog.eula_notice.body17",
                 "fallback":"3.允许录制视频、直播，或把冬战放进你的整合包并分发。",
                 "color":"white",
                 "bold": true
@@ -193,7 +184,7 @@
         {
             "type":"plain_message",
             "contents":{
-                "translate": "djzc.dialog.eula_notice.body17",
+                "translate": "djzc.dialog.eula_notice.body18",
                 "fallback":"需遵守 CC-BY-NC-SA 协议（署名-非商业性-相同方式共享）。",
                 "color":"white",
                 "italic": true
@@ -203,7 +194,7 @@
         {
             "type":"plain_message",
             "contents":{
-                "translate": "djzc.dialog.eula_notice.body18",
+                "translate": "djzc.dialog.eula_notice.body19",
                 "fallback":"4.冬战是免费的。",
                 "color":"white",
                 "bold": true
@@ -213,7 +204,7 @@
         {
             "type":"plain_message",
             "contents":{
-                "translate": "djzc.dialog.eula_notice.body19",
+                "translate": "djzc.dialog.eula_notice.body20",
                 "fallback":"如果你在任何地方花钱购买了它，你被骗了。",
                 "color":"white",
                 "italic": true
@@ -223,7 +214,7 @@
         {
             "type":"plain_message",
             "contents":{
-                "translate": "djzc.dialog.eula_notice.body20",
+                "translate": "djzc.dialog.eula_notice.body21",
                 "fallback":"5.具体服务器的管理规则，请遵守对应服务器的规定。",
                 "color":"white",
                 "bold": true
@@ -233,7 +224,7 @@
         {
             "type":"plain_message",
             "contents":{
-                "translate": "djzc.dialog.eula_notice.body21",
+                "translate": "djzc.dialog.eula_notice.body22",
                 "fallback":"我们管不了每个服，但希望每个服都像60144一样有爱。",
                 "color":"white",
                 "italic": true

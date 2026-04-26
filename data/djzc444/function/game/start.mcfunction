@@ -5,6 +5,14 @@ stopsound @a
 function djzc444:game/time_initialize
 function djzc444:game/flow_begin
 
+execute as @a[team=CT] run spawnpoint @s -405 30 -809
+execute as @a[team=T] run spawnpoint @s -397 30 -809
+#设定双方默认重生点
+
+tp @a[team=CT] -405 30 -809
+tp @a[team=T] -397 30 -809
+#传送到基地
+
 bossbar set minecraft:time visible true
 bossbar set minecraft:time value 900
 

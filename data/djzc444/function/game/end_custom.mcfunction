@@ -7,6 +7,9 @@ scoreboard players add @a[team=CT] fight 1
 gamerule mob_griefing true
 scoreboard players set @a prepare 0
 
+execute as @a run spawnpoint @s -245 65 -630
+#默认重生点
+
 gamerule command_block_output true
 tellraw @a [{translate:"djzc.msg.end",fallback:"游戏已结束！",color:"green"}]
 tellraw @a [{translate:"djzc.msg.play_again",fallback:"点此再玩一局",color:"red",hover_event:{action:"show_text",value:{translate:"djzc.msg.play_again.desc",fallback:"进入准备状态"}},click_event:{action:"run_command",command:"trigger prepare set 1"}}]

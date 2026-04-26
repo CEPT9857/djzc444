@@ -121,14 +121,19 @@
                         "italic": false
                     },
                     "lore":[
+                       {
+                        "translate":"djzc.missile.desc1",
+                        "fallback":"右键以发射，但要当心敌方的干扰措施……"
+                        },
                         {
-                            "text":"右键发射导弹，但要当心敌方的干扰措施……"
-                            },
-                            {"text":"（温馨提示：Q键投掷任意物品即可干扰）"},
-                            {"translate":"djzc.fishing_rod.desc",
+                            "translate":"djzc.missile.desc2",
+                            "fallback":"温馨提示：Q键投掷任意物品即可干扰"
+                        },
+                        {
+                            "translate":"djzc.fishing_rod.desc",
                             "fallback":"如若空军不再闪耀？",
                             "color":"dark_aqua"
-                            }
+                        }
                         ],
                     "attribute_modifiers":[
                         {"type":"movement_speed",

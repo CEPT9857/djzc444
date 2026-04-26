@@ -1,3 +1,8 @@
+clear @s
+#清理物品，防止出错
+execute as @s[team=CT] run function djzc444:type/suit_ct/suit_jzb
+execute as @s[team=T] run function djzc444:type/suit_t/suit_jzb
+#分阵营发盔甲
 function djzc444:weapon/wea_heavy_axe
 function djzc444:weapon/wea_heavy_sword
 give @s minecraft:golden_apple 32

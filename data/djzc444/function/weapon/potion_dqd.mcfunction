@@ -1,1 +1,1 @@
-give @p lingering_potion[custom_name={translate:"djzc.potion_dqd",fallback:"毒气弹"},potion_contents={custom_effects:[{id:"poison",duration:600,amplifier:1},{id:"nausea",duration:600},{id:"slowness",duration:600},{id:"darkness",duration:600}],custom_color:43520},]
+give @p lingering_potion[custom_name={translate:"djzc.potion_dqd",fallback:"毒气弹"},potion_contents={custom_effects:[{id:"poison",duration:600,amplifier:1},{id:"nausea",duration:600},{id:"slowness",duration:600},{id:"blindness",duration:600}],custom_color:43520},]
