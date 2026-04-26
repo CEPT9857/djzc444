@@ -1,0 +1,1 @@
+give @p crossbow[custom_name={translate:"djzc.sanlian4",fallback:"一键三连·MKIV",italic:false},lore=[{translate:"djzc.sanlian4.desc",fallback:"更高 更快 更强 更团结",italic:false}],custom_data={Tags:[sanlian]},unbreakable={},enchantments={infinity:1,quick_charge:5,piercing:5,power:5,"djzc444:burstshot":1}]

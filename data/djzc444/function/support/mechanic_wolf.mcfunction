@@ -1,0 +1,1 @@
+summon wolf ~ ~ ~ {variant:pale,CustomName:{text:"机器狼"},Tags:["GF"],Silent:true}

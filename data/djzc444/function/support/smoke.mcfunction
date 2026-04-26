@@ -1,0 +1,1 @@
+give @p crossbow[custom_name={text:"烟雾弹发射器",italic:false},lore=[],enchantments={quick_charge:5,piercing:9,multishot:1},charged_projectiles=[{id:arrow},{id:arrow},{id:arrow}],damage=462]

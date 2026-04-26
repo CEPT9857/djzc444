@@ -88,10 +88,12 @@
                     },
                     "lore": [
                         {
-                            "text": "右键以发射，但要当心敌方的干扰措施……"
+                            "translate":"djzc.missile.desc1",
+                            "fallback":"右键以发射，但要当心敌方的干扰措施……"
                         },
                         {
-                            "text": "温馨提示：Q键投掷任意物品即可干扰"
+                            "translate":"djzc.missile.desc2",
+                            "fallback":"温馨提示：Q键投掷任意物品即可干扰"
                         }
                     ]
                 }

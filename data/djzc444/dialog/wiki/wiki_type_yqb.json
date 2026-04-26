@@ -87,14 +87,16 @@
                     },
                     "lore":[
                         {
-                            "text": "手持"
+                            "translate":"djzc.spear_yqb.desc1",
+                            "fallback":"手持"
                         },
                         {
                             "translate": "djzc.spear_yqb",
                             "fallback": "骑兵枪 MK.IV"
                         },
                         {
-                            "text":"，按潜行键开始垂直机动"
+                            "translate":"djzc.spear_yqb.desc2",
+                            "fallback":"，按潜行键开始垂直机动"
                         }
                     ],
                     "attribute_modifiers": [
