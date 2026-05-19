@@ -184,7 +184,7 @@ $dialog show @s \
             },\
             "action": {\
                 "type": "run_command",\
-                "command": "scoreboard players set harmony 3 1"\
+                "command": "function djzc444:option/do_harmony"\
             }\
         },\
         {\
@@ -195,7 +195,7 @@ $dialog show @s \
             },\
             "action": {\
                 "type": "run_command",\
-                "command": "scoreboard players set harmony 3 0"\
+                "command": "function djzc444:option/no_harmony"\
             }\
         }\
     ]\

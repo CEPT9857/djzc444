@@ -47,7 +47,7 @@
             },
             {
                 "translate": "djzc.wiki_yqb_4",
-                "fallback": "刚给过他突进III，刚给过他锋利50，刚给过他狙击同款"
+                "fallback": ",刚给过他突进III，刚给过他锋利50，刚给过他狙击同款"
             },
             {
                 "translate": "djzc.light_pistol",
@@ -86,6 +86,7 @@
                         "italic": true
                     },
                     "lore":[
+                        [
                         {
                             "translate":"djzc.spear_yqb.desc1",
                             "fallback":"手持"
@@ -96,8 +97,9 @@
                         },
                         {
                             "translate":"djzc.spear_yqb.desc2",
-                            "fallback":"，按潜行键开始垂直机动"
+                            "fallback":"，按[跳跃+潜行]键开始垂直机动"
                         }
+                    ]
                     ],
                     "attribute_modifiers": [
                         {
@@ -146,42 +148,6 @@
                             {
                                 "shape": "small_ball",
                                 "colors": [15790320]
-                            },
-                            {
-                                "shape": "small_ball"
-                            },
-                            {
-                                "shape": "small_ball"
-                            },
-                            {
-                                "shape": "small_ball"
-                            },
-                            {
-                                "shape": "small_ball"
-                            },
-                            {
-                                "shape": "small_ball"
-                            },
-                            {
-                                "shape": "small_ball"
-                            },
-                            {
-                                "shape": "small_ball"
-                            },
-                            {
-                                "shape": "small_ball"
-                            },
-                            {
-                                "shape": "small_ball"
-                            },
-                            {
-                                "shape": "small_ball"
-                            },
-                            {
-                                "shape": "small_ball"
-                            },
-                            {
-                                "shape": "small_ball"
                             },
                             {
                                 "shape": "small_ball"

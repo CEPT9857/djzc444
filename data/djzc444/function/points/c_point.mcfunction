@@ -1,10 +1,10 @@
-execute as @p[x=-385,y=66,z=-768,dx=16,dy=7,dz=12,team=T] at @p run scoreboard players remove T_C time3 2
+execute as @p[x=-385,y=66,z=-768,dx=16,dy=7,dz=15,team=T] at @p run scoreboard players remove T_C time3 2
 #如果T在C点内，扣除占点分数
-execute as @p[x=-385,y=66,z=-768,dx=16,dy=7,dz=12,team=CT] at @p run scoreboard players add T_C time3 1
+execute as @p[x=-385,y=66,z=-768,dx=16,dy=7,dz=15,team=CT] at @p run scoreboard players add T_C time3 1
 #如果CT在C点内，增加占点分数
 execute store result bossbar minecraft:c value run scoreboard players get T_SC time3
 #存储占点分数到bossbar
-execute as @p[x=-385,y=66,z=-768,dx=16,dy=7,dz=12] at @p run bossbar set minecraft:c visible true
+execute as @p[x=-385,y=66,z=-768,dx=16,dy=7,dz=15] at @p run bossbar set minecraft:c visible true
 bossbar set minecraft:c players @a
 #显示bossbar
 execute if score T_SC time3 <= 15 time3 run bossbar set minecraft:c color red
@@ -26,5 +26,5 @@ execute if score T_SC time3 > 60 time3 run scoreboard players set T_SC time3 60
 #超过30时限制最大值
 
 
-execute as @p at @s unless entity @p[x=-385,y=66,z=-768,dx=16,dy=7,dz=12] run bossbar set minecraft:c visible false
+execute as @p at @s unless entity @p[x=-385,y=66,z=-768,dx=16,dy=7,dz=15] run bossbar set minecraft:c visible false
 #如果点里没有人，关闭boss栏

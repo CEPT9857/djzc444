@@ -1,0 +1,10 @@
+{
+	"death.attack.missile": "%1$s被%2$s的导弹炸死了",
+	"death.attack.missile.message": "%1$s被导弹炸死了",
+	"death.attack.missile.item":"%1$s被%2$s用%3$s炸死了",
+	"death.attack.missile.player": "%1$s在试图逃离%2$s的导弹时睡着了",
+	"death.attack.mine": "%1$s踩到地雷了",
+	"death.attack.mine.message": "%1$s踩到地雷了",
+	"death.attack.mine.item":"%1$s踩到地雷了",
+	"death.attack.mine.player": "%1$s在试图逃离%2$s时踩到地雷了"
+}
