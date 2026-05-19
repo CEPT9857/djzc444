@@ -1,6 +1,7 @@
 execute if score game gameflow matches 1 run function djzc444:game/time_game
 #游戏主时钟
-
+function djzc444:game/time_custom
+#常驻时钟
 execute if score game gameflow matches 0 run function djzc444:game/game_prepare
 #准备系统
 
@@ -16,24 +17,21 @@ scoreboard players enable @a tp
 scoreboard players enable @a eula
 #开放trigger类计分板权限
 
-function djzc444:game/time_custom
-#常驻时钟
-
 function djzc444:game/game_teammsg
 function djzc444:game/game_userbook
 function djzc444:game/lib_books
 #步话机
 #成员用书
-execute as @a[x=-528,dx=543,y=40,dy=-100,z=-1040,dz=543] if score debug 3 matches 0 run function djzc444:game/game_type_choose
+execute if score debug 3 matches 0 as @a[predicate=djzc444:height_under40] run function djzc444:game/game_type_choose
 #兵种选择系统
 execute if score debug 3 matches 1 run function djzc444:game/game_type_choose
 #debug兵种选择系统
-execute as @a[x=-528,dx=543,y=40,dy=-100,z=-1040,dz=543] if score debug 3 matches 0 run function djzc444:game/game_tp_system
+execute if score debug 3 matches 0 as @a[predicate=djzc444:height_under40] run function djzc444:game/game_tp_system
 #传送系统
 execute if score debug 3 matches 1 run function djzc444:game/game_tp_system
 #debug传送系统
 
-execute as @a[scores={jump=1..,sneak=1..},nbt={SelectedItem:{components:{"minecraft:custom_data":{tags:[fly]}}}}] run function djzc444:game/lib_fly
+execute as @a[predicate=djzc444:select_fly,predicate=djzc444:jump_sneak] run function djzc444:game/lib_fly
 #一键三连航空版/骑兵枪 垂直机动检测
 
 function djzc444:game/lib_nova
@@ -43,6 +41,9 @@ function djzc444:game/lib_sanlian3
 
 function djzc444:game/lib_boom_marker
 #轰炸指示器
+
+#function djzc444:game/lib_bzd
+#新版板载弹（制作中）
 
 execute as @a[scores={r_click=1..}] run function djzc444:game/lib_missile_ga
 execute as @a[scores={r_click1=1..}] run function djzc444:game/lib_missile_aa

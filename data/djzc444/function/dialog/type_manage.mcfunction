@@ -53,56 +53,64 @@ $dialog show @s \
                     "display": {\
                         "translate": "djzc.dialog.type_manage.preset1",\
                         "fallback": "陆战-经典模式"\
-                    }\
+                    },\
+                    "initial": $(preset1) \
                 },\
                 {\
                     "id": "2",\
                     "display": {\
                         "translate": "djzc.dialog.type_manage.preset2",\
                         "fallback": "陆战-冈格尼尔"\
-                    }\
+                    },\
+                    "initial": $(preset2) \
                 },\
                 {\
                     "id": "3",\
                     "display": {\
                         "translate": "djzc.dialog.type_manage.preset3",\
                         "fallback": "陆战-鹰击长空"\
-                    }\
+                    },\
+                    "initial": $(preset3) \
                 },\
                 {\
                     "id": "4",\
                     "display": {\
                         "translate": "djzc.dialog.type_manage.preset4",\
                         "fallback": "陆战-近距突击"\
-                    }\
+                   },\
+                    "initial": $(preset4) \
                 },\
                 {\
                     "id": "5",\
                     "display": {\
                         "translate": "djzc.dialog.type_manage.preset5",\
                         "fallback": "陆战-狙击模式"\
-                    }\
+                   },\
+                    "initial": $(preset5) \
                 },\
                 {\
                     "id": "6",\
                     "display": {\
                         "translate": "djzc.dialog.type_manage.preset6",\
                         "fallback": "冬战-怀旧模式"\
-                    }\
+                   },\
+                    "initial": $(preset6) \
                 },\
                 {\
                     "id": "7",\
                     "display": {\
                         "translate": "djzc.dialog.type_manage.preset7",\
                         "fallback": "陆战-随机兵种"\
-                    }\
+                    },\
+                    "initial": $(preset7) \
                 },\
                 {\
                     "id": "8",\
                     "display": {\
                         "translate": "djzc.dialog.type_manage.preset8",\
                         "fallback": "海战-先遣模式"\
-                    }\
+                    },\
+                    "initial": $(preset8) \
                 }\
             ]\
         },\
@@ -140,7 +148,7 @@ $dialog show @s \
             "color":"$(jjs_color)",\
         }\
             ],\
-            "initial": $(jjs_ini)\
+            "initial": $(jjs_ini) \
         },\
         {\
             "key": "type_fkb",\

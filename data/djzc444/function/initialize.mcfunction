@@ -4,7 +4,7 @@ function djzc444:option/boost
 scoreboard players set debug 3 0
 #复位debug模式
 
-scoreboard players set harmony 3 1
+function djzc444:option/do_harmony
 #复位和谐冬战
 
 scoreboard players set jzb 5 1
@@ -16,6 +16,9 @@ scoreboard players set yqb 5 1
 scoreboard players set ggne 5 1
 scoreboard players set bzb 5 1
 #复位兵种禁用系统
+
+scoreboard players set preset 5 1
+#复位兵种预设
 
 function djzc444:second
 #运行一次second函数，输入初始数值

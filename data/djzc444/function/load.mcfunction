@@ -65,9 +65,6 @@ scoreboard objectives add fight dummy
 scoreboard objectives add occupy dummy
 #占点次数统计
 
-scoreboard objectives add jump minecraft.custom:minecraft.jump
-scoreboard objectives add sneak minecraft.custom:minecraft.sneak_time
-
 scoreboard objectives add r_click minecraft.used:minecraft.fishing_rod "r_click"
 scoreboard objectives add r_click1 minecraft.used:minecraft.snowball "r_click_snowball"
 scoreboard objectives add r_click2 minecraft.used:minecraft.egg "r_click_egg"

@@ -9,4 +9,5 @@ execute if score 秒 time2 < 0 time3 run scoreboard players set 秒 time2 1
 
 #挂接到常驻时钟的代码
 #轰炸指示器
+execute as @e[tag=mark2] run scoreboard players remove @s time2 1
 execute as @e[tag=mark3] run scoreboard players remove @s time2 1
