@@ -49,7 +49,7 @@
                 },\
                 "click_event":{\
                     "action": "run_command",\
-                    "command": "trigger tp set 17"\
+                    "command": "trigger djzc.tp set 17"\
                 }\
             },\
             {\
@@ -68,7 +68,7 @@
                 },\
                 "click_event":{\
                     "action": "run_command",\
-                    "command": "trigger tp set 18"\
+                    "command": "trigger djzc.tp set 18"\
                 }\
             },\
             {\
@@ -87,7 +87,7 @@
                 },\
                 "click_event":{\
                     "action": "run_command",\
-                    "command": "trigger tp set 19"\
+                    "command": "trigger djzc.tp set 19"\
                 }\
             },\
             {\
@@ -106,7 +106,7 @@
                 },\
                 "click_event":{\
                     "action": "run_command",\
-                    "command": "trigger tp set 20"\
+                    "command": "trigger djzc.tp set 20"\
                 }\
             }\
         ]\
@@ -145,7 +145,7 @@
             },\
             "action": {\
                 "type": "run_command",\
-                "command": "trigger tp set 1"\
+                "command": "trigger djzc.tp set 1"\
             }\
         },\
         {\
@@ -156,7 +156,7 @@
             },\
             "action": {\
                 "type": "run_command",\
-                "command": "trigger tp set 2"\
+                "command": "trigger djzc.tp set 2"\
             }\
         },\
         {\
@@ -171,7 +171,7 @@
             },\
             "action": {\
                 "type": "run_command",\
-                "command": "trigger tp set 3"\
+                "command": "trigger djzc.tp set 3"\
             }\
         },\
         {\
@@ -186,7 +186,7 @@
             },\
             "action": {\
                 "type": "run_command",\
-                "command": "trigger tp set 4"\
+                "command": "trigger djzc.tp set 4"\
             }\
         },\
         {\
@@ -201,7 +201,7 @@
             },\
             "action": {\
                 "type": "run_command",\
-                "command": "trigger tp set 5"\
+                "command": "trigger djzc.tp set 5"\
             }\
         },\
         {\
@@ -215,7 +215,7 @@
             },\
             "action": {\
                 "type": "run_command",\
-                "command": "trigger tp set 6"\
+                "command": "trigger djzc.tp set 6"\
             }\
         },\
         {\
@@ -229,7 +229,7 @@
             },\
             "action": {\
                 "type": "run_command",\
-                "command": "trigger tp set 7"\
+                "command": "trigger djzc.tp set 7"\
             }\
         },\
         {\
@@ -243,7 +243,7 @@
             },\
             "action": {\
                 "type": "run_command",\
-                "command": "trigger tp set 8"\
+                "command": "trigger djzc.tp set 8"\
             }\
         },\
         {\
@@ -258,7 +258,7 @@
             },\
             "action": {\
                 "type": "run_command",\
-                "command": "trigger tp set 9"\
+                "command": "trigger djzc.tp set 9"\
             }\
         },\
         {\
@@ -272,7 +272,7 @@
             },\
             "action": {\
                 "type": "run_command",\
-                "command": "trigger tp set 10"\
+                "command": "trigger djzc.tp set 10"\
             }\
         },\
         {\
@@ -286,7 +286,7 @@
             },\
             "action": {\
                 "type": "run_command",\
-                "command": "trigger tp set 11"\
+                "command": "trigger djzc.tp set 11"\
             }\
         },\
         {\
@@ -300,7 +300,7 @@
             },\
             "action": {\
                 "type": "run_command",\
-                "command": "trigger tp set 12"\
+                "command": "trigger djzc.tp set 12"\
             }\
         },\
         {\
@@ -315,7 +315,7 @@
             },\
             "action": {\
                 "type": "run_command",\
-                "command": "trigger tp set 13"\
+                "command": "trigger djzc.tp set 13"\
             }\
         },\
         {\
@@ -330,7 +330,7 @@
             },\
             "action": {\
                 "type": "run_command",\
-                "command": "trigger tp set 14"\
+                "command": "trigger djzc.tp set 14"\
             }\
         },\
         {\
@@ -345,7 +345,7 @@
             },\
             "action": {\
                 "type": "run_command",\
-                "command": "trigger tp set 15"\
+                "command": "trigger djzc.tp set 15"\
             }\
         },\
         {\
@@ -360,7 +360,7 @@
             },\
             "action": {\
                 "type": "run_command",\
-                "command": "trigger tp set 16"\
+                "command": "trigger djzc.tp set 16"\
             }\
         }\
     ]\

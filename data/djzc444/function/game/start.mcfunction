@@ -19,13 +19,13 @@ bossbar set minecraft:time value 900
 fill -467 62 -764 -469 62 -758 netherite_block
 #填平D点大坑
 
-scoreboard players reset @a CT
-scoreboard players reset @a occupy
-scoreboard players reset @a dz_die
-scoreboard players reset @a T
-scoreboard players reset @a dz_kill
-scoreboard players reset @a gameflow
-scoreboard players reset @a 5
+scoreboard players reset @a djzc.CT
+scoreboard players reset @a djzc.T
+scoreboard players reset @a djzc.occupy
+scoreboard players reset @a djzc.count_die
+scoreboard players reset @a djzc.count_kill
+scoreboard players reset @a djzc.gameflow
+scoreboard players reset @a djzc.type
 #重置必要的计分板
 
 gamemode adventure @a[team=T]
@@ -44,22 +44,22 @@ setblock -395 27 -768 air
 setblock -398 27 -768 air
 setblock -395 27 -754 air
 setblock -398 27 -754 air
-scoreboard players set A gameflow 0
-scoreboard players set B gameflow 0
-scoreboard players set A+B gameflow 0
-scoreboard players set B+ gameflow 0
-scoreboard players set C gameflow 0
-scoreboard players set C+ gameflow 0
-scoreboard players set D gameflow 0
+scoreboard players set A djzc.gameflow 0
+scoreboard players set B djzc.gameflow 0
+scoreboard players set A+B djzc.gameflow 0
+scoreboard players set B+ djzc.gameflow 0
+scoreboard players set C djzc.gameflow 0
+scoreboard players set C+ djzc.gameflow 0
+scoreboard players set D djzc.gameflow 0
 #还原四个点及启动器在游戏流程计算器的状态
-scoreboard players set C1 gameflow 0
-scoreboard players set C2 gameflow 0
-scoreboard players set C3 gameflow 0
-scoreboard players set C123 gameflow 0
-scoreboard players set D1 gameflow 0
-scoreboard players set D2 gameflow 0
-scoreboard players set D3 gameflow 0
-scoreboard players set D123 gameflow 0
+scoreboard players set C1 djzc.gameflow 0
+scoreboard players set C2 djzc.gameflow 0
+scoreboard players set C3 djzc.gameflow 0
+scoreboard players set C123 djzc.gameflow 0
+scoreboard players set D1 djzc.gameflow 0
+scoreboard players set D2 djzc.gameflow 0
+scoreboard players set D3 djzc.gameflow 0
+scoreboard players set D123 djzc.gameflow 0
 #启动器在游戏流程计算器的状态
 data merge entity @e[x=-385,y=63,z=-690,limit=1,type=minecraft:glow_item_frame,distance=..1] {ItemRotation:0}
 data merge entity @e[x=-350,y=58,z=-767,limit=1,type=minecraft:glow_item_frame,distance=..1] {ItemRotation:0}

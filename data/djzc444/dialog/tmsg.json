@@ -25,7 +25,7 @@
             },
             "action": {
                 "type": "run_command",
-                "command": "trigger tmsg set 1"
+                "command": "trigger djzc.tmsg set 1"
             }
         },
         {
@@ -36,7 +36,7 @@
             },
             "action": {
                 "type": "run_command",
-                "command": "trigger tmsg set 2"
+                "command": "trigger djzc.tmsg set 2"
             }
         },
         {
@@ -46,7 +46,7 @@
             },
             "action": {
                 "type": "run_command",
-                "command": "trigger tmsg set 3"
+                "command": "trigger djzc.tmsg set 3"
             }
         },
         {
@@ -56,7 +56,7 @@
             },
             "action": {
                 "type": "run_command",
-                "command": "trigger tmsg set 4"
+                "command": "trigger djzc.tmsg set 4"
             }
         },
         {
@@ -66,7 +66,7 @@
             },
             "action": {
                 "type": "run_command",
-                "command": "trigger tmsg set 5"
+                "command": "trigger djzc.tmsg set 5"
             }
         },
         {
@@ -76,7 +76,7 @@
             },
             "action": {
                 "type": "run_command",
-                "command": "trigger tmsg set 6"
+                "command": "trigger djzc.tmsg set 6"
             }
         },
         {
@@ -86,7 +86,7 @@
             },
             "action": {
                 "type": "run_command",
-                "command": "trigger tmsg set 7"
+                "command": "trigger djzc.tmsg set 7"
             }
         },
         {
@@ -102,7 +102,7 @@
             },
             "action": {
                 "type": "run_command",
-                "command": "trigger tmsg set 8"
+                "command": "trigger djzc.tmsg set 8"
             }
         },
         {
@@ -113,7 +113,7 @@
             },
             "action": {
                 "type": "run_command",
-                "command": "trigger tmsg set 9"
+                "command": "trigger djzc.tmsg set 9"
             }
         },
         {
@@ -124,7 +124,7 @@
             },
             "action": {
                 "type": "run_command",
-                "command": "trigger tmsg set 10"
+                "command": "trigger djzc.tmsg set 10"
             }
         },
         {
@@ -135,7 +135,7 @@
             },
             "action": {
                 "type": "run_command",
-                "command": "trigger tmsg set 11"
+                "command": "trigger djzc.tmsg set 11"
             }
         },
         {
@@ -146,7 +146,7 @@
             },
             "action": {
                 "type": "run_command",
-                "command": "trigger tmsg set 12"
+                "command": "trigger djzc.tmsg set 12"
             }
         },
         {
@@ -157,7 +157,7 @@
             },
             "action": {
                 "type": "run_command",
-                "command": "trigger tmsg set 13"
+                "command": "trigger djzc.tmsg set 13"
             }
         },
         {
@@ -168,7 +168,7 @@
             },
             "action": {
                 "type": "run_command",
-                "command": "trigger tmsg set 14"
+                "command": "trigger djzc.tmsg set 14"
             }
         },
         {
@@ -179,7 +179,7 @@
             },
             "action": {
                 "type": "run_command",
-                "command": "trigger tmsg set 15"
+                "command": "trigger djzc.tmsg set 15"
             }
         },
         {
@@ -190,7 +190,7 @@
             },
             "action": {
                 "type": "run_command",
-                "command": "trigger tmsg set 16"
+                "command": "trigger djzc.tmsg set 16"
             }
         }
         

@@ -242,7 +242,7 @@
             },
             "action": {
                 "type": "run_command",
-                "command": "trigger eula set 1"
+                "command": "trigger djzc.eula set -1"
             }
         }
      ]

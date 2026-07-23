@@ -225,7 +225,7 @@
             "underlined": true,\
             "click_event": {\
                 "action": "run_command",\
-                "command":"trigger 3 set 16"\
+                "command":"trigger djzc.option set 16"\
             }\
         }\
     }\
@@ -244,7 +244,7 @@
             },\
             "action": {\
                 "type": "run_command",\
-                "command": "trigger type set 1"\
+                "command": "trigger djzc.type_choose set 1"\
             }\
         },\
         {\
@@ -259,7 +259,7 @@
             },\
             "action": {\
                 "type": "run_command",\
-                "command": "trigger type set 2"\
+                "command": "trigger djzc.type_choose set 2"\
             }\
         },\
         {\
@@ -274,7 +274,7 @@
             },\
             "action": {\
                 "type": "run_command",\
-                "command": "trigger type set 3"\
+                "command": "trigger djzc.type_choose set 3"\
             }\
         },\
         {\
@@ -289,7 +289,7 @@
             },\
             "action": {\
                 "type": "run_command",\
-                "command": "trigger type set 4"\
+                "command": "trigger djzc.type_choose set 4"\
             }\
         },\
         {\
@@ -304,7 +304,7 @@
             },\
             "action": {\
                 "type": "run_command",\
-                "command": "trigger type set 5"\
+                "command": "trigger djzc.type_choose set 5"\
             }\
         },\
         {\
@@ -319,7 +319,7 @@
             },\
             "action": {\
                 "type": "run_command",\
-                "command": "trigger type set 6"\
+                "command": "trigger djzc.type_choose set 6"\
             }\
         },\
         {\
@@ -334,7 +334,7 @@
             },\
             "action": {\
                 "type": "run_command",\
-                "command": "trigger type set 7"\
+                "command": "trigger djzc.type_choose set 7"\
             }\
         },\
         {\
@@ -349,7 +349,7 @@
             },\
             "action": {\
                 "type": "run_command",\
-                "command": "trigger type set 8"\
+                "command": "trigger djzc.type_choose set 8"\
             }\
         }\
     ]\

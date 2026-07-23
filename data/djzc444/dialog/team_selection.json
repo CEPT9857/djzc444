@@ -1,0 +1,71 @@
+{
+     "title":{
+        "translate": "djzc.dialog.team_selection.title",
+        "fallback":"冬季战场 阵营选择",
+        "color":"yellow",
+        "bold": true,
+        "hover_event": {
+            "action": "show_text",
+            "value": {
+                "translate": "djzc.dialog.author2",
+                "fallback": "冬季战场制作组 编写"
+            }
+        }
+     },
+     "pause": false,
+     "type":"multi_action",
+     "body":[
+        {
+            "type":"plain_message",
+            "contents":{
+                "translate": "djzc.dialog.eula_notice.body1",
+                "fallback":"欢迎来到冬季战场！加油，特种兵！",
+                "color":"white"
+            }
+        },
+        {
+            "type":"plain_message",
+            "contents":{
+                "translate": "djzc.dialog.wiki.before_play.body1",
+                "fallback":"温馨提示：冬季战场的大多数用户操作基于对话框系统，如果出现了对话框被截断等问题，请调整游戏视频设置，将界面大小控制在您的屏幕以内",
+                "color":"yellow"
+            },
+            "width": 300
+        }
+    ],
+    "columns": 2,
+    "actions":[
+        {
+            "label":{
+                "translate": "djzc.dialog.userbook.join_ct",
+                "fallback": "加入CT",
+                "color":"blue",
+                "underlined": true
+            },
+            "tooltip": {
+                "translate": "djzc.dialog.userbook.join_ct.desc",
+                "fallback": "冬季战场的防守方，阻止T方占领全部战区，坚持到时间结束即获胜。"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "trigger djzc.option set 9"
+            }
+        },
+        {
+            "label":{
+                "translate": "djzc.dialog.userbook.join_t",
+                "fallback": "加入T",
+                "color":"red",
+                "underlined": true
+            },
+            "tooltip": {
+                "translate": "djzc.dialog.userbook.join_t.desc",
+                "fallback": "冬季战场的进攻方，占领全部四个战区（A、B、C、D）即可获胜。"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "trigger djzc.option set 10"
+            }
+        }
+    ]
+}

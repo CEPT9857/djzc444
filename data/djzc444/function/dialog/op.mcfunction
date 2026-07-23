@@ -24,7 +24,7 @@ $dialog show @s \
             "fallback": "返回冬战成员用书",\
             "click_event": {\
                 "action": "run_command",\
-                "command":"trigger 3 set 15"\
+                "command":"trigger djzc.option set 15"\
             }\
         }\
     },\
@@ -38,7 +38,7 @@ $dialog show @s \
             "underlined": true,\
             "click_event": {\
                 "action": "run_command",\
-                "command":"trigger 3 set 16"\
+                "command":"trigger djzc.option set 16"\
             }\
         }\
     },\
@@ -51,7 +51,7 @@ $dialog show @s \
             "underlined": true,\
             "click_event": {\
                 "action": "run_command",\
-                "command":"trigger 3 set 17"\
+                "command":"trigger djzc.option set 17"\
             }\
         }\
     },\
@@ -138,7 +138,7 @@ $dialog show @s \
             },\
             "action": {\
                 "type": "run_command",\
-                "command": "scoreboard players set debug 3 1"\
+                "command": "scoreboard players set debug djzc.option 1"\
             }\
         },\
         {\
@@ -149,7 +149,7 @@ $dialog show @s \
             },\
             "action": {\
                 "type": "run_command",\
-                "command": "scoreboard players set debug 3 0"\
+                "command": "scoreboard players set debug djzc.option 0"\
             }\
             \
         },\

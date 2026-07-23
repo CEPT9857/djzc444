@@ -1,8 +1,8 @@
-scoreboard players set A+B gameflow 0
+scoreboard players set A+B djzc.gameflow 0
 stopsound @a
-scoreboard players set A gameflow -1
-scoreboard players set B gameflow -1
-scoreboard players set B+ gameflow 1
+scoreboard players set A djzc.gameflow -1
+scoreboard players set B djzc.gameflow -1
+scoreboard players set B+ djzc.gameflow 1
 
 title @a title [{translate:"djzc.msg.a_b",fallback:"A点和B点已被T方占领","color":"red"}]
 title @a[team=T] subtitle [{translate:"djzc.msg.a_b.t",fallback:"进攻C点启动器","color":"dark_aqua"}]

@@ -1,23 +1,23 @@
 function djzc444:option/boost
 #启用boost
 
-scoreboard players set debug 3 0
+scoreboard players set debug djzc.option 0
 #复位debug模式
 
 function djzc444:option/do_harmony
 #复位和谐冬战
 
-scoreboard players set jzb 5 1
-scoreboard players set jjs 5 1
-scoreboard players set fkb 5 1
-scoreboard players set ltjd 5 1
-scoreboard players set scj 5 1
-scoreboard players set yqb 5 1
-scoreboard players set ggne 5 1
-scoreboard players set bzb 5 1
+scoreboard players set jzb djzc.type 1
+scoreboard players set jjs djzc.type 1
+scoreboard players set fkb djzc.type 1
+scoreboard players set ltjd djzc.type 1
+scoreboard players set scj djzc.type 1
+scoreboard players set yqb djzc.type 1
+scoreboard players set ggne djzc.type 1
+scoreboard players set bzb djzc.type 1
 #复位兵种禁用系统
 
-scoreboard players set preset 5 1
+scoreboard players set preset djzc.type 1
 #复位兵种预设
 
 function djzc444:second
@@ -31,7 +31,10 @@ function djzc444:game/end_custom
 function djzc444:game/music_stop
 #启动一次游戏，然后关掉,输入必要参数
 
+scoreboard objectives setdisplay below_name djzc.hp
+#启动血量显示
+
 tellraw @a {translate:"djzc.msg.initialize",fallback:"检测到该冬季战场副本首次启动，请按G键打开冬战成员用书，或打开README.md阅读详细信息",color:green}
 
-scoreboard players set initialize 3 1
+scoreboard players set initialize djzc.option 1
 #退出初始化状态

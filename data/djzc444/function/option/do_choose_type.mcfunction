@@ -1,2 +1,2 @@
-scoreboard players reset @s 3
+scoreboard players reset @s djzc.option
 function djzc444:dialog/choose_dialog

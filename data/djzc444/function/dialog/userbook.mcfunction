@@ -49,7 +49,7 @@
             "underlined": true,\
             "click_event": {\
                 "action": "run_command",\
-                "command":"trigger 3 set 16"\
+                "command":"trigger djzc.option set 16"\
             }\
         }\
     }\
@@ -64,7 +64,7 @@
             },\
             "action": {\
                 "type": "run_command",\
-                "command": "trigger 3 set 1"\
+                "command": "trigger djzc.option set 1"\
             }\
         },\
         {\
@@ -75,7 +75,7 @@
             },\
             "action": {\
                 "type": "run_command",\
-                "command": "trigger 3 set 2"\
+                "command": "trigger djzc.option set 2"\
             }\
         },\
         {\
@@ -86,7 +86,7 @@
             },\
             "action": {\
                 "type": "run_command",\
-                "command": "trigger 3 set 3"\
+                "command": "trigger djzc.option set 3"\
             }\
         },\
         {\
@@ -97,7 +97,7 @@
             },\
             "action": {\
                 "type": "run_command",\
-                "command": "trigger 3 set 4"\
+                "command": "trigger djzc.option set 4"\
             }\
         },\
         {\
@@ -107,7 +107,7 @@
             },\
             "action": {\
                 "type": "run_command",\
-                "command": "trigger 3 set 5"\
+                "command": "trigger djzc.option set 5"\
             }\
         },\
         {\
@@ -117,7 +117,7 @@
             },\
             "action": {\
                 "type": "run_command",\
-                "command": "trigger 3 set 6"\
+                "command": "trigger djzc.option set 6"\
             }\
         },\
         {\
@@ -127,7 +127,7 @@
             },\
             "action": {\
                 "type": "run_command",\
-                "command": "trigger 3 set 7"\
+                "command": "trigger djzc.option set 7"\
             }\
         },\
         {\
@@ -137,7 +137,7 @@
             },\
             "action": {\
                 "type": "run_command",\
-                "command": "trigger 3 set 8"\
+                "command": "trigger djzc.option set 8"\
             }\
         },\
         {\
@@ -153,7 +153,7 @@
             },\
             "action": {\
                 "type": "run_command",\
-                "command": "trigger 3 set 9"\
+                "command": "trigger djzc.option set 9"\
             }\
         },\
         {\
@@ -169,7 +169,7 @@
             },\
             "action": {\
                 "type": "run_command",\
-                "command": "trigger 3 set 10"\
+                "command": "trigger djzc.option set 10"\
             }\
         },\
         {\
@@ -181,7 +181,7 @@
             },\
             "action": {\
                 "type": "run_command",\
-                "command": "trigger 3 set 11"\
+                "command": "trigger djzc.option set 11"\
             }\
         },\
         {\
@@ -193,7 +193,7 @@
             },\
             "action": {\
                 "type": "run_command",\
-                "command": "trigger 3 set 12"\
+                "command": "trigger djzc.option set 12"\
             }\
         },\
         {\
@@ -204,7 +204,7 @@
             },\
             "action": {\
                 "type": "run_command",\
-                "command": "trigger 3 set 13"\
+                "command": "trigger djzc.option set 13"\
             }\
         },\
         {\
@@ -219,7 +219,7 @@
             },\
             "action": {\
                 "type": "run_command",\
-                "command": "trigger 3 set 14"\
+                "command": "trigger djzc.option set 14"\
             }\
         },\
         {\
@@ -230,7 +230,7 @@
             },\
             "action": {\
                 "type": "run_command",\
-                "command": "trigger prepare set 1"\
+                "command": "trigger djzc.prepare set 1"\
             }\
         },\
         {\
@@ -241,7 +241,7 @@
             },\
             "action": {\
                 "type": "run_command",\
-                "command": "trigger prepare set 0"\
+                "command": "trigger djzc.prepare set 0"\
             }\
         }\
     ]\

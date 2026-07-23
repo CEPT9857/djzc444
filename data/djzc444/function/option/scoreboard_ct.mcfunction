@@ -1,2 +1,2 @@
-scoreboard players reset @s 3
-scoreboard objectives setdisplay sidebar CT
+scoreboard players reset @s djzc.option
+scoreboard objectives setdisplay sidebar djzc.CT
