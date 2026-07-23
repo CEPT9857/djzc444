@@ -1,4 +1,4 @@
-scoreboard players reset @s tp
+scoreboard players reset @s djzc.tp
 execute as @s[team=CT] run tp @s @p[team=CT,distance=1..]
 execute as @s[team=CT] run function djzc444:ctmsg/ctmsg_cover
 

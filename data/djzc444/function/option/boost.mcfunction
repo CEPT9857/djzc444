@@ -17,5 +17,5 @@ gamerule fire_spread_radius_around_player 0
 gamerule spectators_generate_chunks false
 #禁止旁观者生成区块
 
-scoreboard players set boost 3 1
+scoreboard players set boost djzc.option 1
 #在计分板中，表明已经开启boost

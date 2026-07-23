@@ -1,17 +1,17 @@
-scoreboard players set game gameflow 0
+scoreboard players set game djzc.gameflow 0
 #修改游戏流程计算器，提示游戏结束
 effect clear @e[type=minecraft:armor_stand]
 bossbar set minecraft:time visible false
-scoreboard players add @a[team=T] fight 1
-scoreboard players add @a[team=CT] fight 1
+scoreboard players add @a[team=T] djzc.fight 1
+scoreboard players add @a[team=CT] djzc.fight 1
 gamerule mob_griefing true
-scoreboard players set @a prepare 0
+scoreboard players set @a djzc.prepare 0
 
 execute as @a run spawnpoint @s -245 65 -630
 #默认重生点
 
 gamerule command_block_output true
 tellraw @a [{translate:"djzc.msg.end",fallback:"游戏已结束！",color:"green"}]
-tellraw @a [{translate:"djzc.msg.play_again",fallback:"点此再玩一局",color:"red",hover_event:{action:"show_text",value:{translate:"djzc.msg.play_again.desc",fallback:"进入准备状态"}},click_event:{action:"run_command",command:"trigger prepare set 1"}}]
+tellraw @a [{translate:"djzc.msg.play_again",fallback:"点此再玩一局",color:"red",hover_event:{action:"show_text",value:{translate:"djzc.msg.play_again.desc",fallback:"进入准备状态"}},click_event:{action:"run_command",command:"trigger djzc.prepare set 1"}}]
 
 schedule function djzc444:game/music_stop 10s replace

@@ -1,2 +1,2 @@
-scoreboard players reset @s 3
-scoreboard objectives setdisplay sidebar fight_win
+scoreboard players reset @s djzc.option
+scoreboard objectives setdisplay sidebar djzc.fight_win

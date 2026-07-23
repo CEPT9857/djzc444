@@ -1,16 +1,16 @@
 #冬季战场-陆战-标准模式
-scoreboard players set jzb 5 1
-scoreboard players set jjs 5 1
-scoreboard players set fkb 5 1
-scoreboard players set ltjd 5 1
+scoreboard players set jzb djzc.type 1
+scoreboard players set jjs djzc.type 1
+scoreboard players set fkb djzc.type 1
+scoreboard players set ltjd djzc.type 1
 
-scoreboard players set scj 5 1
-scoreboard players set yqb 5 1
-scoreboard players set ggne 5 1
-scoreboard players set bzb 5 1
+scoreboard players set scj djzc.type 1
+scoreboard players set yqb djzc.type 1
+scoreboard players set ggne djzc.type 1
+scoreboard players set bzb djzc.type 1
 #通过计分板操作，控制兵种开关
 
-scoreboard players set preset 5 1
+scoreboard players set preset djzc.type 1
 #通过计分板操作，控制预设
 
 function djzc444:dialog/manage_dialog
