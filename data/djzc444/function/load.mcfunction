@@ -34,10 +34,10 @@ scoreboard objectives add djzc.option trigger {translate:"djzc.scoreboard.option
 scoreboard objectives add djzc.hp health {translate:"djzc.scoreboard.hp",fallback:"cm"}
 scoreboard objectives add djzc.type dummy {translate:"djzc.scoreboard.type",fallback:"兵种计算"}
 
-scoreboard objectives add djzc.CT teamkill.red {translate:"djzc.scoreboard.ct",fallback:"击杀数"}
-scoreboard objectives add djzc.T teamkill.blue {translate:"djzc.scoreboard.t",fallback:"击杀数"}
-scoreboard objectives add djzc.CT_D_by_T killedByTeam.blue
-scoreboard objectives add djzc.T_D_by_CT killedByTeam.red
+scoreboard objectives add djzc.CT teamkill.dark_red {translate:"djzc.scoreboard.ct",fallback:"击杀数"}
+scoreboard objectives add djzc.T teamkill.dark_aqua {translate:"djzc.scoreboard.t",fallback:"击杀数"}
+scoreboard objectives add djzc.CT_D_by_T killedByTeam.dark_red
+scoreboard objectives add djzc.T_D_by_CT killedByTeam.dark_aqua
 scoreboard objectives add djzc.count_kill playerKillCount {translate:"djzc.scoreboard.djzc.count_kill",fallback:"本局击杀数"}
 scoreboard objectives add djzc.count_die deathCount {translate:"djzc.scoreboard.djzc.count_die",fallback:"本局阵亡数"}
 scoreboard objectives add djzc.count_die1 deathCount

@@ -144,6 +144,24 @@
                 "fallback": "· 兵种选择限制：目前游戏已有的两个航空兵种都有一定的限制，详情参见参见“兵种介绍”章节"
             },
             "width": 500
+        },
+        {
+            "type":"plain_message",
+            "contents":
+            [
+                {
+                    "keybind":"key.playerlist"
+                },
+                {
+                    "translate":"key.playerlist",
+                    "fallback":"显示玩家列表"
+                },
+                {
+                "translate": "djzc.dialog.wiki.before_play.body17",
+                "fallback": "· ——>计分信息：游戏进行时，此处显示玩家的击杀数；游戏未进行时，显示玩家的准备情况"
+                }
+            ],
+            "width": 500
         }
      ],
      "columns": 4,

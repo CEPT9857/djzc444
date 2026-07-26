@@ -32,6 +32,7 @@ gamemode adventure @a[team=T]
 gamemode adventure @a[team=CT]
 
 advancement grant @a only djzc444:fight/root
+
 advancement revoke @a from djzc444:fight/count
 
 setblock -366 65 -759 minecraft:blue_stained_glass
@@ -70,7 +71,12 @@ data merge entity @e[x=-433,y=66,z=-760,limit=1,type=minecraft:glow_item_frame,d
 data merge entity @e[x=-461,y=63,z=-813,limit=1,type=minecraft:glow_item_frame,distance=..1] {ItemRotation:0}
 #重置启动器展示框
 
+scoreboard objectives setdisplay list djzc.count_kill
+#将击杀数显示在玩家列表中
+
 effect clear @e[type=minecraft:armor_stand]
+#清除BUFF防止BUG
 
 gamemode adventure @a[team=T]
 gamemode adventure @a[team=CT]
+#转为冒险模式
