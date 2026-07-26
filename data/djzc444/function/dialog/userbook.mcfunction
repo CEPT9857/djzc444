@@ -17,6 +17,27 @@
     ],\
     body:[\
     {\
+    "type":"plain_message",\
+    "contents":[\
+        {\
+            "translate": "djzc.dialog.wiki",\
+            "fallback": "点击查看冬季战场百科全书",\
+            "color":"green",\
+            "hover_event": {\
+                "action": "show_text",\
+                "value": {\
+                    "translate": "djzc.dialog.wiki.desc",\
+                    "fallback": "正在不断更新，欢迎进来看看"\
+                }\
+            },\
+            "click_event": {\
+                "action": "show_dialog",\
+                "dialog": "djzc444:wiki/wiki_notice"\
+            }\
+        }\
+    ]\
+    },\
+    {\
     type:"plain_message",\
     contents:[\
         {\
@@ -43,103 +64,19 @@
         "type": "plain_message",\
         "contents": \
         {\
-            "translate": "djzc.dialog.tp_system",\
-            "fallback": "点击进入传送系统",\
+            "translate": "djzc.dialog.scoreboard",\
+            "fallback": "点击查看统计信息",\
             "color":"light_purple",\
             "underlined": true,\
             "click_event": {\
                 "action": "run_command",\
-                "command":"trigger djzc.option set 16"\
+                "command":"trigger djzc.option set 8"\
             }\
         }\
     }\
     ],\
-    "columns": 4,\
+    "columns": 3,\
     "actions": [\
-        {\
-            "label":{\
-                "translate": "djzc.dialog.userbook.kill_dz",\
-                "fallback": "总击杀数",\
-                "color":"green"\
-            },\
-            "action": {\
-                "type": "run_command",\
-                "command": "trigger djzc.option set 1"\
-            }\
-        },\
-        {\
-            "label":{\
-                "translate": "djzc.dialog.userbook.death_dz",\
-                "fallback": "总阵亡数",\
-                "color":"black"\
-            },\
-            "action": {\
-                "type": "run_command",\
-                "command": "trigger djzc.option set 2"\
-            }\
-        },\
-        {\
-            "label":{\
-                "translate": "djzc.dialog.userbook.kill_ct",\
-                "fallback": "CT击杀数",\
-                "color":"blue"\
-            },\
-            "action": {\
-                "type": "run_command",\
-                "command": "trigger djzc.option set 3"\
-            }\
-        },\
-        {\
-            "label":{\
-                "translate": "djzc.dialog.userbook.kill_t",\
-                "fallback": "T击杀数",\
-                "color":"dark_red"\
-            },\
-            "action": {\
-                "type": "run_command",\
-                "command": "trigger djzc.option set 4"\
-            }\
-        },\
-        {\
-            "label":{\
-                "translate": "djzc.dialog.userbook.fight",\
-                "fallback": "战斗场次"\
-            },\
-            "action": {\
-                "type": "run_command",\
-                "command": "trigger djzc.option set 5"\
-            }\
-        },\
-        {\
-            "label":{\
-                "translate": "djzc.dialog.userbook.win",\
-                "fallback": "胜利场次"\
-            },\
-            "action": {\
-                "type": "run_command",\
-                "command": "trigger djzc.option set 6"\
-            }\
-        },\
-        {\
-            "label":{\
-                "translate": "djzc.dialog.userbook.lost",\
-                "fallback": "失败场次"\
-            },\
-            "action": {\
-                "type": "run_command",\
-                "command": "trigger djzc.option set 7"\
-            }\
-        },\
-        {\
-            "label":{\
-                "translate": "djzc.dialog.userbook.prepare",\
-                "fallback": "准备情况"\
-            },\
-            "action": {\
-                "type": "run_command",\
-                "command": "trigger djzc.option set 8"\
-            }\
-        },\
         {\
             "label":{\
                 "translate": "djzc.dialog.userbook.join_ct",\
@@ -198,9 +135,13 @@
         },\
         {\
             "label":{\
-                "translate": "djzc.dialog.userbook.stop_music",\
-                "fallback": "中止音乐（仅个人）",\
-                "color":"gold"\
+                "translate": "djzc.dialog.userbook.redeploy",\
+                "fallback": "重新部署",\
+                "color":"dark_gray"\
+            },\
+            "tooltip": {\
+                "translate": "djzc.dialog.userbook.redeploy.desc",\
+                "fallback": "会死。"\
             },\
             "action": {\
                 "type": "run_command",\
@@ -209,13 +150,9 @@
         },\
         {\
             "label":{\
-                "translate": "djzc.dialog.userbook.redeploy",\
-                "fallback": "重新部署",\
-                "color":"dark_gray"\
-            },\
-            "tooltip": {\
-                "translate": "djzc.dialog.userbook.redeploy.desc",\
-                "fallback": "会死。"\
+                "translate": "djzc.dialog.userbook.stop_music",\
+                "fallback": "中止音乐（仅个人）",\
+                "color":"gold"\
             },\
             "action": {\
                 "type": "run_command",\
@@ -244,5 +181,15 @@
                 "command": "trigger djzc.prepare set 0"\
             }\
         }\
-    ]\
+    ],\
+    "exit_action": {\
+        "label": {\
+            "translate": "djzc.dialog.tp_system",\
+            "fallback": "点击进入传送系统"\
+        },\
+        "action": {\
+                "type": "run_command",\
+                "command": "trigger djzc.option set 16"\
+            }\
+     }\
  }

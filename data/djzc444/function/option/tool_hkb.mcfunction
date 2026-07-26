@@ -1,0 +1,1 @@
+advancement grant @a only djzc444:tool/hkb

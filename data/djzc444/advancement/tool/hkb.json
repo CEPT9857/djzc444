@@ -1,0 +1,26 @@
+{
+    "parent": "djzc444:tool/root",
+    "display": {
+        "icon": {
+            "id": "minecraft:snowball"
+        },
+        "title": {
+            "text":"航空兵起飞！"
+        },
+        "description": {
+            "text": "欢迎外国开发者翻译这句话，我学你们的英语，你们学学中文，礼尚往来嘛（bushi）"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "basic": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        ["basic"]
+    ]
+}

@@ -1,0 +1,143 @@
+{
+    "type":"multi_action",
+    "pause": false,
+    "title":[
+    {
+    "translate": "djzc.dialog.userbook",
+    "fallback":"冬战成员用书",
+    "hover_event": {
+    "action": "show_text",
+    "value": {
+        "translate": "djzc.dialog.author1",
+        "fallback": "冬战制作组 制作"
+    }
+    }
+    }
+    ],
+    "body":[
+    {
+    "type":"plain_message",
+    "contents":[
+        {
+            "translate": "djzc.dialog.wiki",
+            "fallback": "点击查看冬季战场百科全书",
+            "color":"green",
+            "hover_event": {
+                "action": "show_text",
+                "value": {
+                    "translate": "djzc.dialog.wiki.desc",
+                    "fallback": "正在不断更新，欢迎进来看看"
+                }
+            },
+            "click_event": {
+                "action": "show_dialog",
+                "dialog": "djzc444:wiki/wiki_notice"
+            }
+        }
+    ]
+    },
+    {
+        "type": "plain_message",
+        "contents": 
+        {
+            "translate": "djzc.dialog.wiki.back_userbook",
+            "fallback": "返回冬战成员用书",
+            "click_event": {
+                "action": "run_command",
+                "command":"trigger djzc.option set 15"
+            }
+        }
+    },
+    {
+        "type": "plain_message",
+        "contents": 
+        {
+            "translate": "djzc.dialog.tp_system",
+            "fallback": "点击进入传送系统",
+            "color":"light_purple",
+            "underlined": true,
+            "click_event": {
+                "action": "run_command",
+                "command":"trigger djzc.option set 16"
+            }
+        }
+    }
+    ],
+    "columns": 2,
+    "actions": [
+        {
+            "label":{
+                "translate": "djzc.dialog.userbook.stat_kill",
+                "fallback": "总击杀数",
+                "color":"green"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "trigger djzc.option set 1"
+            }
+        },
+        {
+            "label":{
+                "translate": "djzc.dialog.userbook.stat_die",
+                "fallback": "总阵亡数",
+                "color":"black"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "trigger djzc.option set 2"
+            }
+        },
+        {
+            "label":{
+                "translate": "djzc.dialog.userbook.kill_ct",
+                "fallback": "CT击杀数",
+                "color":"blue"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "trigger djzc.option set 3"
+            }
+        },
+        {
+            "label":{
+                "translate": "djzc.dialog.userbook.kill_t",
+                "fallback": "T击杀数",
+                "color":"dark_red"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "trigger djzc.option set 4"
+            }
+        },
+        {
+            "label":{
+                "translate": "djzc.dialog.userbook.fight",
+                "fallback": "战斗场次"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "trigger djzc.option set 5"
+            }
+        },
+        {
+            "label":{
+                "translate": "djzc.dialog.userbook.win",
+                "fallback": "胜利场次"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "trigger djzc.option set 6"
+            }
+        },
+        {
+            "label":{
+                "translate": "djzc.dialog.userbook.lost",
+                "fallback": "失败场次"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "trigger djzc.option set 7"
+            }
+        }
+    ]
+ }

@@ -24,15 +24,15 @@ function djzc444:game/lib_books
 #成员用书
 execute if score debug djzc.option matches 0 as @a[predicate=djzc444:height_under40] run function djzc444:game/game_type_choose
 #兵种选择系统
-execute if score debug djzc.option matches 1 run function djzc444:game/game_type_choose
+execute if score debug djzc.option matches 1 as @a run function djzc444:game/game_type_choose
 #debug兵种选择系统
 execute if score debug djzc.option matches 0 as @a[predicate=djzc444:height_under40] run function djzc444:game/game_tp_system
 #传送系统
-execute if score debug djzc.option matches 1 run function djzc444:game/game_tp_system
+execute if score debug djzc.option matches 1 as @a run function djzc444:game/game_tp_system
 #debug传送系统
 
 execute as @a at @s if score @s djzc.eula matches -1 run function djzc444:option/do_eula
-#EULA后选择阵营
+#EULA后（eula=-1）选择阵营
 
 execute as @a[predicate=djzc444:select_fly,predicate=djzc444:jump_sneak] run function djzc444:game/lib_fly
 #一键三连航空版/骑兵枪 垂直机动检测
