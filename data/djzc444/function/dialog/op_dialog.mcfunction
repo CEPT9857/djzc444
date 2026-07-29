@@ -13,6 +13,10 @@ execute if score game djzc.gameflow matches 1 run data modify storage minecraft:
 execute store result storage op harmony int 1 run scoreboard players get harmony djzc.option
 execute if score harmony djzc.option matches 0 run data modify storage minecraft:op harmony_color set value "red"
 execute if score harmony djzc.option matches 1 run data modify storage minecraft:op harmony_color set value "green"
+
+execute store result storage op missile_mode int 1 run scoreboard players get missile_mode djzc.option
+execute if score missile_mode djzc.option matches 0 run data modify storage minecraft:op missile_mode_color set value "yellow"
+execute if score missile_mode djzc.option matches 1 run data modify storage minecraft:op missile_mode_color set value "green"
 #把状态塞进命令存储，在对话框里可以调用
 #为对话框塞入参数
 function djzc444:dialog/op with storage minecraft:op

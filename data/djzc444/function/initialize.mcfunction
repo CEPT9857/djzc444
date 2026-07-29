@@ -4,6 +4,9 @@ function djzc444:option/boost
 scoreboard players set debug djzc.option 0
 #复位debug模式
 
+scoreboard players set missile_mode djzc.option 0
+#复位导弹制导模式（0=TP制导）
+
 function djzc444:option/do_harmony
 #复位和谐冬战
 

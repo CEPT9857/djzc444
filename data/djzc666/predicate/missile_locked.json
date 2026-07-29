@@ -1,0 +1,12 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "effects": {
+            "glowing": {
+                "amplifier": 5,
+                "visible": false
+            }
+        }
+    }
+}

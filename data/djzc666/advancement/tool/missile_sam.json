@@ -1,0 +1,28 @@
+{
+    "parent": "djzc444:tool/root",
+    "criteria": {
+        "basic": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "bone"
+                    ],
+                    "predicates": {
+                        "custom_data": {
+                            "tags": [
+                                "djzc.missile.ga"
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "djzc666:missile_sam"
+    },
+    "requirements": [
+        ["basic"]
+    ]
+}

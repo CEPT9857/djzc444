@@ -22,6 +22,3 @@ execute store result storage type_manage second int 1 run scoreboard players get
 #机场补给系统
 execute as @a run function djzc444:points/airport_ct
 execute as @a run function djzc444:points/airport_t
-
-#敌导弹告警
-function djzc444:game/lib_missile_from_enemy

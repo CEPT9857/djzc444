@@ -1,0 +1,28 @@
+{
+    "parent": "djzc444:tool/root",
+    "criteria": {
+        "basic": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "blaze_rod"
+                    ],
+                    "predicates": {
+                        "custom_data": {
+                            "tags": [
+                                "djzc.missile.aa"
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "djzc666:missile_fox"
+    },
+    "requirements": [
+        ["basic"]
+    ]
+}

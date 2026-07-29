@@ -13,11 +13,11 @@ function djzc444:weapon/missile_ag
 
 give @s minecraft:ender_pearl[custom_name={translate:"djzc.type_ltjd.ender_pearl",fallback:"（这是装置的一部分）"}] 16
 function djzc444:weapon/rocket_ltjd
-function djzc444:weapon/missile_ag
+function djzc666:weapon/missile_ag
 give @s firework_rocket[fireworks={flight_duration:2}] 128
 give @s lingering_potion[potion_contents={custom_effects:[{id:"instant_damage",amplifier:4,duration:600}]}] 7
 function djzc444:weapon/rocket_10
-function djzc444:weapon/missile_aa
+function djzc666:weapon/missile_aa
 
 function djzc444:tag_clear
 tag @s add AF

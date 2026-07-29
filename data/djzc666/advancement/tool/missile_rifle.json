@@ -1,0 +1,28 @@
+{
+    "parent": "djzc444:tool/root",
+    "criteria": {
+        "basic": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "breeze_rod"
+                    ],
+                    "predicates": {
+                        "custom_data": {
+                            "tags": [
+                                "djzc.missile.ag"
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "djzc666:missile_rifle"
+    },
+    "requirements": [
+        ["basic"]
+    ]
+}

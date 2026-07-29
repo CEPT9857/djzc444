@@ -1,0 +1,21 @@
+{
+    "parent": "djzc444:tool/root",
+    "criteria": {
+        "basic": {
+            "trigger": "minecraft:using_item",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "bone"
+                    ]
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "djzc666:missile_ga_scan"
+    },
+    "requirements": [
+        ["basic"]
+    ]
+}

@@ -1,7 +1,7 @@
 clear @s
 #清理物品，防止出错
 function djzc444:weapon/elytra_bzb
-function djzc444:weapon/missile_aa
+function djzc666:weapon/missile_aa
 function djzc444:weapon/roket_bzb
 function djzc444:weapon/rocket_10
 

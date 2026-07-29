@@ -48,13 +48,6 @@ function djzc444:game/lib_boom_marker
 #function djzc444:game/lib_bzd
 #新版板载弹（制作中）
 
-execute as @a[scores={djzc.r_click=1..}] run function djzc444:game/lib_missile_ga
-execute as @a[scores={djzc.r_click1=1..}] run function djzc444:game/lib_missile_aa
-execute as @a[scores={djzc.r_click2=1..}] run function djzc444:game/lib_missile_ag
-function djzc444:game/lib_missile_track
-function djzc444:game/lib_missile_fuze
-#导弹系统
-
 function djzc444:game/lib_smoke
 #烟雾弹
 
