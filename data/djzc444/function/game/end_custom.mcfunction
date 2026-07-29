@@ -7,6 +7,8 @@ scoreboard players add @a[team=T] djzc.fight 1
 scoreboard players add @a[team=CT] djzc.fight 1
 scoreboard players set @a djzc.prepare 0
 gamerule mob_griefing true
+
+#抹除工具类成就
 advancement revoke @a from djzc444:tool/root
 
 #默认重生点

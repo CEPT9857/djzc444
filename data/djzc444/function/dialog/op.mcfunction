@@ -102,6 +102,18 @@ $dialog show @s \
         {\
             "translate": "djzc.dialog.op.status_bar.value.$(harmony)",\
             "color":"$(harmony_color)",\
+        },\
+        {\
+            "text": " | "\
+        },\
+        {\
+            "translate": "djzc.dialog.op.status_bar.missile_mode",\
+            "fallback": "导弹制导模式",\
+            "color":"$(missile_mode_color)",\
+        },\
+        {\
+            "translate": "djzc.dialog.op.status_bar.missile_mode.$(missile_mode)",\
+            "color":"$(missile_mode_color)",\
         }\
         ]\
     }\
@@ -196,6 +208,28 @@ $dialog show @s \
             "action": {\
                 "type": "run_command",\
                 "command": "function djzc444:option/no_harmony"\
+            }\
+        },\
+        {\
+            "label":{\
+                "translate": "djzc.dialog.op.missile_vector",\
+                "fallback": "向量法制导",\
+                "color":"green"\
+            },\
+            "action": {\
+                "type": "run_command",\
+                "command": "function djzc666:option/do_missile_vector"\
+            }\
+        },\
+        {\
+            "label":{\
+                "translate": "djzc.dialog.op.missile_tp",\
+                "fallback": "TP瞬移制导",\
+                "color":"yellow"\
+            },\
+            "action": {\
+                "type": "run_command",\
+                "command": "function djzc666:option/do_missile_tp"\
             }\
         }\
     ]\

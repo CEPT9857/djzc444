@@ -146,6 +146,28 @@
                 "type": "run_command",
                 "command": "function djzc444:option/no_harmony"
             }
+        },
+        {
+            "label":{
+                "translate": "djzc.dialog.op.missile_vector",
+                "fallback": "向量法制导",
+                "color":"green"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "function djzc666:option/do_missile_vector"
+            }
+        },
+        {
+            "label":{
+                "translate": "djzc.dialog.op.missile_tp",
+                "fallback": "TP瞬移制导",
+                "color":"yellow"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "function djzc666:option/do_missile_tp"
+            }
         }
     ]
  }
