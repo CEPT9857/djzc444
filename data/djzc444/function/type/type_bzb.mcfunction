@@ -7,6 +7,8 @@ function djzc444:weapon/rocket_10
 
 function djzc444:tag_clear
 tag @s add AF
+tag @s add bzb
+#tag相关操作
 
 advancement grant @s only djzc444:fight/wea_bzb
 function djzc444:music_af

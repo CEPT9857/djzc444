@@ -52,7 +52,8 @@ $dialog show @s \
                     "id": "1",\
                     "display": {\
                         "translate": "djzc.dialog.type_manage.preset1",\
-                        "fallback": "陆战-经典模式"\
+                        "fallback": "陆战-经典模式",\
+                        "color":"green"\
                     },\
                     "initial": $(preset1) \
                 },\

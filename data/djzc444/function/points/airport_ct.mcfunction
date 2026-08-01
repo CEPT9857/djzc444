@@ -4,6 +4,7 @@ execute as @s[x=-445,y=73,z=-535,dx=-6,dy=3,dz=-13] run scoreboard players remov
 execute if score @s[team=CT,tag=AF] djzc.airport_ct <= 0 djzc.time3 at @s run function djzc666:weapon/missile_aa
 execute if score @s[team=CT,tag=AF] djzc.airport_ct <= 0 djzc.time3 at @s run function djzc666:weapon/missile_ag
 execute if score @s[team=CT,tag=AF] djzc.airport_ct <= 0 djzc.time3 at @s run function djzc444:weapon/rocket_10
+execute if score @s[team=CT,tag=AF] djzc.airport_ct <= 0 djzc.time3 at @s run function djzc444:weapon/wea_jam_egg
 #机场停留30秒后，为己方空军单位发放补给
 
 execute if score @s[team=CT,tag=AF] djzc.airport_t <= 0 djzc.time3 at @s run playsound minecraft:entity.villager.celebrate player @s ~ ~ ~ 1

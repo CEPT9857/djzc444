@@ -114,6 +114,18 @@ $dialog show @s \
         {\
             "translate": "djzc.dialog.op.status_bar.missile_mode.$(missile_mode)",\
             "color":"$(missile_mode_color)",\
+        },\
+        {\
+            "text": " | "\
+        },\
+        {\
+            "translate": "djzc.dialog.op.status_bar.track_type",\
+            "fallback": "导弹目标判定",\
+            "color":"$(track_type_color)",\
+        },\
+        {\
+            "translate": "djzc.dialog.op.status_bar.track_type.$(track_type)",\
+            "color":"$(track_type_color)",\
         }\
         ]\
     }\
@@ -230,6 +242,28 @@ $dialog show @s \
             "action": {\
                 "type": "run_command",\
                 "command": "function djzc666:option/do_missile_tp"\
+            }\
+        },\
+        {\
+            "label":{\
+                "translate": "djzc.dialog.op.track_predicate",\
+                "fallback": "Predicate目标判定",\
+                "color":"green"\
+            },\
+            "action": {\
+                "type": "run_command",\
+                "command": "function djzc666:option/do_track_predicate"\
+            }\
+        },\
+        {\
+            "label":{\
+                "translate": "djzc.dialog.op.track_tag",\
+                "fallback": "Tag目标判定",\
+                "color":"yellow"\
+            },\
+            "action": {\
+                "type": "run_command",\
+                "command": "function djzc666:option/do_track_tag"\
             }\
         }\
     ]\

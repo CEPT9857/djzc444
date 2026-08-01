@@ -7,7 +7,7 @@ scoreboard players add @a[team=CT] djzc.fight_win 1
 tellraw @a {translate:"djzc.msg.win_ct.desc",fallback:"T阵营未能占领所有战区，CT阵营胜利",color:"green"}
 #友情提示
 
-bossbar set minecraft:time visible false
+bossbar set djzc_game:time visible false
 
 stopsound @a
 playsound minecraft:entity.wither.death music @a[team=T] -386.00 70.39 -755.52 1000

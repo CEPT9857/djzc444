@@ -185,9 +185,9 @@
             "type":"plain_message",
             "contents":{
                 "translate": "djzc.dialog.eula_notice.body18",
-                "fallback":"需遵守 CC-BY-NC-SA 协议（署名-非商业性-相同方式共享）。",
+                "fallback":"冬季战场采用多重许可证：",
                 "color":"white",
-                "italic": true
+                "bold": true
             },
             "width": 300
         },
@@ -195,7 +195,7 @@
             "type":"plain_message",
             "contents":{
                 "translate": "djzc.dialog.eula_notice.body19",
-                "fallback":"4.冬战是免费的。",
+                "fallback":"(1) 代码部分：GNU Lesser General Public License, version 2.1 or later (LGPL-2.1-or-later)",
                 "color":"white",
                 "bold": true
             },
@@ -205,6 +205,86 @@
             "type":"plain_message",
             "contents":{
                 "translate": "djzc.dialog.eula_notice.body20",
+                "fallback":"(2) \"赛扬的冬季战场\"及\"冬季战场：雪域龙腾\"资源包中的文本、图像及其他美术资源：",
+                "color":"white",
+                "bold": true
+            },
+            "width": 300
+        },
+        {
+            "type":"plain_message",
+            "contents":{
+                "translate": "djzc.dialog.eula_notice.body21",
+                "fallback":"   知识共享署名-非商业性使用-相同方式共享 4.0 国际许可证",
+                "color":"white",
+                "italic": true
+            },
+            "width": 300
+        },
+        {
+            "type":"plain_message",
+            "contents":{
+                "translate": "djzc.dialog.eula_notice.body22",
+                "fallback":"   (Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International, CC BY-NC-SA 4.0)",
+                "color":"white",
+                "italic": true
+            },
+            "width": 300
+        },
+        {
+            "type":"plain_message",
+            "contents":{
+                "translate": "djzc.dialog.eula_notice.body23",
+                "fallback":"(3) 音乐资源：",
+                "color":"white",
+                "bold": true
+            },
+            "width": 300
+        },
+        {
+            "type":"plain_message",
+            "contents":{
+                "translate": "djzc.dialog.eula_notice.body24",
+                "fallback":"   本资源包中附带的所有音乐作品（已进入公共领域的除外），其版权均归原始权利人所有。",
+                "color":"white",
+                "italic": true
+            },
+            "width": 300
+        },
+        {
+            "type":"plain_message",
+            "contents":{
+                "translate": "djzc.dialog.eula_notice.body25",
+                "fallback":"   此处仅为方便玩家体验而附带，不授予任何超出合理使用范围的额外权利。",
+                "color":"white",
+                "italic": true
+            },
+            "width": 300
+        },
+        {
+            "type":"plain_message",
+            "contents":{
+                "translate": "djzc.dialog.eula_notice.body26",
+                "fallback":"   若您计划在公开场合使用、二次发布或用于商业目的，请自行取得版权方授权。",
+                "color":"white",
+                "italic": true
+            },
+            "width": 300
+        },
+        {
+            "type":"plain_message",
+            "contents":{
+                "translate": "djzc.dialog.eula_notice.body27",
+                "fallback":"4.冬战是免费的。",
+                "color":"white",
+                "bold": true
+            },
+            "width": 300
+        },
+        {
+            "type":"plain_message",
+            "contents":{
+                "translate": "djzc.dialog.eula_notice.body28",
                 "fallback":"如果你在任何地方花钱购买了它，你被骗了。",
                 "color":"white",
                 "italic": true
@@ -214,7 +294,7 @@
         {
             "type":"plain_message",
             "contents":{
-                "translate": "djzc.dialog.eula_notice.body21",
+                "translate": "djzc.dialog.eula_notice.body29",
                 "fallback":"5.具体服务器的管理规则，请遵守对应服务器的规定。",
                 "color":"white",
                 "bold": true
@@ -224,7 +304,7 @@
         {
             "type":"plain_message",
             "contents":{
-                "translate": "djzc.dialog.eula_notice.body22",
+                "translate": "djzc.dialog.eula_notice.body30",
                 "fallback":"我们管不了每个服，但希望每个服都像60144一样有爱。",
                 "color":"white",
                 "italic": true

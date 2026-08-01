@@ -12,3 +12,5 @@ give @s minecraft:potion[potion_contents={potion:strong_strength}] 4
 
 function djzc444:tag_clear
 tag @s add GF
+tag @s add scj
+#tag相关操作

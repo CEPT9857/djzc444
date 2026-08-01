@@ -13,8 +13,8 @@ tp @a[team=CT] -405 30 -809
 tp @a[team=T] -397 30 -809
 #传送到基地
 
-bossbar set minecraft:time visible true
-bossbar set minecraft:time value 900
+bossbar set djzc_game:time visible true
+bossbar set djzc_game:time value 900
 
 fill -467 62 -764 -469 62 -758 netherite_block
 #填平D点大坑

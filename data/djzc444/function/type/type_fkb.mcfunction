@@ -13,3 +13,5 @@ give @s tipped_arrow[potion_contents={potion:"weakness",custom_effects:[{id:slow
 
 function djzc444:tag_clear
 tag @s add GF
+tag @s add fkb
+#tag相关操作
