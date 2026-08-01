@@ -2,7 +2,7 @@
 #想“发射”的时候第一时间想到的是这个词，懒得改了
 
 #生成CT的空对空导弹
-execute as @a[advancements={djzc666:tool/missile_fox=true}] at @s run summon minecraft:snowball ~ ~1 ~ {Tags:["CT_AA","AA","missile"],PortalCooldown:60,NoGravity:true}
+execute as @a[team=CT,advancements={djzc666:tool/missile_fox=true}] at @s run summon minecraft:snowball ~ ~1 ~ {Tags:["CT_AA","AA","missile"],PortalCooldown:60,NoGravity:true}
 #登记发射者
 execute as @a[team=CT,advancements={djzc666:tool/missile_fox=true}] at @s run data modify entity @e[type=minecraft:snowball,tag=CT_AA,nbt={PortalCooldown:60},limit=1] Owner set from entity @p[team=CT,advancements={djzc666:tool/missile_fox=true}] UUID
 

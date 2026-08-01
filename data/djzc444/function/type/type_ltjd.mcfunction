@@ -18,6 +18,7 @@ give @s firework_rocket[fireworks={flight_duration:2}] 128
 give @s lingering_potion[potion_contents={custom_effects:[{id:"instant_damage",amplifier:4,duration:600}]}] 7
 function djzc444:weapon/rocket_10
 function djzc666:weapon/missile_aa
+function djzc444:weapon/wea_jam_egg
 
 function djzc444:tag_clear
 tag @s add AF
