@@ -5,7 +5,7 @@ execute as @s[team=T] run function djzc444:type/suit_t/suit_ggne
 #分阵营发盔甲
 function djzc444:weapon/wea_cl
 function djzc444:weapon/trident_ggne
-function djzc444:weapon/wea_fishing_rod
+function djzc666:weapon/missile_ga
 give @s golden_carrot[custom_name={translate:"djzc.type_ggne.golden_carrot",fallback:"孩子，你无敌了"}] 32
 advancement grant @s only djzc444:fight/wea_ggne
 

@@ -14,6 +14,7 @@
      },
      "pause": false,
      "type":"multi_action",
+     "can_close_with_escape": false,
      "body":[
         {
             "type":"plain_message",

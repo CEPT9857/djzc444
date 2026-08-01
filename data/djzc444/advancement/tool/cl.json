@@ -1,0 +1,28 @@
+{
+    "parent": "djzc444:tool/root",
+    "criteria": {
+        "basic": {
+            "trigger": "minecraft:shot_crossbow",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "crossbow"
+                    ],
+                    "predicates": {
+                        "custom_data": {
+                            "tags": [
+                                "djzc.wea.cl"
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "djzc444:game/lib_cl"
+    },
+    "requirements": [
+        ["basic"]
+    ]
+}
