@@ -168,6 +168,28 @@
                 "type": "run_command",
                 "command": "function djzc666:option/do_missile_tp"
             }
+        },
+        {
+            "label":{
+                "translate": "djzc.dialog.op.track_predicate",
+                "fallback": "Predicate目标判定",
+                "color":"green"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "function djzc666:option/do_track_predicate"
+            }
+        },
+        {
+            "label":{
+                "translate": "djzc.dialog.op.track_tag",
+                "fallback": "Tag目标判定",
+                "color":"yellow"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "function djzc666:option/do_track_tag"
+            }
         }
     ]
  }

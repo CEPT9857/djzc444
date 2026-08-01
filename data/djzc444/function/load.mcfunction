@@ -68,6 +68,7 @@ scoreboard objectives add djzc.r_click3 minecraft.used:minecraft.blue_egg "r_cli
 scoreboard objectives add djzc.r_click4 minecraft.used:minecraft.brown_egg "r_click_brown_egg"
 scoreboard objectives add djzc.r_click5 minecraft.used:minecraft.carrot_on_a_stick "r_click_carrot_on_a_stick"
 scoreboard objectives add djzc.r_click7 minecraft.used:minecraft.written_book "r_click_written_book"
+scoreboard objectives add djzc.r_click2 minecraft.used:minecraft.egg "r_click_egg"
 #行为检测类计分板
 
 scoreboard players set 1 djzc.r_click7 1
@@ -79,7 +80,7 @@ scoreboard players set 1 djzc.gameflow 1
 #常量设置
 
 team add starter
-team modify starter color dark_red
+team modify starter color red
 team add T
 team modify T color dark_red
 team add CT
@@ -92,30 +93,30 @@ team modify CT seeFriendlyInvisibles true
 team modify CT nametagVisibility hideForOtherTeams
 #创建队伍
 
-bossbar add minecraft:time {translate:"djzc.bossbar.time",fallback:"剩余时间"}
-bossbar set minecraft:time max 900
-bossbar set minecraft:time style notched_10
-bossbar set minecraft:time players @a
+bossbar add djzc_game:time {translate:"djzc.bossbar.time",fallback:"剩余时间"}
+bossbar set djzc_game:time max 900
+bossbar set djzc_game:time style notched_10
+bossbar set djzc_game:time players @a
 
-bossbar add minecraft:a "a"
-bossbar set minecraft:a max 60
-bossbar set minecraft:a style notched_6
-bossbar set minecraft:a name A
+bossbar add djzc_point:a "a"
+bossbar set djzc_point:a max 60
+bossbar set djzc_point:a style notched_6
+bossbar set djzc_point:a name A
 
-bossbar add minecraft:b "b"
-bossbar set minecraft:b max 60
-bossbar set minecraft:b style notched_6
-bossbar set minecraft:b name B
+bossbar add djzc_point:b "b"
+bossbar set djzc_point:b max 60
+bossbar set djzc_point:b style notched_6
+bossbar set djzc_point:b name B
 
-bossbar add minecraft:c "c"
-bossbar set minecraft:c max 60
-bossbar set minecraft:c style notched_6
-bossbar set minecraft:c name C
+bossbar add djzc_point:c "c"
+bossbar set djzc_point:c max 60
+bossbar set djzc_point:c style notched_6
+bossbar set djzc_point:c name C
 
-bossbar add minecraft:d "d"
-bossbar set minecraft:d max 60
-bossbar set minecraft:d style notched_6
-bossbar set minecraft:d name D
+bossbar add djzc_point:d "d"
+bossbar set djzc_point:d max 60
+bossbar set djzc_point:d style notched_6
+bossbar set djzc_point:d name D
 #bossbar配置
 
 team join starter @e[tag=c1]

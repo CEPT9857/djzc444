@@ -1,7 +1,7 @@
 effect clear @e[tag=d2]
 #清除D2的高亮
-playsound entity.ender_dragon.growl music @a[team=CT] -368.54 62.77 -760.00 100
-playsound entity.player.levelup music @a[team=T] -369.00 62.91 -758.53 1000
+execute if score D2 djzc.gameflow matches 0 run playsound entity.ender_dragon.growl music @a[team=CT] -368.54 62.77 -760.00 100
+execute if score D2 djzc.gameflow matches 0 run playsound entity.player.levelup music @a[team=T] -369.00 62.91 -758.53 1000
 #音效
 execute if score D2 djzc.gameflow matches 1 run tellraw @a {translate:"djzc.msg.starter_d2.no_again",fallback:"D2已被激活，请勿重复激活启动器!",color:"green"}
 execute if score D2 djzc.gameflow matches 0 run tellraw @a {translate:"djzc.msg.starter_d2",fallback:"启动器[D2]被激活!",color:"green"}

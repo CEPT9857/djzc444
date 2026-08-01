@@ -53,6 +53,7 @@ function djzc444:game/lib_smoke
 
 function djzc444:game/lib_allay_drone
 function djzc444:game/lib_swarm_drones
+function djzc444:game/lib_jam_egg
 #无人机系统
 
 function djzc444:game/death_scoreboard

@@ -2,13 +2,13 @@ execute as @p[x=-469,y=61,z=-764,dx=2,dy=1,dz=7,team=T] at @p run scoreboard pla
 #如果T在D点内，扣除占点分数
 execute as @p[x=-469,y=61,z=-764,dx=2,dy=1,dz=7,team=CT] at @p run scoreboard players add T_D djzc.time3 1
 #如果CT在D点内，增加占点分数
-execute store result bossbar minecraft:d value run scoreboard players get T_SD djzc.time3
+execute store result bossbar djzc_point:d value run scoreboard players get T_SD djzc.time3
 #存储占点分数到bossbar
-execute as @p[x=-469,y=61,z=-764,dx=2,dy=1,dz=7] at @p run bossbar set minecraft:d visible true
-bossbar set minecraft:d players @a
+execute as @p[x=-469,y=61,z=-764,dx=2,dy=1,dz=7] at @p run bossbar set djzc_point:d visible true
+bossbar set djzc_point:d players @a
 #显示bossbar
-execute if score T_SD djzc.time3 <= 15 djzc.time3 run bossbar set minecraft:d color red
-execute if score T_SD djzc.time3 > 15 djzc.time3 run bossbar set minecraft:d color blue
+execute if score T_SD djzc.time3 <= 15 djzc.time3 run bossbar set djzc_point:d color red
+execute if score T_SD djzc.time3 > 15 djzc.time3 run bossbar set djzc_point:d color blue
 #改bossbar颜色
 
 execute if score T_D djzc.time3 <= 1000 djzc.time3 run scoreboard players remove T_SD djzc.time3 1
@@ -26,5 +26,5 @@ execute if score T_SD djzc.time3 > 60 djzc.time3 run scoreboard players set T_SD
 #超过30时限制最大值
 
 
-execute as @p at @s unless entity @p[x=-469,y=61,z=-764,dx=2,dy=1,dz=7] run bossbar set minecraft:d visible false
+execute as @p at @s unless entity @p[x=-469,y=61,z=-764,dx=2,dy=1,dz=7] run bossbar set djzc_point:d visible false
 #如果点里没有人，关闭boss栏

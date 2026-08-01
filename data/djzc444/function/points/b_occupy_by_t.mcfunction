@@ -15,5 +15,5 @@ function djzc444:game/game_flow
 tellraw @a {translate:"djzc.msg.b_occupy_by_t",fallback:"B点已被T阵营占领!",color:"green"}
 #友情提示
 
-bossbar set minecraft:b visible false
+bossbar set djzc_point:b visible false
 #关闭bossbar

@@ -8,8 +8,8 @@ give @s iron_sword[enchantments={sharpness:90,knockback:1,fire_aspect:2},unbreak
 function djzc444:weapon/wea_sanlian_fly
 give @s minecraft:golden_apple 32
 
-function djzc444:weapon/missile_aa
-function djzc444:weapon/missile_ag
+#function djzc444:weapon/missile_aa
+#function djzc444:weapon/missile_ag
 
 give @s minecraft:ender_pearl[custom_name={translate:"djzc.type_ltjd.ender_pearl",fallback:"（这是装置的一部分）"}] 16
 function djzc444:weapon/rocket_ltjd
@@ -21,5 +21,7 @@ function djzc666:weapon/missile_aa
 
 function djzc444:tag_clear
 tag @s add AF
+tag @s add ltjd
+#tag相关操作
 
 function djzc444:music_af

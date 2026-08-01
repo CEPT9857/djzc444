@@ -1,0 +1,1 @@
+give @p egg[custom_name={translate:"djzc.jam_egg",fallback:"干扰弹"},lore=[{translate:"djzc.jam_egg.desc",fallback:"右键使用，在自身周围释放对抗措施，干扰导弹"}],use_cooldown={seconds:1,cooldown_group:jam_egg}] 5

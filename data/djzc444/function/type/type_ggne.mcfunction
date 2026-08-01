@@ -11,3 +11,5 @@ advancement grant @s only djzc444:fight/wea_ggne
 
 function djzc444:tag_clear
 tag @s add GF
+tag @s add ggne
+#tag相关操作

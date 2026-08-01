@@ -18,7 +18,8 @@ execute as @e[type=minecraft:snowball,tag=CT_GA] at @s facing entity @e[team=T,t
 execute as @e[type=minecraft:snowball,tag=T_GA] at @s facing entity @e[team=CT,tag=AF,sort=nearest] feet run function djzc666:game/lib_missile_track_do
 
 # 干扰诱饵（优先级最高——写在最后覆盖正常制导，命中抛出的物品）
-execute as @e[type=minecraft:snowball,tag=missile] at @s facing entity @e[type=minecraft:item,sort=nearest] feet run function djzc666:game/lib_missile_track_do
+# 旧版代码，正在考虑弃用
+#execute as @e[type=minecraft:snowball,tag=missile] at @s facing entity @e[type=minecraft:item,sort=nearest] feet run function djzc666:game/lib_missile_track_do
 
 # 特效（空对空导弹/AA）
 execute at @e[tag=AA] run particle minecraft:glow_squid_ink ^ ^ ^

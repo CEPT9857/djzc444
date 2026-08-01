@@ -82,7 +82,7 @@
             "type": "item",
             "width": 100,
             "item": {
-                "id": "snowball",
+                "id": "blaze_rod",
                 "components": {
                     "custom_name": {
                         "translate":"djzc.missile_aa",
@@ -94,12 +94,26 @@
                         {
                             "translate":"djzc.missile.desc1",
                             "fallback":"右键以发射，但要当心敌方的干扰措施……"
-                        },
-                        {
-                            "translate":"djzc.missile.desc2",
-                            "fallback":"温馨提示：Q键投掷任意物品即可干扰"
                         }
-                    ]
+                    ],
+                    "use_cooldown": {
+                        "seconds": 3,
+                        "cooldown_group": "missile"
+                    },
+                    "custom_data": {
+                        "tags": ["djzc.missile.aa"]
+                    },
+                    "consumable": {
+                        "animation": "brush",
+                        "has_consume_particles": false,
+                        "on_consume_effects": [
+                            {
+                                "type": "play_sound",
+                                "sound": "minecraft:block.anvil.land"
+                            }
+                        ],
+                        "sound": "intentionally_empty"
+                    }
                 }
             }
         },
@@ -107,7 +121,7 @@
             "type": "item",
             "width": 100,
             "item": {
-                "id": "egg",
+                "id": "breeze_rod",
                 "components": {
                     "custom_name": {
                         "translate":"djzc.missile_ag",
@@ -119,12 +133,26 @@
                         {
                             "translate":"djzc.missile.desc1",
                             "fallback":"右键以发射，但要当心敌方的干扰措施……"
-                        },
-                        {
-                            "translate":"djzc.missile.desc2",
-                            "fallback":"温馨提示：Q键投掷任意物品即可干扰"
                         }
-                    ]
+                    ],
+                    "use_cooldown": {
+                        "seconds": 3,
+                        "cooldown_group": "missile"
+                    },
+                    "custom_data": {
+                        "tags": ["djzc.missile.ag"]
+                    },
+                    "consumable": {
+                        "animation": "brush",
+                        "has_consume_particles": false,
+                        "on_consume_effects": [
+                            {
+                                "type": "play_sound",
+                                "sound": "minecraft:block.anvil.land"
+                            }
+                        ],
+                        "sound": "intentionally_empty"
+                    }
                 }
             }
         }

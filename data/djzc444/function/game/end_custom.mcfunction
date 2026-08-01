@@ -2,7 +2,7 @@
 scoreboard players set game djzc.gameflow 0
 #善后工作
 effect clear @e[type=minecraft:armor_stand]
-bossbar set minecraft:time visible false
+bossbar set djzc_game:time visible false
 scoreboard players add @a[team=T] djzc.fight 1
 scoreboard players add @a[team=CT] djzc.fight 1
 scoreboard players set @a djzc.prepare 0

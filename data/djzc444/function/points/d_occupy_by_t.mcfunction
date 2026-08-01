@@ -12,7 +12,7 @@ execute as @p[x=-469,y=61,z=-764,dx=2,dy=1,dz=7,team=T] at @s run scoreboard pla
 tellraw @a {translate:"djzc.msg.d_occupy_by_t",fallback:"D点已被T阵营占领!",color:"green"}
 #友情提示
 
-bossbar set minecraft:d visible false
+bossbar set djzc_point:d visible false
 #关闭bossbar
 
 function djzc444:game/game_flow

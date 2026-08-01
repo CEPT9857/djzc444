@@ -14,3 +14,5 @@ give @s minecraft:enchanted_golden_apple 5
 
 function djzc444:tag_clear
 tag @s add GF
+tag @s add jzb
+#tag相关操作

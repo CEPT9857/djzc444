@@ -12,3 +12,5 @@ give @s tipped_arrow[potion_contents={potion:strong_harming}] 96
 give @s minecraft:arrow 128
 function djzc444:tag_clear
 tag @s add GF
+tag @s add yqb
+#tag相关操作

@@ -1,4 +1,4 @@
-execute store result bossbar minecraft:time value run scoreboard players get 秒 djzc.time3
+execute store result bossbar djzc_game:time value run scoreboard players get 秒 djzc.time3
 #将时间写入bossbar
 
 scoreboard players remove 刻 djzc.time 1
@@ -7,7 +7,7 @@ scoreboard players remove 刻 djzc.time3 1
 execute if score 刻 djzc.time3 <= 0 djzc.time3 run scoreboard players remove 秒 djzc.time3 1
 execute if score 刻 djzc.time3 <= 0 djzc.time3 run scoreboard players set 刻 djzc.time3 20
 #如果刻<=0，刻重置为20，时间减一秒
-execute if score 秒 djzc.time3 = 0 djzc.time3 run bossbar set minecraft:time visible false
+execute if score 秒 djzc.time3 = 0 djzc.time3 run bossbar set djzc_game:time visible false
 #如果秒=0，则关闭显示剩余时间的bossbar
 
 execute if score 刻 djzc.time <= 0 djzc.time3 run scoreboard players remove 秒 djzc.time 1

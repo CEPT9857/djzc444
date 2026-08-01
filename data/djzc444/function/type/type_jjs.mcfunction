@@ -14,3 +14,5 @@ function djzc444:weapon/rocket_jjs
 
 function djzc444:tag_clear
 tag @s add GF
+tag @s add jjs
+#tag相关操作
